@@ -1,103 +1,100 @@
 project:
   type: website
   output-dir: docs
-  pre-render:  # This can be deleted if you are using the manually curated list of publications in publications.qmd
-    - python xlsx_to_yml.py  # Automatically generate publications.yml from publications.xlsx
-    
-# Meta
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-author-meta: "Dr. Gang He"
+  render:
+    - index.qmd
+    - about.qmd
+    - research.qmd
+    - publications.qmd
+    - media.qmd
+    - posts.qmd
+    - posts/*/index.qmd
+    - contact.qmd
+    - 404.qmd
+
+description-meta: "Experimental aerodynamics researcher focused on bluff bodies and heavy vehicles."
+author-meta: "José Manuel Camacho Sánchez, PhD"
 
 website:
-  title: "Quarto Academic"
-  image: "https://quarto.org/quarto.png"
-  description: "Quarto Academic Website Template adapted by Dr. Gang He"
- 
-  navbar:
-    background: light  # You can change the background color here
+  title: "José Manuel Camacho Sánchez, PhD"
+  description: "Experimental aerodynamics of bluff bodies and heavy vehicles"
 
-    left:   # You can comment out all navigation items here if you just like to keep the index page only
-#      - text: Home
-#        href: index.qmd
+  navbar:
+    background: light
+    left:
+      - text: Home
+        href: index.qmd
       - text: About
         menu:
-          - text: News
-            href: posts.qmd#category=news
-          - text: Events
-            href: posts.qmd#category=event      
-          - text: Contact
-            href: contact.qmd             
+          - text: Bio
+            href: about.qmd
+          - text: Academic Path
+            href: about.qmd#academic-path
+          - text: Research Footprint
+            href: about.qmd#research-footprint
+          - text: Professional Service
+            href: about.qmd#professional-service
+          - text: Training & Certifications
+            href: about.qmd#training-and-certifications
+          - text: Awards
+            href: about.qmd#awards-and-recognition
       - text: Research
         menu:
-          - text: Publications Listing  # Automatically generated from publications.xlsx
-            href: pub-listing.qmd
-          - text: Publications  # Manually curated list of publications
-            href: publications.qmd            
-          - text: Selected Papers
-            href: posts.qmd#category=paper
-          - text: Grants
-            href: projects.qmd                                
-      - text: Teaching # Comment the Teaching part out to remove the Teaching page
-        href: teaching.qmd
-      - text: Outreach
-        menu:        
-        - text: Presentations
-          href: posts.qmd#category=presentation                   
-      - text: Group   # Comment the Group part out to remove the Group page
-        href: people.qmd
+          - text: Overview
+            href: research.qmd
+          - text: Publications
+            href: publications.qmd
+          - text: Methods
+            href: research.qmd#methods
+          - text: Conferences
+            href: research.qmd#presentations-and-conferences
+      - text: Media
+        href: media.qmd
+      - text: Posts
+        href: posts.qmd
+      - text: Contact
+        href: contact.qmd
+    right:
+      - text: "{{< fa brands orcid >}}"
+        href: https://orcid.org/0000-0002-9453-2045
+        target: _blank
+      - text: "{{< fa brands github >}}"
+        href: https://github.com/jmcamachosanchez
+        target: _blank
+      - text: "{{< fa brands linkedin >}}"
+        href: https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/
+        target: _blank
+      - text: "{{< fa brands researchgate >}}"
+        href: https://www.researchgate.net/profile/Jose-Camacho-Sanchez
+        target: _blank
 
-    right: 
-      - text: CV
-        href: files/nsf-biosketch.pdf
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}"
-        href: https://bsky.app
-        target: _blank      
-      - icon: rss
-        href: posts.xml
-        target: _blank
-  
   page-navigation: true
-  
-  page-footer: 
-    left: "[Your Name](http://www.github.com) &copy; <script>document.write(new Date().getFullYear())</script>" 
-    center: "Build on [Quarto Academic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io)"
-    right:  
-      - icon: github
-        href: https://github.com/drganghe/quarto-academic-website-template
-        target: _blank
-      - text: "{{< fa brands bluesky >}}" 
-        href: https://bsky.app
-        target: _blank
-      - icon: rss
-        href: posts.xml
-        target: _blank  
-  
-  search:
-    location: navbar
-    type: textbox
-  
-  reader-mode: true
 
+  page-footer:
+    left: "José Manuel Camacho Sánchez, PhD &copy; <script>document.write(new Date().getFullYear())</script>"
+    center: "Built with [Quarto](https://quarto.org) and hosted with [GitHub Pages](https://pages.github.com)"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0000-0002-9453-2045
+        target: _blank
+      - text: GitHub
+        href: https://github.com/jmcamachosanchez
+        target: _blank
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/
+        target: _blank
+      - text: ResearchGate
+        href: https://www.researchgate.net/profile/Jose-Camacho-Sanchez
+        target: _blank
+
+  search: false
   draft-mode: unlinked
-  
-  repo-url: https://github.com/drganghe/quarto-academic-website-template
-#  repo-actions: [edit, issue, source]
-  
+  repo-url: https://github.com/jmcamachosanchez/jmcamachosanchez.github.io
   open-graph: true
-  
-  twitter-card: true 
-#  card-style: summary      
-  
-  site-url: "https://drganghe.github.io/quarto-academic-website-template"
-  
-  google-analytics:
-    tracking-id: ""  # Please delete or replace with your own tracking ID
-    anonymize-ip: true 
+  twitter-card: true
+  site-url: "https://jmcamachosanchez.github.io"
 
-bibliography: references.bib  # Add references.bib to the root folder to enable the bibliography function
+bibliography: references.bib
 
 format:
   html:
@@ -112,6 +109,4 @@ format:
     link-external-icon: false
     link-external-newwindow: true
     email-obfuscation: javascript
-    link-external-filter: '^(?:http:|https:)\/\/drganghe\.github\.io\/custom'
-    include-in-header: "files/includes/_academic.qmd"
-
+    link-external-filter: '^(?:http:|https:)\/\/jmcamachosanchez\.github\.io\/'

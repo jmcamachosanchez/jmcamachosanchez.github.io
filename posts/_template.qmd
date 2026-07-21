@@ -1,0 +1,38 @@
+---
+title: "Paper Note: <paper title or short idea>"
+description: "One-sentence summary of what this post is about."
+date: "YYYY-MM-DDT12:00:00+02:00"
+categories: [paper commentary, aerodynamics]
+draft: true
+---
+
+::: {.callout-note}
+Draft note. Replace this box with a short disclaimer only if needed.
+:::
+
+## Why This Caught My Attention
+
+Briefly explain why the paper, method, or idea is interesting.
+
+## Main Aerodynamic Idea
+
+Summarise the physical mechanism, experimental strategy, or modelling idea.
+
+## What I Found Useful
+
+- Point 1.
+- Point 2.
+- Point 3.
+
+## Questions I Still Have
+
+- Question 1.
+- Question 2.
+
+## Connection With My Work
+
+Explain how the topic connects with bluff-body wakes, heavy-vehicle aerodynamics, drag reduction, wind-tunnel testing, PIV, or track testing.
+
+## Reference
+
+Add the paper DOI, journal link, or preprint link here.

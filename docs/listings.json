@@ -2,29 +2,15 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
+      "/posts/wake-control-test/index.html",
+      "/posts/research-notes/index.html"
     ]
-  },
-  {
-    "listing": "/projects.html",
-    "items": []
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
+      "/posts/wake-control-test/index.html",
+      "/posts/research-notes/index.html"
     ]
-  },
-  {
-    "listing": "/people.html",
-    "items": []
-  },
-  {
-    "listing": "/pub-listing.html",
-    "items": []
   }
 ]

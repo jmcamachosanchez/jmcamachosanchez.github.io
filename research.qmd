@@ -1,0 +1,138 @@
+---
+title: "Research"
+subtitle: "Experimental aerodynamics of bluff bodies and heavy vehicles"
+description-meta: "Research by José Manuel Camacho Sánchez on bluff-body aerodynamics, heavy vehicles, wind-tunnel testing, PIV, track testing, and drag reduction."
+toc: false
+title-block-banner: false
+---
+
+My research focuses on the experimental aerodynamics of bluff bodies and heavy vehicles, with emphasis on wake dynamics, pressure drag, flow separation, and passive or active strategies for drag reduction.
+
+The central objective is to connect the underlying flow physics of three-dimensional separated wakes with aerodynamic performance in configurations relevant to ground vehicles.
+
+## Research Themes {#themes}
+
+::: {.expertise-grid}
+
+::: {.expertise-card}
+### Bluff-Body Wakes
+
+Near-wake topology, recirculation regions, pressure recovery, wake asymmetry, and reflectional-symmetry-breaking dynamics.
+:::
+
+::: {.expertise-card}
+### Heavy-Vehicle Aerodynamics
+
+Flow mechanisms relevant to square-back and heavy-vehicle geometries, including crosswind effects and practical drag-reduction constraints.
+:::
+
+::: {.expertise-card}
+### Flow Control
+
+Passive and active control strategies, including adaptive flaps, base blowing, rear cavities, and self-adaptive devices.
+:::
+
+:::
+
+## Methods {#methods}
+
+::: {.method-list}
+
+- **Wind-tunnel experiments:** controlled measurements of forces, pressure distributions, wake development, and drag-reduction performance.
+- **Particle image velocimetry:** two-component and flow-field measurements for characterising separation, recirculation, wake structure, and turbulence.
+- **Track testing:** aerodynamic assessment under more representative road conditions.
+- **Data analysis:** linking local flow organisation with global quantities such as drag, base pressure, and aerodynamic loading.
+
+:::
+
+## Selected Publications {#selected-publications}
+
+::: {.publication-list}
+
+::: {.publication-card}
+<span class="pub-year">2026</span>
+
+### Self-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot<br>
+*Journal of Fluids and Structures*, 144, 104560.
+
+This work studies low-mechanical-order adaptive flaps for drag reduction under crosswind conditions using wind-tunnel measurements.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2026.104560){.pub-action}
+[{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974626000605){.pub-action}
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2025</span>
+
+### Experimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán<br>
+*Physics of Fluids*, 37(8), 085137.
+
+This paper investigates how different base-blowing slot geometries modify the wake and drag of a square-back Ahmed body.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1063/5.0275586){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0275586/20633218/085137_1_5.0275586.pdf){.pub-action .pub-action-pdf}
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2023</span>
+
+### Experimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán<br>
+*Physical Review Fluids*, 8(4), 044605.
+
+This study analyses rear flexibly hinged plates as a self-adaptive drag-reduction strategy for square-back Ahmed-body wakes under yaw.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1103/PhysRevFluids.8.044605){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.8.044605){.pub-action .pub-action-pdf}
+:::
+:::
+
+:::
+
+<p class="more-link">[Full selected publication list »](publications.qmd)</p>
+
+## Presentations and Conferences {#presentations-and-conferences}
+
+::: {.conference-list}
+
+::: {.conference-card}
+<span class="conference-year">Upcoming</span>
+
+### Conference presentations
+
+Selected conference talks, posters, and scientific meetings related to bluff-body aerodynamics, heavy-vehicle experiments, wake control, and drag-reduction devices will be listed here.
+:::
+
+::: {.conference-card}
+<span class="conference-year">Archive</span>
+
+### Research dissemination
+
+This section can include oral presentations, poster sessions, invited talks, workshops, doctoral-school contributions, and technical meetings once the final list is confirmed.
+:::
+
+:::
+
+## Technology Transfer {#technology-transfer}
+
+::: {.publication-card .output-card}
+<span class="pub-year">2024</span>
+
+### Device for reducing aerodynamic drag in vehicles
+
+Patent application **WO2024133990A1**. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, **J.M. Camacho-Sánchez**, C. Martínez-Bazán, and M. Lorite-Díez.
+
+::: {.pub-actions}
+[{{< fa arrow-up-right-from-square >}} Google Patents](https://patents.google.com/patent/WO2024133990A1/en){.pub-action}
+:::
+:::

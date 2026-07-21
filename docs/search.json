@@ -1,170 +1,226 @@
 [
   {
+    "objectID": "posts/wake-control-test/index.html",
+    "href": "posts/wake-control-test/index.html",
+    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
+    "section": "",
+    "text": "Note\n\n\n\nThis is a test post with placeholder content. It is written only to check the appearance, structure, and reading experience of the posts section.\nOne of the things I find consistently interesting in bluff-body aerodynamics is how deceptively simple drag-reduction ideas can be. A rear flap, a small change in base geometry, a blowing slot, or a cavity may look like a minor modification, but the flow response can involve a full reorganisation of the wake.\nFor a square-back body, the rear pressure field is not just a passive consequence of the body shape. It is tied to the separated shear layers, the recirculation region, the balance between symmetric and asymmetric wake states, and the way the near wake communicates with the base pressure distribution."
+  },
+  {
+    "objectID": "posts/wake-control-test/index.html#what-i-would-look-for-in-a-paper",
+    "href": "posts/wake-control-test/index.html#what-i-would-look-for-in-a-paper",
+    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
+    "section": "What I Would Look For in a Paper",
+    "text": "What I Would Look For in a Paper\nIf I were reading a paper on this topic, I would probably start with four questions:\n\nWhat is the dominant wake mechanism proposed by the authors?\nDoes the drag reduction come from base-pressure recovery, wake stabilisation, or a change in separation?\nAre force measurements supported by flow-field or pressure data?\nWould the mechanism remain effective under yaw, ground effect, or more realistic vehicle conditions?\n\nThese questions are useful because drag reduction alone is not enough to understand the physics. Two devices may produce a similar drag change while acting through different mechanisms."
+  },
+  {
+    "objectID": "posts/wake-control-test/index.html#a-working-thought",
+    "href": "posts/wake-control-test/index.html#a-working-thought",
+    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
+    "section": "A Working Thought",
+    "text": "A Working Thought\nMy instinct is that the most interesting devices are not necessarily those that impose a fixed geometry on the wake, but those that allow some degree of adaptation. In practice, this could mean flexibility, passive reconfiguration, or active control based on the state of the flow.\nThat said, adaptation also makes interpretation harder. If a device moves, bends, or changes its effective angle, the aerodynamic response is coupled with structural or control dynamics. This is precisely where careful experiments become valuable: force balance, pressure measurements, PIV, and repeatable operating conditions can help separate cause from coincidence."
+  },
+  {
+    "objectID": "posts/wake-control-test/index.html#possible-structure-for-future-posts",
+    "href": "posts/wake-control-test/index.html#possible-structure-for-future-posts",
+    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
+    "section": "Possible Structure for Future Posts",
+    "text": "Possible Structure for Future Posts\nFor real paper-commentary posts, this format could work well:\n\nShort context: why the paper is interesting.\nMain aerodynamic idea.\nWhat the authors measured or simulated.\nWhat I found convincing.\nWhat questions remain open.\nLink to my own work or broader wake-control problems.\n\nThis test post is deliberately simple, but it gives the section enough text to evaluate spacing, headings, lists, links, metadata, and the general rhythm of a longer note."
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "What’s New & Updated",
+    "title": "Posts",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\n\n\n\nnews\n\n\n\nExamples and tips for Quarto Academic Website\n\n\n\n\n\nOct 15, 2024\n\n\nDr. Gang He\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\n\n\n\nevent\n\npresentation\n\n\n\nAbout Event item.\n\n\n\n\n\nSep 3, 2024\n\n\nEvent\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\n\n\n\nnews\n\n\n\nAbout new item\n\n\n\n\n\nJun 24, 2024\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\n\nCan quantum-mechanical description of physical reality be considered complete?\n\n\nPhysical Review\n\n\n\npaper\n\n\n\nOne is thus led to conclude that the description of reality as given by a wave function is not complete.\n\n\n\n\n\nMay 15, 1935\n\n\nAlbert Einstein, Boris Podolsky, Nathan Rosen\n\n\n\n\n\nNo matching items"
+    "text": "This section is for informal but careful writing: comments on scientific papers, short reflections on experimental methods, thoughts about bluff-body and vehicle aerodynamics, and research ideas that are still developing.\n\nWorking categories: paper commentary research notes experimental methods wind-tunnel testing PIV drag reduction bluff-body aerodynamics heavy-vehicle aerodynamics flow control\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nTest Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas\n\n\n\ntest post\n\nbluff-body aerodynamics\n\ndrag reduction\n\npaper commentary\n\n\n\nA placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Notes: * corresponding author; GS graduate student advisee; VS visiting scholar;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)\nTotal citations as of January 2025:"
+    "text": "This page lists selected peer-reviewed publications and research outputs related to bluff-body aerodynamics, flow control, and drag reduction.\nCitation counts are based on Crossref’s public cited-by metadata for the selected journal papers. Retrieved on 21 July 2026; counts may differ from Google Scholar or Scopus."
   },
   {
-    "objectID": "publications.html#selected-work",
-    "href": "publications.html#selected-work",
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
     "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\nEinstein, A., Podolsky, B., & Rosen, N. (1935). Can quantum-mechanical description of physical reality be considered complete?. Physical review, 47(10), 777. [pdf] [code and data]   \n\n\n\n\n\n\nEinstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. American Journal of Physics, 33(5), 367. [pdf]"
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  Publisher  0 Crossref citations \n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF  0 Crossref citations \n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF  9 Crossref citations \n\n\n\n\n2023\n\nDrag reduction on a blunt body by self-adaption of rear flexibly hinged flaps\nC. García-Baena, J.M. Camacho-Sánchez, M. Lorite-Díez, C. Gutiérrez-Montes, and J.I. Jiménez-González Journal of Fluids and Structures, 118, 103854.\n\n DOI  Publisher  12 Crossref citations"
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "publications.html#outputs",
+    "href": "publications.html#outputs",
+    "title": "Publications",
+    "section": "Patents and Research Outputs",
+    "text": "Patents and Research Outputs\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents\n\n\n\nMore publications, conference contributions, and profile links can be added once the final bibliography and academic identifiers are confirmed."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Order By\n      Default\n      \n      \n      \n        Title\n      \n      \n        Team\n      \n      \n        Funder\n      \n      \n        Description\n      \n      \n        Start\n      \n      \n        End\n      \n      \n        Funding\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nTitle\n\n\n\nTeam\n\n\n\nFunder\n\n\n\nDescription\n\n\n\nFunding\n\n\n\nStart\n\n\n\nEnd\n\n\n\n\n\n\n\n\n\n\n\nExploring \n\n\nAcademic Website\n\n\nFunder\n\n\nThe goal of this project is to investigate .\n\n\n$0\n\n\n2024\n\n\n2025\n\n\n\n\n\n\nNo matching items"
+    "text": "I am José Manuel Camacho Sánchez, PhD, an experimental aerodynamics researcher focused on bluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.\nMy work connects controlled laboratory experiments with applied vehicle performance. I have worked with wind-tunnel testing, particle image velocimetry (PIV), pressure and force measurements, track testing, and the analysis of passive and active flow-control devices."
   },
   {
-    "objectID": "posts/news-title/index.html",
-    "href": "posts/news-title/index.html",
-    "title": "News item",
+    "objectID": "about.html#academic-path",
+    "href": "about.html#academic-path",
+    "title": "About",
+    "section": "Academic Path",
+    "text": "Academic Path\n\n\n\n2026-present France\n\n\n\n\n\nENSTA Paris\n\nPostdoctoral Researcher in experimental aerodynamics.\n\nI am currently a postdoctoral researcher at ENSTA Paris, continuing my work in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\n2021-2026 Jaén, Spain\n\n\n\n\n\nPhD Thesis\n\nUniversidad de Jaén | Experimental aerodynamics of bluff bodies and heavy vehicles.\n\nDoctoral research focused on wake dynamics, wind-tunnel experiments, PIV, track testing, and passive or active drag-reduction strategies. This period also included external collaborations and research stays directly connected to the thesis.\n\n\n\n\n\n\n2023-2026\n\nUniversidad de Granada\nExperimental campaigns and collaboration linked to wind-tunnel measurements and aerodynamic analysis.\n\n\n\n\n\n\n\n\nPhD period\n\nIISTA\nResearch activity at the Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía, associated with Universidad de Granada.\n\n\n\n\n\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n\n\n\n\n\n2019-2021 Jaén, Spain\n\n\n\n\n\nMaster’s Degree\n\nUniversidad de Jaén | Industrial Engineering and applied mechanics.\n\nAdvanced training with increasing focus on experimental methods, fluid mechanics, and aerodynamic problems.\n\n\n\n\n2015-2019 Jaén, Spain\n\n\n\n\n\nBachelor’s Degree\n\nUniversidad de Jaén | Mechanical Engineering.\n\nTechnical foundation in engineering, later developed toward fluid mechanics, experimental methods, and vehicle aerodynamics."
+  },
+  {
+    "objectID": "about.html#research-footprint",
+    "href": "about.html#research-footprint",
+    "title": "About",
+    "section": "Research Footprint",
+    "text": "Research Footprint\n\n\nMy work has developed across a compact but international experimental network, connecting doctoral research in Andalusia with a research stay in the United Kingdom and postdoctoral work at ENSTA Paris.\n\n\n\n3 Countries\n\n\n5 Institutions and campaign sites\n\n\n1 Vehicle-scale on-track campaign\n\n\n\n  \n    −\n    Reset\n    +\n  \n  \n    \n      \n      \n        \n        Jaén, Spain\n      \n      \n        \n        \n          Granada, Spain\n          UGR / IISTA\n        \n      \n      \n        \n        Liverpool, UK\n      \n      \n        \n        ENSTA Paris\n      \n    \n  \n\n\n\n2015-2026\n\nUniversidad de Jaén\nAcademic formation, PhD research, wind-tunnel testing, PIV, aerodynamic analysis, and heavy-vehicle drag-reduction work.\n\n\n\n2023-2026\n\nUniversidad de Granada\nExperimental campaigns and research collaboration connected to doctoral work, including wind-tunnel measurements and aerodynamic analysis.\n\n\n\nPhD period\n\nIISTA\nResearch activity at the Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía, associated with Universidad de Granada.\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay linked to the PhD, focused on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n2026-present\n\nENSTA Paris\nPostdoctoral research in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\nMap base: BlankMap-World-Equirectangular.svg, Wikimedia Commons, CC0/public domain. Marker positions use approximate city/campus coordinates."
+  },
+  {
+    "objectID": "about.html#professional-service",
+    "href": "about.html#professional-service",
+    "title": "About",
+    "section": "Professional Service",
+    "text": "Professional Service\n\n\nCommittee Membership\n\nSAE technical committee\nMembership and technical-service details can be listed here once the exact committee name, role, and dates are confirmed.\n\n\n\nScientific Service\n\nReviewing and technical activities\nPeer review, technical committees, workshop organisation, or society memberships can be added here as your professional-service record grows."
+  },
+  {
+    "objectID": "about.html#training-and-certifications",
+    "href": "about.html#training-and-certifications",
+    "title": "About",
+    "section": "Training and Certifications",
+    "text": "Training and Certifications\n\n\nTraining\n\nTechnical courses\nCourses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here.\n\n\n\nCertifications\n\nProfessional credentials\nCertifications, licenses, and formal credentials can be listed with issuer, date, and a short note on relevance."
+  },
+  {
+    "objectID": "about.html#awards-and-recognition",
+    "href": "about.html#awards-and-recognition",
+    "title": "About",
+    "section": "Awards and Recognition",
+    "text": "Awards and Recognition\n\n\nAwards\n\nAcademic and research awards\nPrizes, competitive scholarships, thesis awards, best-paper/poster awards, and other recognitions can be listed here.\n\n\n\nRecognition\n\nResearch visibility\nInvited talks, highlighted papers, media mentions, or institutional recognitions can be added as they become relevant."
+  },
+  {
+    "objectID": "about.html#research-profile",
+    "href": "about.html#research-profile",
+    "title": "About",
+    "section": "Research Profile",
+    "text": "Research Profile\nMy research is motivated by a central question: how can the wake of a bluff body be understood, controlled, and translated into practical aerodynamic benefits?\nI am particularly interested in:\n\nwake dynamics and pressure-drag mechanisms;\nself-adaptive and flexible drag-reduction devices;\nactive and passive flow-control strategies;\nwind-tunnel-to-road experimental methodology;\nconnecting PIV, pressure, force, and track-test measurements."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "José Manuel Camacho Sánchez, PhD",
     "section": "",
-    "text": "About the news"
+    "text": "Experimental Aerodynamics\n\n\n\nBluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.\n\n\nI am an experimental aerodynamics researcher studying bluff-body wakes and drag-reduction strategies for heavy vehicles through wind-tunnel testing, particle image velocimetry (PIV), track experiments, and aerodynamic analysis.\n\n\nWind tunnel PIV Track testing Flow control\n\n\nResearch overview About Publications\n\n\n ORCID  GitHub  LinkedIn  ResearchGate"
   },
   {
-    "objectID": "posts/news-title/index.html#summary",
-    "href": "posts/news-title/index.html#summary",
-    "title": "News item",
+    "objectID": "index.html#latest-publications",
+    "href": "index.html#latest-publications",
+    "title": "José Manuel Camacho Sánchez, PhD",
+    "section": "Latest Publications",
+    "text": "Latest Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF\n\n\n\n\n\nMore publications »"
+  },
+  {
+    "objectID": "index.html#recent-posts-section",
+    "href": "index.html#recent-posts-section",
+    "title": "José Manuel Camacho Sánchez, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\n\n\n\n\n\nTest Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas\n\n\n\ntest post\n\nbluff-body aerodynamics\n\ndrag reduction\n\npaper commentary\n\n\n\nA placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items\n\n\nAll posts »"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "About the news"
+    "text": "My research focuses on the experimental aerodynamics of bluff bodies and heavy vehicles, with emphasis on wake dynamics, pressure drag, flow separation, and passive or active strategies for drag reduction.\nThe central objective is to connect the underlying flow physics of three-dimensional separated wakes with aerodynamic performance in configurations relevant to ground vehicles."
   },
   {
-    "objectID": "posts/paper-title/index.html#abstract",
-    "href": "posts/paper-title/index.html#abstract",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Abstract",
-    "text": "Abstract\nIn a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete."
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "Research Themes",
+    "text": "Research Themes\n\n\nBluff-Body Wakes\nNear-wake topology, recirculation regions, pressure recovery, wake asymmetry, and reflectional-symmetry-breaking dynamics.\n\n\nHeavy-Vehicle Aerodynamics\nFlow mechanisms relevant to square-back and heavy-vehicle geometries, including crosswind effects and practical drag-reduction constraints.\n\n\nFlow Control\nPassive and active control strategies, including adaptive flaps, base blowing, rear cavities, and self-adaptive devices."
   },
   {
-    "objectID": "posts/paper-title/index.html#links",
-    "href": "posts/paper-title/index.html#links",
-    "title": "Can quantum-mechanical description of physical reality be considered complete?",
-    "section": "Links",
-    "text": "Links\nPublished paper"
+    "objectID": "research.html#methods",
+    "href": "research.html#methods",
+    "title": "Research",
+    "section": "Methods",
+    "text": "Methods\n\n\nWind-tunnel experiments: controlled measurements of forces, pressure distributions, wake development, and drag-reduction performance.\nParticle image velocimetry: two-component and flow-field measurements for characterising separation, recirculation, wake structure, and turbulence.\nTrack testing: aerodynamic assessment under more representative road conditions.\nData analysis: linking local flow organisation with global quantities such as drag, base pressure, and aerodynamic loading."
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "research.html#selected-publications",
+    "href": "research.html#selected-publications",
+    "title": "Research",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\nThis work studies low-mechanical-order adaptive flaps for drag reduction under crosswind conditions using wind-tunnel measurements.\n\n DOI  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\nThis paper investigates how different base-blowing slot geometries modify the wake and drag of a square-back Ahmed body.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\nThis study analyses rear flexibly hinged plates as a self-adaptive drag-reduction strategy for square-back Ahmed-body wakes under yaw.\n\n DOI  View PDF\n\n\n\n\n\nFull selected publication list »"
+  },
+  {
+    "objectID": "research.html#presentations-and-conferences",
+    "href": "research.html#presentations-and-conferences",
+    "title": "Research",
+    "section": "Presentations and Conferences",
+    "text": "Presentations and Conferences\n\n\nUpcoming\n\nConference presentations\nSelected conference talks, posters, and scientific meetings related to bluff-body aerodynamics, heavy-vehicle experiments, wake control, and drag-reduction devices will be listed here.\n\n\n\nArchive\n\nResearch dissemination\nThis section can include oral presentations, poster sessions, invited talks, workshops, doctoral-school contributions, and technical meetings once the final list is confirmed."
+  },
+  {
+    "objectID": "research.html#technology-transfer",
+    "href": "research.html#technology-transfer",
+    "title": "Research",
+    "section": "Technology Transfer",
+    "text": "Technology Transfer\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "Experimental aerodynamics is highly visual: models, facilities, measurement setups, flow fields, and conference discussions often explain the work faster than a paragraph can. This page is intended as a curated visual record of campaigns, methods, and scientific communication.\n\n\n\n\n\n\nOn-Track Testing, 2024\n\n\nExperimental campaign with a heavy-vehicle test platform equipped with rear-mounted aerodynamic devices, aimed at connecting controlled wind-tunnel findings with vehicle-scale behaviour under more representative operating conditions.\n\n\n\n\n\n\n\nExperimental Campaign\n\n\nFour-image reel documenting the 2024 on-track campaign with a heavy-vehicle test platform and rear-mounted drag-reduction devices.\n\n\n\n\n\n\n01 / 04 Test vehicle equipped with rear-mounted aerodynamic devices.\n\n\n\n\n\n02 / 04 Controlled road section used for repeatable on-track measurements.\n\n\n\n\n\n03 / 04 Full-scale testing under representative operating conditions.\n\n\n\n\n\n04 / 04 Drone-based visual record of the experimental setup and road environment.\n\n\n\n\n   \n\n\n\nClick the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the campaign reel. If idle, the reel advances automatically.\n\n\n\n\n\n\nWind-Tunnel Facility\n\n\nFour-image reel documenting wind-tunnel testing facilities at IISTA, University of Granada, including model installation, test-section views, and the broader experimental environment.\n\n\n\n\n\n\n01 / 04 Wide view of the IISTA wind-tunnel hall and experimental infrastructure.\n\n\n\n\n\n02 / 04 Facility view showing the wind-tunnel circuit, control area, and measurement setup.\n\n\n\n\n\n03 / 04 Simplified heavy-vehicle model installed for aerodynamic measurements.\n\n\n\n\n\n04 / 04 Test-section view with a bluff-body model, instrumentation, and the downstream fan.\n\n\n\n\n   \n\n\n\nClick the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the wind-tunnel reel. If idle, the reel advances automatically.\n\n\n\n\n\n\n\n\nWind Tunnel\n\n\nControlled tests on simplified heavy-vehicle and bluff-body geometries, focused on separation, wake topology, and aerodynamic drag.\n\n\n\n\n\nPIV\n\n\nMeasurement Setup\n\n\nFlow-field measurements designed to connect wake organisation with drag, pressure recovery, and unsteady aerodynamic loading.\n\n\n\n\n\nDevices\n\n\nFlow Control\n\n\nVisual documentation of adaptive flaps, base-flow control concepts, and experimental configurations used to reduce pressure drag.\n\n\n\n\n\nTrack\n\n\nRoad Testing\n\n\nFurther images can be added as the experimental archive grows.\n\n\n\n\n\n\n\n\n\n\nTalk\n\n\nConference Presentation\n\n\nPresentations of experimental results on bluff-body wakes, flow-control strategies, and heavy-vehicle aerodynamic performance.\n\n\n\n\n\nPoster\n\n\nScientific Exchange\n\n\nVisual material from conferences, workshops, and research visits where experimental methods and results are discussed with the community."
   },
   {
-    "objectID": "teaching.html#class-1",
-    "href": "teaching.html#class-1",
-    "title": "Teaching",
+    "objectID": "media.html#full-scale-aerodynamic-assessment",
+    "href": "media.html#full-scale-aerodynamic-assessment",
+    "title": "Media",
     "section": "",
-    "text": "Fall 2024,   Fall 2023\nClass 1 introduction."
+    "text": "Experimental campaign with a heavy-vehicle test platform equipped with rear-mounted aerodynamic devices, aimed at connecting controlled wind-tunnel findings with vehicle-scale behaviour under more representative operating conditions."
   },
   {
-    "objectID": "teaching.html#class-2",
-    "href": "teaching.html#class-2",
-    "title": "Teaching",
-    "section": "Class 2",
-    "text": "Class 2\n\n\n\n\n\nSpring 2025,   Fall 2023\nClass 2 introduction."
+    "objectID": "media.html#on-track-testing-campaign-2024",
+    "href": "media.html#on-track-testing-campaign-2024",
+    "title": "Media",
+    "section": "",
+    "text": "Experimental Campaign\n\n\nFour-image reel documenting the 2024 on-track campaign with a heavy-vehicle test platform and rear-mounted drag-reduction devices.\n\n\n\n\n\n\n01 / 04 Test vehicle equipped with rear-mounted aerodynamic devices.\n\n\n\n\n\n02 / 04 Controlled road section used for repeatable on-track measurements.\n\n\n\n\n\n03 / 04 Full-scale testing under representative operating conditions.\n\n\n\n\n\n04 / 04 Drone-based visual record of the experimental setup and road environment.\n\n\n\n\n   \n\n\n\nClick the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the campaign reel. If idle, the reel advances automatically."
   },
   {
-    "objectID": "teaching.html#class-3",
-    "href": "teaching.html#class-3",
-    "title": "Teaching",
-    "section": "Class 3",
-    "text": "Class 3\n\n\n\n\n\nSpring 2025,   Spring 2024\nClass 3 introduction."
+    "objectID": "media.html#iista-wind-tunnel-university-of-granada",
+    "href": "media.html#iista-wind-tunnel-university-of-granada",
+    "title": "Media",
+    "section": "",
+    "text": "Wind-Tunnel Facility\n\n\nFour-image reel documenting wind-tunnel testing facilities at IISTA, University of Granada, including model installation, test-section views, and the broader experimental environment.\n\n\n\n\n\n\n01 / 04 Wide view of the IISTA wind-tunnel hall and experimental infrastructure.\n\n\n\n\n\n02 / 04 Facility view showing the wind-tunnel circuit, control area, and measurement setup.\n\n\n\n\n\n03 / 04 Simplified heavy-vehicle model installed for aerodynamic measurements.\n\n\n\n\n\n04 / 04 Test-section view with a bluff-body model, instrumentation, and the downstream fan.\n\n\n\n\n   \n\n\n\nClick the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the wind-tunnel reel. If idle, the reel advances automatically."
+  },
+  {
+    "objectID": "media.html#other-experimental-material",
+    "href": "media.html#other-experimental-material",
+    "title": "Media",
+    "section": "",
+    "text": "Wind Tunnel\n\n\nControlled tests on simplified heavy-vehicle and bluff-body geometries, focused on separation, wake topology, and aerodynamic drag.\n\n\n\n\n\nPIV\n\n\nMeasurement Setup\n\n\nFlow-field measurements designed to connect wake organisation with drag, pressure recovery, and unsteady aerodynamic loading.\n\n\n\n\n\nDevices\n\n\nFlow Control\n\n\nVisual documentation of adaptive flaps, base-flow control concepts, and experimental configurations used to reduce pressure drag.\n\n\n\n\n\nTrack\n\n\nRoad Testing\n\n\nFurther images can be added as the experimental archive grows."
+  },
+  {
+    "objectID": "media.html#conferences-and-presentations",
+    "href": "media.html#conferences-and-presentations",
+    "title": "Media",
+    "section": "",
+    "text": "Talk\n\n\nConference Presentation\n\n\nPresentations of experimental results on bluff-body wakes, flow-control strategies, and heavy-vehicle aerodynamic performance.\n\n\n\n\n\nPoster\n\n\nScientific Exchange\n\n\nVisual material from conferences, workshops, and research visits where experimental methods and results are discussed with the community."
+  },
+  {
+    "objectID": "posts/research-notes/index.html",
+    "href": "posts/research-notes/index.html",
+    "title": "Opening a Research Notes Section",
+    "section": "",
+    "text": "I am opening this section as a place for informal but careful writing about aerodynamics. The aim is not to replace peer-reviewed publications, but to create a space for reading notes, comments on scientific papers, experimental observations, and thoughts that may later grow into more structured work.\nWhen I write about papers by other researchers, I want to focus on what I find physically interesting: the research question, the experimental or numerical strategy, the flow mechanisms involved, and the parts that connect with bluff-body and heavy-vehicle aerodynamics.\nFor paper commentaries, I will usually try to follow a simple structure:\n\nWhat problem is the study trying to address?\nWhat is the main physical mechanism or methodological idea?\nWhat did I find particularly useful, surprising, or debatable?\nHow does it relate to wake dynamics, drag reduction, flow control, or experimental aerodynamics?\n\nSome posts will be short notes. Others may be longer reflections on methods such as wind-tunnel testing, PIV, track testing, pressure measurements, or the interpretation of drag-reduction strategies. The common thread will be curiosity about separated flows and the practical aerodynamics of ground vehicles."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Quarto Academic\nSchool\nCollege\nUniversity\nAddress:\nPhone:\nE-mail:"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Lab\n  \n  \n    \n     Uprofile\n  \n  \n    \n     E-mail\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     YouTube\n  \n  \n      ORCID\n  \n  \n      Web of Science\n  \n  \n      Scopus\n  \n  \n      Google Scholar\n  \n\n  \n  \nI’m a Quarto Academeic Website Template adapted by Dr. Gang He.\nI’m a template that you can fork to build your own website with easy adaptation and deployment.\nI can automatically generate a neat publication list from an Excel file and enabling categories and filters.\nCheck Quarto Academic Website Examples and Tips and README.md for more detailed instructions.\n\n\n\nResearcher, Univerisity\nConsultant, Company\nIntern, Institute\n\n\n\n\n\nPhD, Univerisity\nMaster, Univerisity\nBachelor, Univerisity"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "Researcher, Univerisity\nConsultant, Company\nIntern, Institute"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Quarto Academic, PhD",
-    "section": "",
-    "text": "PhD, Univerisity\nMaster, Univerisity\nBachelor, Univerisity"
-  },
-  {
-    "objectID": "index.html#recent-posts",
-    "href": "index.html#recent-posts",
-    "title": "Quarto Academic, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\nCheck out the latest  Papers ,  News ,  Events , and  More »\n\n\n\n\n\n\n\n\n\n\nQuarto Academic Website Examples and Tips\n\n\n\nOct 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent item\n\n\n\nSep 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nNews item\n\n\n\nJun 24, 2024\n\n\n\n\n\n\nNo matching items\n\n\nAll Posts »"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
-    "section": "",
-    "text": "PhD Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nMasters Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nUndergraduate Student\n\n\n\n\n\n\n\n\n\n\n\n\n\nPI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n      \n      \n        Name\n      \n      \n        Role\n      \n      \n        Started\n      \n      \n        Ended\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n \n\n\n\nName\n\n\n\nRole\n\n\n\nStarted\n\n\n\nEnded\n\n\n\n\n\n\n\n\n\n\n\nAlumni A\n\n\nPhD Alumni\n\n\n2022-01\n\n\n2026-01\n\n\n\n\n\n\n\n\n\nAlumni B\n\n\nMasters Alumni\n\n\n2024-01\n\n\n2025-01\n\n\n\n\n\n\n\n\n\nAlumni C\n\n\nUndergraduate Alumni\n\n\n2023-01\n\n\n2024-01\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pub-listing.html",
-    "href": "pub-listing.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Note: * corresponding author;  ESI Highly Cited Paper (top 1%);  ESI Hot Paper (top 0.1%)"
-  },
-  {
-    "objectID": "pub-listing.html#selected-work",
-    "href": "pub-listing.html#selected-work",
-    "title": "Publications",
-    "section": "Selected Work",
-    "text": "Selected Work\n\n\n\nQuantifying the Cost Savings of Global Solar Photovoltaic Supply Chains Helveston, John, Gang He*, and Michael Davidson Oct 26, 2022\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('MjAyMg=='); return false;\"&gt;2022&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c2VsZWN0ZWQ='); return false;\"&gt;selected&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cGVlci1yZXZpZXdlZA=='); return false;\"&gt;peer-reviewed&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('YXdhcmQ='); return false;\"&gt;award&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('aGlnaGx5LWNpdGVk'); return false;\"&gt;highly-cited&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('aG90LXBhcGVy'); return false;\"&gt;hot-paper&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('bmF0dXJlLXNlcmllcw=='); return false;\"&gt;nature-series&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3VwcGx5LWNoYWlu'); return false;\"&gt;supply-chain&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c29sYXI='); return false;\"&gt;solar&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('dW5pdGVkLXN0YXRlcw=='); return false;\"&gt;united-states&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('Y2hpbmE='); return false;\"&gt;china&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('Z2VybWFueQ=='); return false;\"&gt;germany&lt;/span&gt;\n\n\nHelveston, John, Gang He*, and Michael Davidson. 2022. Quantifying the Cost Savings of Global Solar Photovoltaic Supply Chains. Nature 612: 83-87. doi: 10.1038/s41586-022-05316-6.  \n\n\n Preprint  SharedIt  GitHub  Data  \n\n\n Award: IAMC2022 Best Poster Award\n\n\nCoverage: SBU News | GWU News | UCSD News | Nature Research Highlights | E&E News | Foreign Policy | GRID News | PV Magazine | dot.LA | pvbuzz | InnovateLongIsland | Mercom India | China News | Science and Technology Daily\n\n\nInvited presentation: Peking University | Tsinghua University | Harvard University (M.D.) | ITIF (J.H.) | Climate Change Economics Forum\n\n\n\n\nNo matching items\n\n\n\nRapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China's Power System He, Gang*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke* May 15, 2020\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('MjAyMA=='); return false;\"&gt;2020&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c2VsZWN0ZWQ='); return false;\"&gt;selected&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cGVlci1yZXZpZXdlZA=='); return false;\"&gt;peer-reviewed&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('aGlnaGx5LWNpdGVk'); return false;\"&gt;highly-cited&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('bmF0dXJlLXNlcmllcw=='); return false;\"&gt;nature-series&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cG93ZXItc3lzdGVt'); return false;\"&gt;power-system&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3dpdGNoLWNoaW5h'); return false;\"&gt;switch-china&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c29sYXI='); return false;\"&gt;solar&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('d2luZA=='); return false;\"&gt;wind&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3RvcmFnZQ=='); return false;\"&gt;storage&lt;/span&gt;\n\n\nHe, Gang*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China's Power System. Nature Communications 11(1): 2486. doi: 10.1038/s41467-020-16184-x. \n\n\n PDF  GitHub  Supplemental  \n\n\nCoverage: SBU News | LBL News | Carbon Brief Headline | InsideClimateNews | E&E News/ClimateWire | Forbes | Nature News\n\n\nInvited presentation: Asia Pacific Energy Research Centre (APERC) Annual Conference 2020 | Beijing Institute of Technology | Dartmouth College | Harvard Kennedy School Growth Lab\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "pub-listing.html#other-peer-reviewed-journal-papers",
-    "href": "pub-listing.html#other-peer-reviewed-journal-papers",
-    "title": "Publications",
-    "section": "Other Peer-reviewed Journal Papers",
-    "text": "Other Peer-reviewed Journal Papers\n\n\n\nLong-Term Transition of China's Power Sector under Carbon Neutrality Target and Water Withdrawal Constraint Zhang, Chao, Gang He*, Josiah Johnston, and Lijin Zhong Dec 20, 2021\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('MjAyMQ=='); return false;\"&gt;2021&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cGVlci1yZXZpZXdlZA=='); return false;\"&gt;peer-reviewed&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('ZW5lcmd5LW5leHVz'); return false;\"&gt;energy-nexus&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cG93ZXItc3lzdGVt'); return false;\"&gt;power-system&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('d2F0ZXI='); return false;\"&gt;water&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3dpdGNoLWNoaW5h'); return false;\"&gt;switch-china&lt;/span&gt;\n\n\nZhang, Chao, Gang He*, Josiah Johnston, and Lijin Zhong. 2021. Long-Term Transition of China's Power Sector under Carbon Neutrality Target and Water Withdrawal Constraint. Journal of Cleaner Production 329: 129765. doi: 10.1016/j.jclepro.2021.129765.\n\n\n PDF  GitHub  Supplemental  \n\n\n\n\nNo matching items\n\nPublications – Quarto Academic Publications – Quarto Academic Publications – Quarto Academic Quarto Academic Quarto Academic Website Template adapted by Dr. Gang He Quarto Academic Website Template adapted by Dr. Gang He Quarto Academic Website Template adapted by Dr. Gang He"
-  },
-  {
-    "objectID": "pub-listing.html#peer-reviewed-journal-papers",
-    "href": "pub-listing.html#peer-reviewed-journal-papers",
-    "title": "Publications",
-    "section": "Peer-reviewed Journal Papers",
-    "text": "Peer-reviewed Journal Papers\n\n\n\nRapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China's Power System He, Gang*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke* May 15, 2020\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('MjAyMA=='); return false;\"&gt;2020&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c2VsZWN0ZWQ='); return false;\"&gt;selected&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cGVlci1yZXZpZXdlZA=='); return false;\"&gt;peer-reviewed&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('aGlnaGx5LWNpdGVk'); return false;\"&gt;highly-cited&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('bmF0dXJlLXNlcmllcw=='); return false;\"&gt;nature-series&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('cG93ZXItc3lzdGVt'); return false;\"&gt;power-system&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3dpdGNoLWNoaW5h'); return false;\"&gt;switch-china&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c29sYXI='); return false;\"&gt;solar&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('d2luZA=='); return false;\"&gt;wind&lt;/span&gt;\n\n&lt;span class=\"listing-category\"\n      onclick=\"window.quartoListingCategory('c3RvcmFnZQ=='); return false;\"&gt;storage&lt;/span&gt;\n\n\nHe, Gang*, Jiang Lin*, Froylan Sifuentes, Xu Liu, Nikit Abhyankar, and Amol Phadke*. 2020. Rapid Cost Decrease of Renewables and Storage Accelerates the Decarbonization of China's Power System. Nature Communications 11(1): 2486. doi: 10.1038/s41467-020-16184-x. \n\n\n PDF  GitHub  Supplemental  \n\n\nCoverage: SBU News | LBL News | Carbon Brief Headline | InsideClimateNews | E&E News/ClimateWire | Forbes | Nature News\n\n\nInvited presentation: Asia Pacific Energy Research Centre (APERC) Annual Conference 2020 | Beijing Institute of Technology | Dartmouth College | Harvard Kennedy School Growth Lab\n\n\n\n\nNo matching items\n\nPublications – Quarto Academic Publications – Quarto Academic Publications – Quarto Academic Quarto Academic Quarto Academic Website Template adapted by Dr. Gang He Quarto Academic Website Template adapted by Dr. Gang He Quarto Academic Website Template adapted by Dr. Gang He"
+    "text": "For research enquiries, collaborations, or questions about experimental aerodynamics, please use the links below.\n\n   GitHub jmcamachosanchez  \n   LinkedIn José Manuel Camacho Sánchez  \n   ORCID 0000-0002-9453-2045  \n   ResearchGate José Manuel Camacho Sánchez  \n\nInstitutional affiliation, email address, Google Scholar, and other academic profiles can be added here once the final public details are confirmed."
   }
 ]

@@ -1,24 +1,45 @@
 ---
 title: "Contact"
-description-meta: "Reach out to me with questions and comments"
+description-meta: "Contact information for José Manuel Camacho Sánchez"
 title-block-banner: false
 ---
 
-<center>
+For research enquiries, collaborations, or questions about experimental aerodynamics, please use the links below.
 
-**Quarto Academic**
+::: {.profile-grid}
 
-School
+<a class="profile-card" href="https://github.com/jmcamachosanchez" target="_blank" rel="noopener">
+  <span class="profile-icon">{{< fa brands github label="GitHub" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">GitHub</span>
+    <span class="profile-detail">jmcamachosanchez</span>
+  </span>
+</a>
 
-College
+<a class="profile-card" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank" rel="noopener">
+  <span class="profile-icon">{{< fa brands linkedin label="LinkedIn" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">LinkedIn</span>
+    <span class="profile-detail">José Manuel Camacho Sánchez</span>
+  </span>
+</a>
 
-University
+<a class="profile-card" href="https://orcid.org/0000-0002-9453-2045" target="_blank" rel="noopener">
+  <span class="profile-icon">{{< fa brands orcid label="ORCID" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">ORCID</span>
+    <span class="profile-detail">0000-0002-9453-2045</span>
+  </span>
+</a>
 
-Address: 
+<a class="profile-card" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank" rel="noopener">
+  <span class="profile-icon">{{< fa brands researchgate label="ResearchGate" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">ResearchGate</span>
+    <span class="profile-detail">José Manuel Camacho Sánchez</span>
+  </span>
+</a>
 
-Phone: 
+:::
 
-E-mail: 
-
-
-</center>
+Institutional affiliation, email address, Google Scholar, and other academic profiles can be added here once the final public details are confirmed.

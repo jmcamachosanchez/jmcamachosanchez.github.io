@@ -1,0 +1,45 @@
+---
+title: "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas"
+description: "A placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics."
+date: "2026-07-21T13:00:00+02:00"
+categories: [test post, bluff-body aerodynamics, drag reduction, paper commentary]
+draft: false
+---
+
+::: {.callout-note}
+This is a test post with placeholder content. It is written only to check the appearance, structure, and reading experience of the posts section.
+:::
+
+One of the things I find consistently interesting in bluff-body aerodynamics is how deceptively simple drag-reduction ideas can be. A rear flap, a small change in base geometry, a blowing slot, or a cavity may look like a minor modification, but the flow response can involve a full reorganisation of the wake.
+
+For a square-back body, the rear pressure field is not just a passive consequence of the body shape. It is tied to the separated shear layers, the recirculation region, the balance between symmetric and asymmetric wake states, and the way the near wake communicates with the base pressure distribution.
+
+## What I Would Look For in a Paper
+
+If I were reading a paper on this topic, I would probably start with four questions:
+
+- What is the dominant wake mechanism proposed by the authors?
+- Does the drag reduction come from base-pressure recovery, wake stabilisation, or a change in separation?
+- Are force measurements supported by flow-field or pressure data?
+- Would the mechanism remain effective under yaw, ground effect, or more realistic vehicle conditions?
+
+These questions are useful because drag reduction alone is not enough to understand the physics. Two devices may produce a similar drag change while acting through different mechanisms.
+
+## A Working Thought
+
+My instinct is that the most interesting devices are not necessarily those that impose a fixed geometry on the wake, but those that allow some degree of adaptation. In practice, this could mean flexibility, passive reconfiguration, or active control based on the state of the flow.
+
+That said, adaptation also makes interpretation harder. If a device moves, bends, or changes its effective angle, the aerodynamic response is coupled with structural or control dynamics. This is precisely where careful experiments become valuable: force balance, pressure measurements, PIV, and repeatable operating conditions can help separate cause from coincidence.
+
+## Possible Structure for Future Posts
+
+For real paper-commentary posts, this format could work well:
+
+1. Short context: why the paper is interesting.
+2. Main aerodynamic idea.
+3. What the authors measured or simulated.
+4. What I found convincing.
+5. What questions remain open.
+6. Link to my own work or broader wake-control problems.
+
+This test post is deliberately simple, but it gives the section enough text to evaluate spacing, headings, lists, links, metadata, and the general rhythm of a longer note.

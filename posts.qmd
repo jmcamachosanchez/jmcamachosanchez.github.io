@@ -1,25 +1,36 @@
 ---
-title: "What’s New & Updated"
-subtitle: "Posts about papers, events, news, and more"
-description-meta: "Posts about papers, events, news, and more"
-listing: 
+title: "Posts"
+subtitle: "Research notes, paper commentary, and thoughts in progress"
+description-meta: "Research notes by José Manuel Camacho Sánchez on aerodynamics papers, experimental methods, and ideas in progress."
+listing:
   sort: "date desc"
   type: default
-  page-size: 100
+  page-size: 20
   categories: true
-  sort-ui: true
+  sort-ui: false
   filter-ui: true
   feed: true
-  contents: 
-      - posts
-      - posts/post-links.yml  # Use this file to add external links
-#      categories: [] 
-
-#page-layout: full
-draft-mode: unlinked
+  fields: [date, title, description, categories]
+  contents:
+    - posts/*/index.qmd
 page-navigation: false
 title-block-banner: false
 ---
+
+This section is for informal but careful writing: comments on scientific papers, short reflections on experimental methods, thoughts about bluff-body and vehicle aerodynamics, and research ideas that are still developing.
+
+::: {.post-category-guide}
+**Working categories:**<br>
+<span>paper commentary</span>
+<span>research notes</span>
+<span>experimental methods</span>
+<span>wind-tunnel testing</span>
+<span>PIV</span>
+<span>drag reduction</span>
+<span>bluff-body aerodynamics</span>
+<span>heavy-vehicle aerodynamics</span>
+<span>flow control</span>
+:::
 
 :::{#posts}
 :::

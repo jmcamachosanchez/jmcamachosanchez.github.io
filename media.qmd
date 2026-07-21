@@ -1,0 +1,360 @@
+---
+title: "Media"
+subtitle: "Experimental campaigns, flow visualisation, and conference moments"
+description-meta: "A visual archive of experimental aerodynamics campaigns, measurements, track testing, and conference presentations by José Manuel Camacho Sánchez, PhD."
+toc: false
+title-block-banner: false
+image: files/media/on-track-testing-2024/on-track-testing-2024-aerial-straight.jpg
+---
+
+::: {.media-page}
+
+::: {.media-lead}
+Experimental aerodynamics is highly visual: models, facilities, measurement setups, flow fields, and conference discussions often explain the work faster than a paragraph can. This page is intended as a curated visual record of campaigns, methods, and scientific communication.
+:::
+
+::: {.media-feature}
+::: {.media-feature-image}
+![](files/media/on-track-testing-2024/on-track-testing-2024-aerial-straight.jpg){fig-alt="Aerial view of a heavy-vehicle test platform during an on-track aerodynamic testing campaign"}
+:::
+
+::: {.media-feature-copy}
+<span class="media-eyebrow">On-Track Testing, 2024</span>
+
+## Full-Scale Aerodynamic Assessment
+
+Experimental campaign with a heavy-vehicle test platform equipped with rear-mounted aerodynamic devices, aimed at connecting controlled wind-tunnel findings with vehicle-scale behaviour under more representative operating conditions.
+:::
+:::
+
+## On-Track Testing Campaign, 2024
+
+::: {.media-reel}
+::: {.media-reel-header}
+<span class="media-label">Experimental Campaign</span>
+
+### Vehicle-scale aerodynamic testing
+
+Four-image reel documenting the 2024 on-track campaign with a heavy-vehicle test platform and rear-mounted drag-reduction devices.
+:::
+
+<div class="media-reel-frame" aria-label="On-track testing campaign photo reel" tabindex="0">
+  <figure class="media-reel-slide">
+    <img src="files/media/on-track-testing-2024/on-track-testing-2024-test-vehicle.jpg" alt="Heavy-vehicle test platform with rear-mounted aerodynamic devices prepared for track testing">
+    <figcaption><span>01 / 04</span> Test vehicle equipped with rear-mounted aerodynamic devices.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/on-track-testing-2024/on-track-testing-2024-aerial-straight.jpg" alt="Drone view of the straight test section with the experimental heavy-vehicle platform">
+    <figcaption><span>02 / 04</span> Controlled road section used for repeatable on-track measurements.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/on-track-testing-2024/on-track-testing-2024-aerial-run.jpg" alt="Aerial view of the heavy-vehicle test platform running along the track">
+    <figcaption><span>03 / 04</span> Full-scale testing under representative operating conditions.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/on-track-testing-2024/on-track-testing-2024-aerial-side.jpg" alt="Side aerial view of the heavy-vehicle test platform during the 2024 on-track campaign">
+    <figcaption><span>04 / 04</span> Drone-based visual record of the experimental setup and road environment.</figcaption>
+  </figure>
+</div>
+
+::: {.media-reel-dots aria-hidden="true"}
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+:::
+
+:::
+
+<p class="media-reel-note">Click the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the campaign reel. If idle, the reel advances automatically.</p>
+
+## IISTA Wind Tunnel, University of Granada
+
+::: {.media-reel .media-reel-contain}
+::: {.media-reel-header}
+<span class="media-label">Wind-Tunnel Facility</span>
+
+### IISTA experimental aerodynamics infrastructure
+
+Four-image reel documenting wind-tunnel testing facilities at IISTA, University of Granada, including model installation, test-section views, and the broader experimental environment.
+:::
+
+<div class="media-reel-frame" aria-label="IISTA wind tunnel photo reel" tabindex="0">
+  <figure class="media-reel-slide">
+    <img src="files/media/iista-wind-tunnel/iista-wind-tunnel-overview.jpg" alt="Wide view of the IISTA wind-tunnel hall at the University of Granada">
+    <figcaption><span>01 / 04</span> Wide view of the IISTA wind-tunnel hall and experimental infrastructure.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/iista-wind-tunnel/iista-wind-tunnel-facility-view.jpg" alt="View of the IISTA wind-tunnel facility with test sections, control equipment, and measurement hardware">
+    <figcaption><span>02 / 04</span> Facility view showing the wind-tunnel circuit, control area, and measurement setup.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/iista-wind-tunnel/iista-wind-tunnel-vehicle-model.jpg" alt="Simplified heavy-vehicle model installed inside the IISTA wind tunnel">
+    <figcaption><span>03 / 04</span> Simplified heavy-vehicle model installed for aerodynamic measurements.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/iista-wind-tunnel/iista-wind-tunnel-test-section.jpg" alt="Wind-tunnel test section at IISTA with a bluff-body model and the main fan visible downstream">
+    <figcaption><span>04 / 04</span> Test-section view with a bluff-body model, instrumentation, and the downstream fan.</figcaption>
+  </figure>
+</div>
+
+::: {.media-reel-dots aria-hidden="true"}
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+:::
+
+:::
+
+<p class="media-reel-note">Click the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the wind-tunnel reel. If idle, the reel advances automatically.</p>
+
+## Other Experimental Material
+
+::: {.media-gallery}
+
+::: {.media-card}
+![](files/images/aerodynamics-hero.png){fig-alt="Flow visualisation around a simplified heavy-vehicle model"}
+
+::: {.media-card-body}
+<span class="media-label">Wind Tunnel</span>
+
+### Bluff-body wake experiments
+
+Controlled tests on simplified heavy-vehicle and bluff-body geometries, focused on separation, wake topology, and aerodynamic drag.
+:::
+:::
+
+::: {.media-card .media-card-placeholder}
+::: {.media-placeholder-visual}
+<span>PIV</span>
+:::
+
+::: {.media-card-body}
+<span class="media-label">Measurement Setup</span>
+
+### Particle image velocimetry
+
+Flow-field measurements designed to connect wake organisation with drag, pressure recovery, and unsteady aerodynamic loading.
+:::
+:::
+
+::: {.media-card .media-card-placeholder}
+::: {.media-placeholder-visual}
+<span>Devices</span>
+:::
+
+::: {.media-card-body}
+<span class="media-label">Flow Control</span>
+
+### Passive and active drag-reduction devices
+
+Visual documentation of adaptive flaps, base-flow control concepts, and experimental configurations used to reduce pressure drag.
+:::
+:::
+
+::: {.media-card .media-card-placeholder}
+::: {.media-placeholder-visual}
+<span>Track</span>
+:::
+
+::: {.media-card-body}
+<span class="media-label">Road Testing</span>
+
+### Additional on-track material
+
+Further images can be added as the experimental archive grows.
+:::
+:::
+
+:::
+
+## Conferences and Presentations
+
+::: {.media-gallery .media-gallery-compact}
+
+::: {.media-card .media-card-placeholder}
+::: {.media-placeholder-visual}
+<span>Talk</span>
+:::
+
+::: {.media-card-body}
+<span class="media-label">Conference Presentation</span>
+
+### Research talks
+
+Presentations of experimental results on bluff-body wakes, flow-control strategies, and heavy-vehicle aerodynamic performance.
+:::
+:::
+
+::: {.media-card .media-card-placeholder}
+::: {.media-placeholder-visual}
+<span>Poster</span>
+:::
+
+::: {.media-card-body}
+<span class="media-label">Scientific Exchange</span>
+
+### Posters and discussions
+
+Visual material from conferences, workshops, and research visits where experimental methods and results are discussed with the community.
+:::
+:::
+
+:::
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".media-reel-frame").forEach((frame) => {
+    const slides = Array.from(frame.querySelectorAll(".media-reel-slide"));
+    if (slides.length < 2) {
+      return;
+    }
+
+    const reel = frame.closest(".media-reel");
+    const dots = reel ? Array.from(reel.querySelectorAll(".media-reel-dots span")) : [];
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const autoAdvanceMs = 5200;
+    const resumeAfterInteractionMs = 9000;
+    let activeIndex = 0;
+    let autoTimer = null;
+    let resumeTimer = null;
+    let scrollTimer = null;
+    let pausedByHover = false;
+
+    const currentIndex = () => {
+      const frameCenter = frame.scrollLeft + frame.clientWidth / 2;
+      let closestIndex = 0;
+      let closestDistance = Number.POSITIVE_INFINITY;
+
+      slides.forEach((slide, index) => {
+        const slideCenter = slide.offsetLeft + slide.offsetWidth / 2;
+        const distance = Math.abs(frameCenter - slideCenter);
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      return closestIndex;
+    };
+
+    const updateDots = () => {
+      dots.forEach((dot, index) => {
+        dot.classList.toggle("is-active", index === activeIndex);
+      });
+    };
+
+    const stopAutoAdvance = () => {
+      if (autoTimer) {
+        window.clearTimeout(autoTimer);
+        autoTimer = null;
+      }
+    };
+
+    const scheduleAutoAdvance = (delay = autoAdvanceMs) => {
+      stopAutoAdvance();
+      if (reduceMotion || pausedByHover) {
+        return;
+      }
+
+      autoTimer = window.setTimeout(() => {
+        goTo(activeIndex + 1, { wrap: true });
+        scheduleAutoAdvance();
+      }, delay);
+    };
+
+    const markInteraction = () => {
+      stopAutoAdvance();
+      if (resumeTimer) {
+        window.clearTimeout(resumeTimer);
+      }
+
+      resumeTimer = window.setTimeout(() => {
+        scheduleAutoAdvance();
+      }, resumeAfterInteractionMs);
+    };
+
+    const goTo = (index, options = {}) => {
+      const { smooth = true, wrap = false } = options;
+      const targetIndex = wrap
+        ? (index + slides.length) % slides.length
+        : Math.max(0, Math.min(slides.length - 1, index));
+
+      activeIndex = targetIndex;
+      updateDots();
+      frame.scrollTo({
+        left: slides[targetIndex].offsetLeft,
+        behavior: smooth ? "smooth" : "auto"
+      });
+    };
+
+    frame.addEventListener("click", (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const image = target ? target.closest(".media-reel-slide img") : null;
+      if (!image || !frame.contains(image)) {
+        return;
+      }
+
+      const slide = image.closest(".media-reel-slide");
+      const slideIndex = slides.indexOf(slide);
+      const rect = image.getBoundingClientRect();
+      const goForward = event.clientX >= rect.left + rect.width / 2;
+      goTo(slideIndex + (goForward ? 1 : -1));
+      markInteraction();
+    });
+
+    frame.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        goTo(activeIndex + 1);
+        markInteraction();
+      }
+
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        goTo(activeIndex - 1);
+        markInteraction();
+      }
+    });
+
+    frame.addEventListener("scroll", () => {
+      if (scrollTimer) {
+        window.clearTimeout(scrollTimer);
+      }
+
+      scrollTimer = window.setTimeout(() => {
+        activeIndex = currentIndex();
+        updateDots();
+      }, 80);
+    });
+
+    ["wheel", "touchstart", "pointerdown"].forEach((eventName) => {
+      frame.addEventListener(eventName, markInteraction, { passive: true });
+    });
+
+    frame.addEventListener("mouseenter", () => {
+      pausedByHover = true;
+      stopAutoAdvance();
+    });
+
+    frame.addEventListener("mouseleave", () => {
+      pausedByHover = false;
+      scheduleAutoAdvance(1800);
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        stopAutoAdvance();
+      } else {
+        scheduleAutoAdvance(1800);
+      }
+    });
+
+    goTo(0, { smooth: false });
+    scheduleAutoAdvance();
+  });
+});
+</script>
+
+:::

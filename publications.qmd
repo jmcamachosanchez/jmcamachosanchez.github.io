@@ -1,34 +1,119 @@
 ---
 title: "Publications"
-description-meta: "Information, pdfs, and social metrics of papers"
-#page-layout: full
-#back-to-top-navigation: true
+description-meta: "Selected publications by José Manuel Camacho Sánchez"
 title-block-banner: false
-css: custom.css
+toc: false
 ---
 
+This page lists selected peer-reviewed publications and research outputs related to bluff-body aerodynamics, flow control, and drag reduction.
 
-<!--Include academic icons or buttons-->
-{{< include /files/includes/_academic.qmd >}}
+<!-- crossref-summary:start -->
+::: {.citation-metrics}
+::: {.metric-card}
+<span class="metric-value">21</span>
+<span class="metric-label">Crossref citations</span>
+:::
 
-Notes: \* corresponding author; <sup>GS</sup> graduate student advisee; <sup>VS</sup> visiting scholar; ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ESI [Highly Cited Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-highly-cited-papers.html) (top 1%); ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} ESI [Hot Paper](https://webofscience.help.clarivate.com/en-us/Content/esi-hot-papers.html) (top 0.1%) 
+::: {.metric-card}
+<span class="metric-value">4</span>
+<span class="metric-label">Selected journal papers</span>
+:::
 
-Total citations as of January 2025:
+::: {.metric-card}
+<span class="metric-value">12</span>
+<span class="metric-label">Most cited paper</span>
+:::
+:::
 
-- [Web of Science](https://www.webofscience.com): 100,000 (h-index = 100)   
-- [Google Scholar](https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl=en): 179,000 (h-index = 127, i10-index = 377) 
+<p class="metrics-note">Citation counts are based on Crossref's public cited-by metadata for the selected journal papers. Retrieved on 21 July 2026; counts may differ from Google Scholar or Scopus.</p>
+<!-- crossref-summary:end -->
 
-## Selected Work
+## Selected Publications {#selected-publications}
 
-Einstein, A., Podolsky, B., & Rosen, N. (1935). [Can quantum-mechanical description of physical reality be considered complete?](posts/paper-title/index.qmd). *Physical review*, 47(10), 777. \[[pdf](https://scholar.google.com/)\] \[[code and data](https://doi.org)\] ![](https://drganghe.github.io/files/images/highly-cited-paper-badge.png "ESI Highly Cited Paper"){width=20 fig-alt="Highly cited paper"} ![](https://drganghe.github.io/files/images/hot-paper-badge.png "ESI Hot Paper"){width=20 fig-alt="Hot paper"} <span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1103/PhysRev.47.777" data-hide-no-mentions="true" class="altmetric-embed"></div>     
+::: {.publication-list}
 
+::: {.publication-card}
+<span class="pub-year">2026</span>
 
-<center><hr style="width:50%"></center>
+### Self-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction
 
-Einstein, A. (1965). Concerning an heuristic point of view toward the emission and transformation of light. *American Journal of Physics*, 33(5), 367. [[pdf](https://icg.isy.liu.se/en/phd-courses/quantum_foundations/references/Einstein1905b.pdf)] <span class="__dimensions_badge_embed__" data-doi="10.1038/s41560-023-01304-w" data-style="large_rectangle"></span> <div data-badge-popover="right" data-badge-type="1" data-doi="10.1038/s41560-023-01304-w" data-hide-no-mentions="true" class="altmetric-embed"></div>
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot<br>
+*Journal of Fluids and Structures*, 144, 104560.
 
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2026.104560){.pub-action}
+[{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974626000605){.pub-action}
+<!-- crossref-citation:10.1016/j.jfluidstructs.2026.104560 -->
+<span class="citation-count">0 Crossref citations</span>
+<!-- crossref-citation:end -->
+:::
+:::
 
+::: {.publication-card}
+<span class="pub-year">2025</span>
 
-<!--Include social share buttons-->
+### Experimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes
 
-{{< include /files/includes/_socialshare.qmd >}}
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán<br>
+*Physics of Fluids*, 37(8), 085137.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1063/5.0275586){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0275586/20633218/085137_1_5.0275586.pdf){.pub-action .pub-action-pdf}
+<!-- crossref-citation:10.1063/5.0275586 -->
+<span class="citation-count">0 Crossref citations</span>
+<!-- crossref-citation:end -->
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2023</span>
+
+### Experimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán<br>
+*Physical Review Fluids*, 8(4), 044605.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1103/PhysRevFluids.8.044605){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.8.044605){.pub-action .pub-action-pdf}
+<!-- crossref-citation:10.1103/PhysRevFluids.8.044605 -->
+<span class="citation-count">9 Crossref citations</span>
+<!-- crossref-citation:end -->
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2023</span>
+
+### Drag reduction on a blunt body by self-adaption of rear flexibly hinged flaps
+
+C. García-Baena, **J.M. Camacho-Sánchez**, M. Lorite-Díez, C. Gutiérrez-Montes, and J.I. Jiménez-González<br>
+*Journal of Fluids and Structures*, 118, 103854.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2023.103854){.pub-action}
+[{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974623000221){.pub-action}
+<!-- crossref-citation:10.1016/j.jfluidstructs.2023.103854 -->
+<span class="citation-count">12 Crossref citations</span>
+<!-- crossref-citation:end -->
+:::
+:::
+
+:::
+
+## Patents and Research Outputs {#outputs}
+
+::: {.publication-card .output-card}
+<span class="pub-year">2024</span>
+
+### Device for reducing aerodynamic drag in vehicles
+
+Patent application **WO2024133990A1**. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, **J.M. Camacho-Sánchez**, C. Martínez-Bazán, and M. Lorite-Díez.
+
+::: {.pub-actions}
+[{{< fa arrow-up-right-from-square >}} Google Patents](https://patents.google.com/patent/WO2024133990A1/en){.pub-action}
+:::
+:::
+
+More publications, conference contributions, and profile links can be added once the final bibliography and academic identifiers are confirmed.

@@ -5,149 +5,104 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
-<atom:link href="https://drganghe.github.io/quarto-academic-website-template/posts.xml" rel="self" type="application/rss+xml"/>
-<description>Quarto Academic Website Template adapted by Dr. Gang He</description>
-<image>
-<url>https://quarto.org/quarto.png</url>
-<title>Quarto Academic</title>
-<link>https://drganghe.github.io/quarto-academic-website-template/posts.html</link>
-</image>
-<generator>quarto-1.9.36</generator>
-<lastBuildDate>Tue, 15 Oct 2024 04:00:00 GMT</lastBuildDate>
+<title>José Manuel Camacho Sánchez, PhD</title>
+<link>https://jmcamachosanchez.github.io/posts.html</link>
+<atom:link href="https://jmcamachosanchez.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>Experimental aerodynamics of bluff bodies and heavy vehicles</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Tue, 21 Jul 2026 11:00:00 GMT</lastBuildDate>
 <item>
-  <title>Quarto Academic Website Examples and Tips</title>
-  <link>https://drganghe.github.io/quarto-academic-website-template/</link>
-  <description>Examples and tips for Quarto Academic Website</description>
-  <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/</guid>
-  <pubDate>Tue, 15 Oct 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Event item</title>
-  <dc:creator>Event </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</link>
+  <title>Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas</title>
+  <dc:creator>José Manuel Camacho Sánchez</dc:creator>
+  <link>https://jmcamachosanchez.github.io/posts/wake-control-test/</link>
   <description><![CDATA[ 
 
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
-
-
-
- ]]></description>
-  <category>event</category>
-  <category>presentation</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/</guid>
-  <pubDate>Tue, 03 Sep 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder2.JPG" medium="image"/>
-</item>
-<item>
-  <title>News item</title>
-  <dc:creator>News </dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>About the news</p>
-<!--Include social share buttons-->
-<!-- 
-AddToAny check more: https://www.addtoany.com/buttons/for/website 
-Using includes will make edits easier, will only need to add or remove button here if needed.
-https://quarto.org/docs/authoring/includes.html
--->
-<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-<p><a class="a2a_dd" href="https://www.addtoany.com/share"></a> <a class="a2a_button_linkedin"></a> <a class="a2a_button_bluesky"></a> <a class="a2a_button_facebook"></a> <a class="a2a_button_copy_link"></a> <a class="a2a_button_email"></a></p>
+<div class="callout-title-container flex-fill">
+Note
 </div>
-<script async="" src="https://static.addtoany.com/menu/page.js"></script>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is a test post with placeholder content. It is written only to check the appearance, structure, and reading experience of the posts section.</p>
+</div>
+</div>
+<p>One of the things I find consistently interesting in bluff-body aerodynamics is how deceptively simple drag-reduction ideas can be. A rear flap, a small change in base geometry, a blowing slot, or a cavity may look like a minor modification, but the flow response can involve a full reorganisation of the wake.</p>
+<p>For a square-back body, the rear pressure field is not just a passive consequence of the body shape. It is tied to the separated shear layers, the recirculation region, the balance between symmetric and asymmetric wake states, and the way the near wake communicates with the base pressure distribution.</p>
+<section id="what-i-would-look-for-in-a-paper" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-would-look-for-in-a-paper">What I Would Look For in a Paper</h2>
+<p>If I were reading a paper on this topic, I would probably start with four questions:</p>
+<ul>
+<li>What is the dominant wake mechanism proposed by the authors?</li>
+<li>Does the drag reduction come from base-pressure recovery, wake stabilisation, or a change in separation?</li>
+<li>Are force measurements supported by flow-field or pressure data?</li>
+<li>Would the mechanism remain effective under yaw, ground effect, or more realistic vehicle conditions?</li>
+</ul>
+<p>These questions are useful because drag reduction alone is not enough to understand the physics. Two devices may produce a similar drag change while acting through different mechanisms.</p>
+</section>
+<section id="a-working-thought" class="level2">
+<h2 class="anchored" data-anchor-id="a-working-thought">A Working Thought</h2>
+<p>My instinct is that the most interesting devices are not necessarily those that impose a fixed geometry on the wake, but those that allow some degree of adaptation. In practice, this could mean flexibility, passive reconfiguration, or active control based on the state of the flow.</p>
+<p>That said, adaptation also makes interpretation harder. If a device moves, bends, or changes its effective angle, the aerodynamic response is coupled with structural or control dynamics. This is precisely where careful experiments become valuable: force balance, pressure measurements, PIV, and repeatable operating conditions can help separate cause from coincidence.</p>
+</section>
+<section id="possible-structure-for-future-posts" class="level2">
+<h2 class="anchored" data-anchor-id="possible-structure-for-future-posts">Possible Structure for Future Posts</h2>
+<p>For real paper-commentary posts, this format could work well:</p>
+<ol type="1">
+<li>Short context: why the paper is interesting.</li>
+<li>Main aerodynamic idea.</li>
+<li>What the authors measured or simulated.</li>
+<li>What I found convincing.</li>
+<li>What questions remain open.</li>
+<li>Link to my own work or broader wake-control problems.</li>
+</ol>
+<p>This test post is deliberately simple, but it gives the section enough text to evaluate spacing, headings, lists, links, metadata, and the general rhythm of a longer note.</p>
 
 
 </section>
 
  ]]></description>
-  <category>news</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/</guid>
-  <pubDate>Mon, 24 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/files/images/placeholder3.JPG" medium="image"/>
+  <category>test post</category>
+  <category>bluff-body aerodynamics</category>
+  <category>drag reduction</category>
+  <category>paper commentary</category>
+  <guid>https://jmcamachosanchez.github.io/posts/wake-control-test/</guid>
+  <pubDate>Tue, 21 Jul 2026 11:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Can quantum-mechanical description of physical reality be considered complete?</title>
-  <dc:creator>Albert Einstein</dc:creator>
-  <dc:creator>Boris Podolsky</dc:creator>
-  <dc:creator>Nathan Rosen</dc:creator>
-  <link>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</link>
+  <title>Opening a Research Notes Section</title>
+  <dc:creator>José Manuel Camacho Sánchez</dc:creator>
+  <link>https://jmcamachosanchez.github.io/posts/research-notes/</link>
   <description><![CDATA[ 
 
 
 
 
-<!--Include academic icons or bottons-->
-<!-- 
-Load Academicons v1: https://jpswalsh.github.io/academicons/
--->
-<p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
-<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
-<!---
-The following code are needed to show dimension citation and altmetrics.
-https://api.altmetric.com/embeds.html
-https://badge.dimensions.ai/
---->
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-<script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
-<section id="abstract" class="level2">
-<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p>Published <a href="https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777">paper</a></p>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
-
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<p>I am opening this section as a place for informal but careful writing about aerodynamics. The aim is not to replace peer-reviewed publications, but to create a space for reading notes, comments on scientific papers, experimental observations, and thoughts that may later grow into more structured work.</p>
+<p>When I write about papers by other researchers, I want to focus on what I find physically interesting: the research question, the experimental or numerical strategy, the flow mechanisms involved, and the parts that connect with bluff-body and heavy-vehicle aerodynamics.</p>
+<p>For paper commentaries, I will usually try to follow a simple structure:</p>
+<ul>
+<li>What problem is the study trying to address?</li>
+<li>What is the main physical mechanism or methodological idea?</li>
+<li>What did I find particularly useful, surprising, or debatable?</li>
+<li>How does it relate to wake dynamics, drag reduction, flow control, or experimental aerodynamics?</li>
+</ul>
+<p>Some posts will be short notes. Others may be longer reflections on methods such as wind-tunnel testing, PIV, track testing, pressure measurements, or the interpretation of drag-reduction strategies. The common thread will be curiosity about separated flows and the practical aerodynamics of ground vehicles.</p>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{einstein1935,
-  author = {Einstein, Albert and Podolsky, Boris and Rosen, Nathan},
-  title = {Can Quantum-Mechanical Description of Physical Reality Be
-    Considered Complete?},
-  journal = {Physical Review},
-  volume = {47},
-  number = {7938},
-  pages = {777-80},
-  date = {1935-05-15},
-  url = {https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777},
-  doi = {10.1103/PhysRev.47.777},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-einstein1935" class="csl-entry quarto-appendix-citeas">
-Einstein, Albert, Boris Podolsky, and Nathan Rosen. 1935. <span>“Can
-Quantum-Mechanical Description of Physical Reality Be Considered
-Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https://doi.org/10.1103/PhysRev.47.777">https://doi.org/10.1103/PhysRev.47.777</a>.
-</div></div></section></div> ]]></description>
-  <category>paper</category>
-  <guid>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/</guid>
-  <pubDate>Wed, 15 May 1935 04:00:00 GMT</pubDate>
-  <media:content url="https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
+ ]]></description>
+  <category>research notes</category>
+  <category>aerodynamics</category>
+  <category>paper commentary</category>
+  <guid>https://jmcamachosanchez.github.io/posts/research-notes/</guid>
+  <pubDate>Tue, 21 Jul 2026 10:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

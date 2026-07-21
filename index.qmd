@@ -1,100 +1,118 @@
 ---
-title: "Quarto Academic, PhD"
-description-meta: "Quarto Academic Website Template adapted by Dr. Gang He"
-image: "files/images/placeholder4.JPG"
+title: "José Manuel Camacho Sánchez, PhD"
+subtitle: "Experimental aerodynamics of bluff bodies and heavy vehicles"
+description-meta: "José Manuel Camacho Sánchez is a researcher in experimental aerodynamics, focused on bluff bodies, heavy vehicles, wind-tunnel testing, PIV, road testing, and drag-reduction devices."
 page-navigation: false
 toc: false
-#sidebar: false
 page-layout: full
+title-block-banner: false
+body-class: home-page
 
-about:
-  id: hero-heading
-  template: trestles
-  image-width: 70%
-  links:
-    - icon: sun
-      text: Lab
-      href: https://www.github.com
-      target: _blank
-    - icon: globe
-      text: Uprofile
-      href: https://baruch.cuny.edu
-      target: _blank
-    - icon: envelope
-      text: E-mail
-      href: mailto:email@gmail.com    
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-      target: _blank
-    - icon: youtube
-      text: YouTube
-      href: https://www.youtube.com     
-      target: _blank 
-    - text: "{{< ai orcid >}} ORCID"   # use academic icons, "" are needed, you also need to install the fontawesome extension
-      href: https://orcid.org
-      target: _blank
-    - text: "{{< ai clarivate >}} Web of Science"
-      href: https://www.webofscience.com  
-      target: _blank
-    - text: "{{< ai scopus >}} Scopus"
-      href: https://www.scopus.com
-      target: _blank
-    - text: "{{< ai google-scholar >}} Google Scholar"
-      href: https://scholar.google.com
-      target: _blank
-#    - text: "{{< ai researchgate >}} Research Gate"
-#      href: https://www.researchgate.net
-#      target: _blank
-
-listing:   # Comment the listing section and delete corresponding lines in the index.qmd file to remove the recent posts
+listing:
   - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
-    exclude:
-      title: ""
-    type: grid
-    max-items: 3
-#    image-height: 150px
-    page-size: 3 #set same as max-times to remove the page number setting
-    fields: [image, date, title, subtitle]
-    max-description-length: 75
-    sort: 
+    contents:
+      - posts/*/index.qmd
+    type: default
+    max-items: 2
+    page-size: 2
+    fields: [date, title, description, categories]
+    sort:
       - "date desc"
       - "title asc"
 ---
 
-:::{#hero-heading}
+::: {.profile-hero}
 
-I'm a [Quarto Academeic Website Template](https://github.com/drganghe/quarto-academic-website-template) adapted by [Dr. Gang He](http://drganghe.github.io).
+::: {.profile-visual}
+<img class="profile-image" src="files/images/aerodynamics-hero.png" alt="Wind-tunnel-inspired visual of flow around a simplified heavy-vehicle model.">
+:::
 
-I'm a template that you can fork to build your own website with easy adaptation and deployment.
+::: {.profile-intro}
+<span class="profile-kicker">Experimental Aerodynamics</span>
 
-I can automatically generate a neat publication list from an Excel file and enabling categories and filters.
+# José Manuel Camacho Sánchez <span class="degree-badge">PhD</span>
 
-Check [Quarto Academic Website Examples and Tips](https://drganghe.github.io/quarto-academic-site-examples.html) and [README.md](https://github.com/drganghe/quarto-academic-website-template/blob/main/README.md) for more detailed instructions.
+<p class="profile-subtitle">Bluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.</p>
 
-## Experience
+<p class="profile-summary">I am an experimental aerodynamics researcher studying bluff-body wakes and drag-reduction strategies for heavy vehicles through wind-tunnel testing, particle image velocimetry (PIV), track experiments, and aerodynamic analysis.</p>
 
-- Researcher, Univerisity
-- Consultant, Company
-- Intern, Institute
+::: {.profile-tags}
+<span>Wind tunnel</span>
+<span>PIV</span>
+<span>Track testing</span>
+<span>Flow control</span>
+:::
 
-## Education
+::: {.home-actions}
+[Research overview](research.qmd){.btn .btn-primary}
+[About](about.qmd){.btn .btn-outline-secondary}
+[Publications](#latest-publications){.btn .btn-outline-secondary}
+:::
 
-- PhD, Univerisity
-- Master, Univerisity
-- Bachelor, Univerisity
+::: {.profile-socials}
+[{{< fa brands orcid label="ORCID" >}} ORCID](https://orcid.org/0000-0002-9453-2045)
+[{{< fa brands github label="GitHub" >}} GitHub](https://github.com/jmcamachosanchez)
+[{{< fa brands linkedin label="LinkedIn" >}} LinkedIn](https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/)
+[{{< fa brands researchgate label="ResearchGate" >}} ResearchGate](https://www.researchgate.net/profile/Jose-Camacho-Sanchez)
+:::
 
 :::
 
-
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
-## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
-
-:::{#recent-posts}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+## Latest Publications {#latest-publications}
+
+::: {.publication-grid .publication-grid-home}
+
+::: {.publication-card}
+<span class="pub-year">2026</span>
+
+### Self-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot<br>
+*Journal of Fluids and Structures*, 144, 104560.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2026.104560){.pub-action}
+[{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974626000605){.pub-action}
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2025</span>
+
+### Experimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán<br>
+*Physics of Fluids*, 37(8), 085137.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1063/5.0275586){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://pubs.aip.org/aip/pof/article-pdf/doi/10.1063/5.0275586/20633218/085137_1_5.0275586.pdf){.pub-action .pub-action-pdf}
+:::
+:::
+
+::: {.publication-card}
+<span class="pub-year">2023</span>
+
+### Experimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body
+
+**J.M. Camacho-Sánchez**, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán<br>
+*Physical Review Fluids*, 8(4), 044605.
+
+::: {.pub-actions}
+[{{< fa link >}} DOI](https://doi.org/10.1103/PhysRevFluids.8.044605){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.8.044605){.pub-action .pub-action-pdf}
+:::
+:::
+
+:::
+
+<p class="more-link">[More publications »](publications.qmd)</p>
+
+## Recent Posts {#recent-posts-section}
+
+::: {#recent-posts}
+:::
+
+<p class="more-link">[All posts »](posts.qmd)</p>

@@ -60,6 +60,18 @@ If you achieve this milestone, congratulations! You are now ready to start updat
    - Enjoy your neat automatically generated publication list. You can customize style and template if you need to add new links and flags.
 
 
+## Update Crossref Citation Metrics
+
+The Publications page includes static citation metrics from Crossref. Refresh them before rendering or publishing the site with:
+
+```bash
+python3 update_crossref_metrics.py
+quarto render
+```
+
+The updater reads the DOI list in `update_crossref_metrics.py`, queries Crossref's public API, and rewrites the citation summary and per-paper citation badges in `publications.qmd`.
+
+
 ## 🛠 Requirements
 
 - Install [Quarto](https://quarto.org/docs/get-started/)

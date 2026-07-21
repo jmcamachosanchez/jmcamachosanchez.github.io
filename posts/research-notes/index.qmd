@@ -1,0 +1,19 @@
+---
+title: "Opening a Research Notes Section"
+description: "A short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress."
+date: "2026-07-21T12:00:00+02:00"
+categories: [research notes, aerodynamics, paper commentary]
+---
+
+I am opening this section as a place for informal but careful writing about aerodynamics. The aim is not to replace peer-reviewed publications, but to create a space for reading notes, comments on scientific papers, experimental observations, and thoughts that may later grow into more structured work.
+
+When I write about papers by other researchers, I want to focus on what I find physically interesting: the research question, the experimental or numerical strategy, the flow mechanisms involved, and the parts that connect with bluff-body and heavy-vehicle aerodynamics.
+
+For paper commentaries, I will usually try to follow a simple structure:
+
+- What problem is the study trying to address?
+- What is the main physical mechanism or methodological idea?
+- What did I find particularly useful, surprising, or debatable?
+- How does it relate to wake dynamics, drag reduction, flow control, or experimental aerodynamics?
+
+Some posts will be short notes. Others may be longer reflections on methods such as wind-tunnel testing, PIV, track testing, pressure measurements, or the interpretation of drag-reduction strategies. The common thread will be curiosity about separated flows and the practical aerodynamics of ground vehicles.
