@@ -23,14 +23,22 @@ My work connects controlled laboratory experiments with applied vehicle performa
 <span class="path-location">France</span>
 :::
 
-::: {.path-logo}
-[![](files/images/logos/ensta.svg){fig-alt="ENSTA logo"}](https://www.ensta.fr/)
+::: {.path-logo .path-logo-stacked}
+```{=html}
+<a class="path-logo-main" href="https://www.ensta.fr/" target="_blank" rel="noopener" aria-label="ENSTA Paris website">
+  <img src="files/images/logos/ensta.svg" alt="ENSTA Paris logo">
+</a>
+<a class="path-logo-partner" href="https://www.thalesgroup.com/" target="_blank" rel="noopener" aria-label="Thales website">
+  <span>Project with</span>
+  <img src="files/images/logos/thales.svg" alt="Thales logo">
+</a>
+```
 :::
 
 ::: {.path-content}
-### ENSTA Paris
+### Postdoctoral Researcher
 
-<p class="path-role">Postdoctoral Researcher in experimental aerodynamics.</p>
+<p class="path-role">ENSTA Paris | Experimental aerodynamics.</p>
 
 I am currently a postdoctoral researcher at ENSTA Paris, continuing my work in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.
 :::
@@ -56,30 +64,23 @@ Doctoral research focused on wake dynamics, wind-tunnel experiments, PIV, track 
 ::: {.linked-experiences}
 
 ::: {.linked-experience}
-::: {.linked-logo}
-[![](files/images/logos/ugr.svg){fig-alt="Universidad de Granada logo"}](https://www.ugr.es/)
+::: {.linked-logo .linked-logo-stacked}
+```{=html}
+<a href="https://www.ugr.es/" target="_blank" rel="noopener" aria-label="Universidad de Granada website">
+  <img src="files/images/logos/ugr.svg" alt="Universidad de Granada logo">
+</a>
+<a href="https://iista.es/" target="_blank" rel="noopener" aria-label="IISTA website">
+  <img src="files/images/logos/iista.svg" alt="IISTA logo">
+</a>
+```
 :::
 
 ::: {.linked-body}
 <span class="linked-date">2023-2026</span>
 
-##### Universidad de Granada
+##### Universidad de Granada / IISTA
 
-Experimental campaigns and collaboration linked to wind-tunnel measurements and aerodynamic analysis.
-:::
-:::
-
-::: {.linked-experience}
-::: {.linked-logo}
-[![](files/images/logos/iista.svg){fig-alt="IISTA logo"}](https://iista.es/)
-:::
-
-::: {.linked-body}
-<span class="linked-date">PhD period</span>
-
-##### IISTA
-
-Research activity at the Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía, associated with Universidad de Granada.
+Experimental campaigns and research activity at IISTA, associated with Universidad de Granada, linked to wind-tunnel measurements and aerodynamic analysis.
 :::
 :::
 
@@ -211,17 +212,9 @@ Academic formation, PhD research, wind-tunnel testing, PIV, aerodynamic analysis
 ::: {.footprint-item}
 <span class="footprint-item-year">2023-2026</span>
 
-### Universidad de Granada
+### Universidad de Granada / IISTA
 
-Experimental campaigns and research collaboration connected to doctoral work, including wind-tunnel measurements and aerodynamic analysis.
-:::
-
-::: {.footprint-item}
-<span class="footprint-item-year">PhD period</span>
-
-### IISTA
-
-Research activity at the Instituto Interuniversitario de Investigación del Sistema Tierra en Andalucía, associated with Universidad de Granada.
+Experimental campaigns and research activity at IISTA, associated with Universidad de Granada, connected to doctoral work, wind-tunnel measurements, and aerodynamic analysis.
 :::
 
 ::: {.footprint-item}
@@ -388,7 +381,7 @@ Peer review, technical committees, workshop organisation, or society memberships
 
 ### Technical courses
 
-Courses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here.
+Courses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here, together with the logo of the issuing institution.
 :::
 
 ::: {.credential-card}
@@ -396,7 +389,7 @@ Courses related to experimental methods, vehicle aerodynamics, data analysis, sa
 
 ### Professional credentials
 
-Certifications, licenses, and formal credentials can be listed with issuer, date, and a short note on relevance.
+Certifications, licenses, and formal credentials can be listed with issuer, date, institutional logo, and a short note on relevance.
 :::
 :::
 

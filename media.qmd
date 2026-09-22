@@ -109,6 +109,52 @@ Four-image reel documenting wind-tunnel testing facilities at IISTA, University 
 
 <p class="media-reel-note">Click the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the wind-tunnel reel. If idle, the reel advances automatically.</p>
 
+## University of Jaén Wind Tunnel
+
+::: {.media-reel .media-reel-contain}
+::: {.media-reel-header}
+<span class="media-label">Wind-Tunnel Facility</span>
+
+### Universidad de Jaén experimental wind-tunnel setup
+
+Five-image reel documenting wind-tunnel work at Universidad de Jaén, including facility views, model installation, instrumentation, and PIV/laser flow visualisation.
+:::
+
+<div class="media-reel-frame" aria-label="Universidad de Jaén wind tunnel photo reel" tabindex="0">
+  <figure class="media-reel-slide">
+    <img src="files/media/uja-wind-tunnel/uja-wind-tunnel-facility-overview.jpg" alt="Wide view of the Universidad de Jaén wind-tunnel facility and experimental setup">
+    <figcaption><span>01 / 05</span> Facility-scale view of the Universidad de Jaén wind-tunnel installation.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/uja-wind-tunnel/uja-wind-tunnel-setup-wide.jpg" alt="Wind-tunnel test section and instrumentation at Universidad de Jaén">
+    <figcaption><span>02 / 05</span> Test-section and support structure used for controlled aerodynamic experiments.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/uja-wind-tunnel/uja-wind-tunnel-test-section.jpg" alt="Close view of model installation and measurement hardware in the Universidad de Jaén wind tunnel">
+    <figcaption><span>03 / 05</span> Model installation and measurement hardware inside the test section.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/uja-wind-tunnel/uja-wind-tunnel-piv-laser.jpg" alt="Green laser sheet used for PIV flow visualisation inside the wind tunnel">
+    <figcaption><span>04 / 05</span> PIV/laser illumination setup used to visualise the flow field around the model.</figcaption>
+  </figure>
+  <figure class="media-reel-slide">
+    <img src="files/media/uja-wind-tunnel/uja-wind-tunnel-piv-setup.jpg" alt="Close-up of PIV target and laser sheet arrangement for flow measurements">
+    <figcaption><span>05 / 05</span> Close-up of the laser sheet and target arrangement for flow measurements.</figcaption>
+  </figure>
+</div>
+
+::: {.media-reel-dots aria-hidden="true"}
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+:::
+
+:::
+
+<p class="media-reel-note">Click the left or right side of a photo, swipe, scroll horizontally, or use the arrow keys to move through the Universidad de Jaén wind-tunnel reel. If idle, the reel advances automatically.</p>
+
 ## Other Experimental Material
 
 ::: {.media-gallery}

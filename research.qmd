@@ -61,6 +61,7 @@ This work studies low-mechanical-order adaptive flaps for drag reduction under c
 
 ::: {.pub-actions}
 [{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2026.104560){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://www.sciencedirect.com/science/article/pii/S0889974626000605/pdfft?isDTMRedir=true&download=true){.pub-action .pub-action-pdf}
 [{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974626000605){.pub-action}
 :::
 :::

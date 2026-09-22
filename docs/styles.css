@@ -11,10 +11,16 @@
   --jmcs-accent: #1f6f8b;
   --jmcs-accent-dark: #155875;
   --jmcs-warm: #8b5e1f;
+  --jmcs-card-radius: 14px;
+  --jmcs-glass: rgba(255, 255, 255, 0.76);
+  --jmcs-glass-strong: rgba(255, 255, 255, 0.88);
+  --jmcs-glass-border: rgba(205, 219, 230, 0.72);
+  --jmcs-glass-shadow: 0 14px 38px rgba(24, 34, 47, 0.075);
+  --jmcs-glass-shadow-hover: 0 18px 44px rgba(24, 34, 47, 0.105);
 }
 
 body {
-  background: #f7f9fb;
+  background: linear-gradient(180deg, #f9fbfc 0%, #eef4f7 100%) fixed;
   color: var(--jmcs-ink);
 }
 
@@ -62,7 +68,7 @@ a {
 .quarto-title-block {
   padding: 3rem 0 2rem;
   border-bottom: 1px solid var(--jmcs-line);
-  background: #ffffff;
+  background: transparent;
 }
 
 #quarto-document-content:has(.profile-hero) #title-block-header {
@@ -746,6 +752,39 @@ a {
   object-fit: contain;
 }
 
+.path-logo-stacked {
+  flex-direction: column;
+  gap: 0.55rem;
+  min-height: 112px;
+}
+
+.path-logo-stacked .path-logo-main img {
+  width: 92%;
+  height: 36px;
+}
+
+.path-logo-partner {
+  display: grid !important;
+  gap: 0.22rem;
+  justify-items: center;
+  border-top: 1px solid var(--jmcs-line);
+  padding-top: 0.5rem;
+}
+
+.path-logo-partner span {
+  color: var(--jmcs-muted);
+  font-size: 0.58rem;
+  font-weight: 800;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.path-logo-stacked .path-logo-partner img {
+  width: 76px;
+  height: auto;
+  max-height: 16px;
+}
+
 .path-date {
   display: block;
   color: var(--jmcs-navy);
@@ -866,6 +905,39 @@ a {
   width: 100%;
   height: 52px;
   object-fit: contain;
+}
+
+.linked-logo-stacked {
+  display: grid;
+  gap: 0.45rem;
+  align-content: center;
+  justify-items: center;
+}
+
+.linked-logo-stacked a {
+  min-width: 0;
+}
+
+.linked-logo-stacked a + a {
+  border-top: 1px solid var(--jmcs-line);
+  padding-top: 0.45rem;
+}
+
+.linked-logo-stacked img {
+  height: 34px;
+}
+
+.linked-logo-stacked a:first-child {
+  min-height: 50px;
+  overflow: visible;
+  padding: 0.1rem 0.15rem 0.2rem;
+}
+
+.linked-logo-stacked a:first-child img {
+  max-width: 96%;
+  height: 48px;
+  transform: scale(1.42);
+  transform-origin: center;
 }
 
 .linked-body {
@@ -1186,6 +1258,48 @@ a {
   font-weight: 700;
   line-height: 1;
   padding: 0.35rem 0.55rem;
+}
+
+.credential-header {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 2.25rem;
+  margin-bottom: 0.7rem;
+}
+
+.credential-logo-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed rgba(95, 107, 122, 0.32);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.52);
+  color: var(--jmcs-muted);
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  min-height: 2rem;
+  padding: 0.35rem 0.65rem;
+  text-transform: uppercase;
+}
+
+.credential-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--jmcs-glass-border);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.68);
+  min-height: 2.25rem;
+  padding: 0.35rem 0.65rem;
+}
+
+.credential-logo img {
+  display: block;
+  width: auto;
+  max-width: 120px;
+  max-height: 1.35rem;
+  object-fit: contain;
 }
 
 .profile-grid {
@@ -1538,6 +1652,62 @@ a {
   margin-bottom: 0;
 }
 
+.expertise-card,
+.interest-item,
+.publication-card,
+.metric-card,
+.conference-card,
+.quarto-listing-default .listing-default,
+.quarto-listing-default .quarto-post,
+.listing-default,
+.quarto-post,
+.post-category-guide,
+.path-logo,
+.path-content,
+.linked-experience,
+.linked-logo,
+.footprint-map-card,
+.footprint-item,
+.credential-card,
+.profile-card,
+.media-lead,
+.media-feature-image,
+.media-feature-copy,
+.media-card,
+.media-reel {
+  border-color: var(--jmcs-glass-border);
+  border-radius: var(--jmcs-card-radius);
+  background:
+    linear-gradient(145deg, var(--jmcs-glass-strong) 0%, var(--jmcs-glass) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.78),
+    var(--jmcs-glass-shadow);
+  backdrop-filter: blur(16px) saturate(135%);
+  -webkit-backdrop-filter: blur(16px) saturate(135%);
+}
+
+.publication-card:hover,
+.conference-card:hover,
+.quarto-post:hover,
+.footprint-item:hover,
+.credential-card:hover,
+.profile-card:hover,
+.profile-card:focus,
+.media-card:hover,
+.media-reel:hover {
+  border-color: rgba(174, 200, 216, 0.92);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.82),
+    var(--jmcs-glass-shadow-hover);
+}
+
+.path-item-phd-main .path-content,
+.home-page #listing-recent-posts .quarto-post,
+.output-card {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 249, 252, 0.78) 100%);
+}
+
 .page-footer {
   border-top: 1px solid var(--jmcs-line);
 }
@@ -1637,6 +1807,29 @@ a {
     height: 50px;
   }
 
+  .path-logo-stacked {
+    min-height: 92px;
+  }
+
+  .path-logo-stacked .path-logo-main img {
+    width: 94%;
+    height: 30px;
+  }
+
+  .path-logo-partner {
+    gap: 0.18rem;
+    padding-top: 0.42rem;
+  }
+
+  .path-logo-partner span {
+    font-size: 0.5rem;
+  }
+
+  .path-logo-stacked .path-logo-partner img {
+    width: 56px;
+    max-height: 12px;
+  }
+
   .path-content {
     grid-area: content;
     padding: 0.9rem;
@@ -1656,6 +1849,20 @@ a {
 
   .linked-logo img {
     height: 38px;
+  }
+
+  .linked-logo-stacked img {
+    height: 27px;
+  }
+
+  .linked-logo-stacked a:first-child {
+    min-height: 44px;
+    padding: 0.08rem 0.1rem 0.16rem;
+  }
+
+  .linked-logo-stacked a:first-child img {
+    height: 38px;
+    transform: scale(1.34);
   }
 
   .media-feature,

@@ -36,19 +36,6 @@ listing:
 
 <p class="profile-summary">I am an experimental aerodynamics researcher studying bluff-body wakes and drag-reduction strategies for heavy vehicles through wind-tunnel testing, particle image velocimetry (PIV), track experiments, and aerodynamic analysis.</p>
 
-::: {.profile-tags}
-<span>Wind tunnel</span>
-<span>PIV</span>
-<span>Track testing</span>
-<span>Flow control</span>
-:::
-
-::: {.home-actions}
-[Research overview](research.qmd){.btn .btn-primary}
-[About](about.qmd){.btn .btn-outline-secondary}
-[Publications](#latest-publications){.btn .btn-outline-secondary}
-:::
-
 ::: {.profile-socials}
 [{{< fa brands orcid label="ORCID" >}} ORCID](https://orcid.org/0000-0002-9453-2045)
 [{{< fa brands github label="GitHub" >}} GitHub](https://github.com/jmcamachosanchez)
@@ -74,6 +61,7 @@ listing:
 
 ::: {.pub-actions}
 [{{< fa link >}} DOI](https://doi.org/10.1016/j.jfluidstructs.2026.104560){.pub-action}
+[{{< fa file-pdf >}} View PDF](https://www.sciencedirect.com/science/article/pii/S0889974626000605/pdfft?isDTMRedir=true&download=true){.pub-action .pub-action-pdf}
 [{{< fa arrow-up-right-from-square >}} Publisher](https://www.sciencedirect.com/science/article/pii/S0889974626000605){.pub-action}
 :::
 :::
