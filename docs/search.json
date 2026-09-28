@@ -1,171 +1,10 @@
 [
   {
-    "objectID": "posts/wake-control-test/index.html",
-    "href": "posts/wake-control-test/index.html",
-    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
+    "objectID": "posts/research-notes/index.html",
+    "href": "posts/research-notes/index.html",
+    "title": "Opening a Research Notes Section",
     "section": "",
-    "text": "Note\n\n\n\nThis is a test post with placeholder content. It is written only to check the appearance, structure, and reading experience of the posts section.\nOne of the things I find consistently interesting in bluff-body aerodynamics is how deceptively simple drag-reduction ideas can be. A rear flap, a small change in base geometry, a blowing slot, or a cavity may look like a minor modification, but the flow response can involve a full reorganisation of the wake.\nFor a square-back body, the rear pressure field is not just a passive consequence of the body shape. It is tied to the separated shear layers, the recirculation region, the balance between symmetric and asymmetric wake states, and the way the near wake communicates with the base pressure distribution."
-  },
-  {
-    "objectID": "posts/wake-control-test/index.html#what-i-would-look-for-in-a-paper",
-    "href": "posts/wake-control-test/index.html#what-i-would-look-for-in-a-paper",
-    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
-    "section": "What I Would Look For in a Paper",
-    "text": "What I Would Look For in a Paper\nIf I were reading a paper on this topic, I would probably start with four questions:\n\nWhat is the dominant wake mechanism proposed by the authors?\nDoes the drag reduction come from base-pressure recovery, wake stabilisation, or a change in separation?\nAre force measurements supported by flow-field or pressure data?\nWould the mechanism remain effective under yaw, ground effect, or more realistic vehicle conditions?\n\nThese questions are useful because drag reduction alone is not enough to understand the physics. Two devices may produce a similar drag change while acting through different mechanisms."
-  },
-  {
-    "objectID": "posts/wake-control-test/index.html#a-working-thought",
-    "href": "posts/wake-control-test/index.html#a-working-thought",
-    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
-    "section": "A Working Thought",
-    "text": "A Working Thought\nMy instinct is that the most interesting devices are not necessarily those that impose a fixed geometry on the wake, but those that allow some degree of adaptation. In practice, this could mean flexibility, passive reconfiguration, or active control based on the state of the flow.\nThat said, adaptation also makes interpretation harder. If a device moves, bends, or changes its effective angle, the aerodynamic response is coupled with structural or control dynamics. This is precisely where careful experiments become valuable: force balance, pressure measurements, PIV, and repeatable operating conditions can help separate cause from coincidence."
-  },
-  {
-    "objectID": "posts/wake-control-test/index.html#possible-structure-for-future-posts",
-    "href": "posts/wake-control-test/index.html#possible-structure-for-future-posts",
-    "title": "Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas",
-    "section": "Possible Structure for Future Posts",
-    "text": "Possible Structure for Future Posts\nFor real paper-commentary posts, this format could work well:\n\nShort context: why the paper is interesting.\nMain aerodynamic idea.\nWhat the authors measured or simulated.\nWhat I found convincing.\nWhat questions remain open.\nLink to my own work or broader wake-control problems.\n\nThis test post is deliberately simple, but it gives the section enough text to evaluate spacing, headings, lists, links, metadata, and the general rhythm of a longer note."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "This section is for informal but careful writing: comments on scientific papers, short reflections on experimental methods, thoughts about bluff-body and vehicle aerodynamics, and research ideas that are still developing.\n\nWorking categories: paper commentary research notes experimental methods wind-tunnel testing PIV drag reduction bluff-body aerodynamics heavy-vehicle aerodynamics flow control\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nTest Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas\n\n\n\ntest post\n\nbluff-body aerodynamics\n\ndrag reduction\n\npaper commentary\n\n\n\nA placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "This page lists selected peer-reviewed publications and research outputs related to bluff-body aerodynamics, flow control, and drag reduction.\nCitation counts are based on Crossref’s public cited-by metadata for the selected journal papers. Retrieved on 21 July 2026; counts may differ from Google Scholar or Scopus."
-  },
-  {
-    "objectID": "publications.html#selected-publications",
-    "href": "publications.html#selected-publications",
-    "title": "Publications",
-    "section": "Selected Publications",
-    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  View PDF  Publisher  0 Crossref citations \n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF  0 Crossref citations \n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF  9 Crossref citations \n\n\n\n\n2023\n\nDrag reduction on a blunt body by self-adaption of rear flexibly hinged flaps\nC. García-Baena, J.M. Camacho-Sánchez, M. Lorite-Díez, C. Gutiérrez-Montes, and J.I. Jiménez-González Journal of Fluids and Structures, 118, 103854.\n\n DOI  View PDF  Publisher  12 Crossref citations"
-  },
-  {
-    "objectID": "publications.html#outputs",
-    "href": "publications.html#outputs",
-    "title": "Publications",
-    "section": "Patents and Research Outputs",
-    "text": "Patents and Research Outputs\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents\n\n\n\nMore publications, conference contributions, and profile links can be added once the final bibliography and academic identifiers are confirmed."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am José Manuel Camacho Sánchez, PhD, an experimental aerodynamics researcher focused on bluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.\nMy work connects controlled laboratory experiments with applied vehicle performance. I have worked with wind-tunnel testing, particle image velocimetry (PIV), pressure and force measurements, track testing, and the analysis of passive and active flow-control devices."
-  },
-  {
-    "objectID": "about.html#academic-path",
-    "href": "about.html#academic-path",
-    "title": "About",
-    "section": "Academic Path",
-    "text": "Academic Path\n\n\n\n2026-present France\n\n\n\n  \n\n\n  Project with\n  \n\n\n\nPostdoctoral Researcher\n\nENSTA Paris | Experimental aerodynamics.\n\nI am currently a postdoctoral researcher at ENSTA Paris, continuing my work in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\n2021-2026 Jaén, Spain\n\n\n\n\n\nPhD Thesis\n\nUniversidad de Jaén | Experimental aerodynamics of bluff bodies and heavy vehicles.\n\nDoctoral research focused on wake dynamics, wind-tunnel experiments, PIV, track testing, and passive or active drag-reduction strategies. This period also included external collaborations and research stays directly connected to the thesis.\n\n\n\n\n  \n\n\n  \n\n\n\n2023-2026\n\nUniversidad de Granada / IISTA\nExperimental campaigns and research activity at IISTA, associated with Universidad de Granada, linked to wind-tunnel measurements and aerodynamic analysis.\n\n\n\n\n\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n\n\n\n\n\n2019-2021 Jaén, Spain\n\n\n\n\n\nMaster’s Degree\n\nUniversidad de Jaén | Industrial Engineering and applied mechanics.\n\nAdvanced training with increasing focus on experimental methods, fluid mechanics, and aerodynamic problems.\n\n\n\n\n2015-2019 Jaén, Spain\n\n\n\n\n\nBachelor’s Degree\n\nUniversidad de Jaén | Mechanical Engineering.\n\nTechnical foundation in engineering, later developed toward fluid mechanics, experimental methods, and vehicle aerodynamics."
-  },
-  {
-    "objectID": "about.html#research-footprint",
-    "href": "about.html#research-footprint",
-    "title": "About",
-    "section": "Research Footprint",
-    "text": "Research Footprint\n\n\nMy work has developed across a compact but international experimental network, connecting doctoral research in Andalusia with a research stay in the United Kingdom and postdoctoral work at ENSTA Paris.\n\n\n\n3 Countries\n\n\n5 Institutions and campaign sites\n\n\n1 Vehicle-scale on-track campaign\n\n\n\n  \n    −\n    Reset\n    +\n  \n  \n    \n      \n      \n        \n        Jaén, Spain\n      \n      \n        \n        \n          Granada, Spain\n          UGR / IISTA\n        \n      \n      \n        \n        Liverpool, UK\n      \n      \n        \n        ENSTA Paris\n      \n    \n  \n\n\n\n2015-2026\n\nUniversidad de Jaén\nAcademic formation, PhD research, wind-tunnel testing, PIV, aerodynamic analysis, and heavy-vehicle drag-reduction work.\n\n\n\n2023-2026\n\nUniversidad de Granada / IISTA\nExperimental campaigns and research activity at IISTA, associated with Universidad de Granada, connected to doctoral work, wind-tunnel measurements, and aerodynamic analysis.\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay linked to the PhD, focused on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n2026-present\n\nENSTA Paris\nPostdoctoral research in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\nMap base: BlankMap-World-Equirectangular.svg, Wikimedia Commons, CC0/public domain. Marker positions use approximate city/campus coordinates."
-  },
-  {
-    "objectID": "about.html#professional-service",
-    "href": "about.html#professional-service",
-    "title": "About",
-    "section": "Professional Service",
-    "text": "Professional Service\n\n\nCommittee Membership\n\nSAE technical committee\nMembership and technical-service details can be listed here once the exact committee name, role, and dates are confirmed.\n\n\n\nScientific Service\n\nReviewing and technical activities\nPeer review, technical committees, workshop organisation, or society memberships can be added here as your professional-service record grows."
-  },
-  {
-    "objectID": "about.html#training-and-certifications",
-    "href": "about.html#training-and-certifications",
-    "title": "About",
-    "section": "Training and Certifications",
-    "text": "Training and Certifications\n\n\nTraining\n\nTechnical courses\nCourses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here, together with the logo of the issuing institution.\n\n\n\nCertifications\n\nProfessional credentials\nCertifications, licenses, and formal credentials can be listed with issuer, date, institutional logo, and a short note on relevance."
-  },
-  {
-    "objectID": "about.html#awards-and-recognition",
-    "href": "about.html#awards-and-recognition",
-    "title": "About",
-    "section": "Awards and Recognition",
-    "text": "Awards and Recognition\n\n\nAwards\n\nAcademic and research awards\nPrizes, competitive scholarships, thesis awards, best-paper/poster awards, and other recognitions can be listed here.\n\n\n\nRecognition\n\nResearch visibility\nInvited talks, highlighted papers, media mentions, or institutional recognitions can be added as they become relevant."
-  },
-  {
-    "objectID": "about.html#research-profile",
-    "href": "about.html#research-profile",
-    "title": "About",
-    "section": "Research Profile",
-    "text": "Research Profile\nMy research is motivated by a central question: how can the wake of a bluff body be understood, controlled, and translated into practical aerodynamic benefits?\nI am particularly interested in:\n\nwake dynamics and pressure-drag mechanisms;\nself-adaptive and flexible drag-reduction devices;\nactive and passive flow-control strategies;\nwind-tunnel-to-road experimental methodology;\nconnecting PIV, pressure, force, and track-test measurements."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "José Manuel Camacho Sánchez, PhD",
-    "section": "",
-    "text": "Experimental Aerodynamics\n\n\n\nBluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.\n\n\nI am an experimental aerodynamics researcher studying bluff-body wakes and drag-reduction strategies for heavy vehicles through wind-tunnel testing, particle image velocimetry (PIV), track experiments, and aerodynamic analysis.\n\n\n ORCID  GitHub  LinkedIn  ResearchGate"
-  },
-  {
-    "objectID": "index.html#latest-publications",
-    "href": "index.html#latest-publications",
-    "title": "José Manuel Camacho Sánchez, PhD",
-    "section": "Latest Publications",
-    "text": "Latest Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  View PDF  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF\n\n\n\n\n\nMore publications »"
-  },
-  {
-    "objectID": "index.html#recent-posts-section",
-    "href": "index.html#recent-posts-section",
-    "title": "José Manuel Camacho Sánchez, PhD",
-    "section": "Recent Posts",
-    "text": "Recent Posts\n\n\n\n\n\nTest Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas\n\n\n\ntest post\n\nbluff-body aerodynamics\n\ndrag reduction\n\npaper commentary\n\n\n\nA placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items\n\n\nAll posts »"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My research focuses on the experimental aerodynamics of bluff bodies and heavy vehicles, with emphasis on wake dynamics, pressure drag, flow separation, and passive or active strategies for drag reduction.\nThe central objective is to connect the underlying flow physics of three-dimensional separated wakes with aerodynamic performance in configurations relevant to ground vehicles."
-  },
-  {
-    "objectID": "research.html#themes",
-    "href": "research.html#themes",
-    "title": "Research",
-    "section": "Research Themes",
-    "text": "Research Themes\n\n\nBluff-Body Wakes\nNear-wake topology, recirculation regions, pressure recovery, wake asymmetry, and reflectional-symmetry-breaking dynamics.\n\n\nHeavy-Vehicle Aerodynamics\nFlow mechanisms relevant to square-back and heavy-vehicle geometries, including crosswind effects and practical drag-reduction constraints.\n\n\nFlow Control\nPassive and active control strategies, including adaptive flaps, base blowing, rear cavities, and self-adaptive devices."
-  },
-  {
-    "objectID": "research.html#methods",
-    "href": "research.html#methods",
-    "title": "Research",
-    "section": "Methods",
-    "text": "Methods\n\n\nWind-tunnel experiments: controlled measurements of forces, pressure distributions, wake development, and drag-reduction performance.\nParticle image velocimetry: two-component and flow-field measurements for characterising separation, recirculation, wake structure, and turbulence.\nTrack testing: aerodynamic assessment under more representative road conditions.\nData analysis: linking local flow organisation with global quantities such as drag, base pressure, and aerodynamic loading."
-  },
-  {
-    "objectID": "research.html#selected-publications",
-    "href": "research.html#selected-publications",
-    "title": "Research",
-    "section": "Selected Publications",
-    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\nThis work studies low-mechanical-order adaptive flaps for drag reduction under crosswind conditions using wind-tunnel measurements.\n\n DOI  View PDF  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\nThis paper investigates how different base-blowing slot geometries modify the wake and drag of a square-back Ahmed body.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\nThis study analyses rear flexibly hinged plates as a self-adaptive drag-reduction strategy for square-back Ahmed-body wakes under yaw.\n\n DOI  View PDF\n\n\n\n\n\nFull selected publication list »"
-  },
-  {
-    "objectID": "research.html#presentations-and-conferences",
-    "href": "research.html#presentations-and-conferences",
-    "title": "Research",
-    "section": "Presentations and Conferences",
-    "text": "Presentations and Conferences\n\n\nUpcoming\n\nConference presentations\nSelected conference talks, posters, and scientific meetings related to bluff-body aerodynamics, heavy-vehicle experiments, wake control, and drag-reduction devices will be listed here.\n\n\n\nArchive\n\nResearch dissemination\nThis section can include oral presentations, poster sessions, invited talks, workshops, doctoral-school contributions, and technical meetings once the final list is confirmed."
-  },
-  {
-    "objectID": "research.html#technology-transfer",
-    "href": "research.html#technology-transfer",
-    "title": "Research",
-    "section": "Technology Transfer",
-    "text": "Technology Transfer\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents"
+    "text": "I am opening this section as a place for informal but careful writing about aerodynamics. The aim is not to replace peer-reviewed publications, but to create a space for reading notes, comments on scientific papers, experimental observations, and thoughts that may later grow into more structured work.\nWhen I write about papers by other researchers, I want to focus on what I find physically interesting: the research question, the experimental or numerical strategy, the flow mechanisms involved, and the parts that connect with bluff-body and heavy-vehicle aerodynamics.\nFor paper commentaries, I will usually try to follow a simple structure:\n\nWhat problem is the study trying to address?\nWhat is the main physical mechanism or methodological idea?\nWhat did I find particularly useful, surprising, or debatable?\nHow does it relate to wake dynamics, drag reduction, flow control, or experimental aerodynamics?\n\nSome posts will be short notes. Others may be longer reflections on methods such as wind-tunnel testing, PIV, track testing, pressure measurements, or the interpretation of drag-reduction strategies. The common thread will be curiosity about separated flows and the practical aerodynamics of ground vehicles."
   },
   {
     "objectID": "media.html",
@@ -217,17 +56,150 @@
     "text": "Talk\n\n\nConference Presentation\n\n\nPresentations of experimental results on bluff-body wakes, flow-control strategies, and heavy-vehicle aerodynamic performance.\n\n\n\n\n\nPoster\n\n\nScientific Exchange\n\n\nVisual material from conferences, workshops, and research visits where experimental methods and results are discussed with the community."
   },
   {
-    "objectID": "posts/research-notes/index.html",
-    "href": "posts/research-notes/index.html",
-    "title": "Opening a Research Notes Section",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "I am opening this section as a place for informal but careful writing about aerodynamics. The aim is not to replace peer-reviewed publications, but to create a space for reading notes, comments on scientific papers, experimental observations, and thoughts that may later grow into more structured work.\nWhen I write about papers by other researchers, I want to focus on what I find physically interesting: the research question, the experimental or numerical strategy, the flow mechanisms involved, and the parts that connect with bluff-body and heavy-vehicle aerodynamics.\nFor paper commentaries, I will usually try to follow a simple structure:\n\nWhat problem is the study trying to address?\nWhat is the main physical mechanism or methodological idea?\nWhat did I find particularly useful, surprising, or debatable?\nHow does it relate to wake dynamics, drag reduction, flow control, or experimental aerodynamics?\n\nSome posts will be short notes. Others may be longer reflections on methods such as wind-tunnel testing, PIV, track testing, pressure measurements, or the interpretation of drag-reduction strategies. The common thread will be curiosity about separated flows and the practical aerodynamics of ground vehicles."
+    "text": "My research focuses on the experimental aerodynamics of bluff bodies and heavy vehicles, with emphasis on wake dynamics, pressure drag, flow separation, and passive or active strategies for drag reduction.\nThe central objective is to connect the underlying flow physics of three-dimensional separated wakes with aerodynamic performance in configurations relevant to ground vehicles."
+  },
+  {
+    "objectID": "research.html#themes",
+    "href": "research.html#themes",
+    "title": "Research",
+    "section": "Research Themes",
+    "text": "Research Themes\n\n\nBluff-Body Wakes\nNear-wake topology, recirculation regions, pressure recovery, wake asymmetry, and reflectional-symmetry-breaking dynamics.\n\n\nHeavy-Vehicle Aerodynamics\nFlow mechanisms relevant to square-back and heavy-vehicle geometries, including crosswind effects and practical drag-reduction constraints.\n\n\nFlow Control\nPassive and active control strategies, including adaptive flaps, base blowing, rear cavities, and self-adaptive devices."
+  },
+  {
+    "objectID": "research.html#methods",
+    "href": "research.html#methods",
+    "title": "Research",
+    "section": "Methods",
+    "text": "Methods\n\n\nWind-tunnel experiments: controlled measurements of forces, pressure distributions, wake development, and drag-reduction performance.\nParticle image velocimetry: two-component and flow-field measurements for characterising separation, recirculation, wake structure, and turbulence.\nTrack testing: aerodynamic assessment under more representative road conditions.\nData analysis: linking local flow organisation with global quantities such as drag, base pressure, and aerodynamic loading."
+  },
+  {
+    "objectID": "research.html#selected-publications",
+    "href": "research.html#selected-publications",
+    "title": "Research",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\nThis work studies low-mechanical-order adaptive flaps for drag reduction under crosswind conditions using wind-tunnel measurements.\n\n DOI  View PDF  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\nThis paper investigates how different base-blowing slot geometries modify the wake and drag of a square-back Ahmed body.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\nThis study analyses rear flexibly hinged plates as a self-adaptive drag-reduction strategy for square-back Ahmed-body wakes under yaw.\n\n DOI  View PDF\n\n\n\n\n\nFull selected publication list »"
+  },
+  {
+    "objectID": "research.html#presentations-and-conferences",
+    "href": "research.html#presentations-and-conferences",
+    "title": "Research",
+    "section": "Presentations and Conferences",
+    "text": "Presentations and Conferences\n\n\nUpcoming\n\nConference presentations\nSelected conference talks, posters, and scientific meetings related to bluff-body aerodynamics, heavy-vehicle experiments, wake control, and drag-reduction devices will be listed here.\n\n\n\nArchive\n\nResearch dissemination\nThis section can include oral presentations, poster sessions, invited talks, workshops, doctoral-school contributions, and technical meetings once the final list is confirmed."
+  },
+  {
+    "objectID": "research.html#technology-transfer",
+    "href": "research.html#technology-transfer",
+    "title": "Research",
+    "section": "Technology Transfer",
+    "text": "Technology Transfer\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "José Manuel Camacho Sánchez, PhD",
+    "section": "",
+    "text": "Experimental Aerodynamics\n    \n    Bluff-body wakes, heavy vehicles, and flow-control strategies."
+  },
+  {
+    "objectID": "index.html#latest-publications",
+    "href": "index.html#latest-publications",
+    "title": "José Manuel Camacho Sánchez, PhD",
+    "section": "Latest Publications",
+    "text": "Latest Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  View PDF  Publisher\n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF\n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF\n\n\n\n\n\nMore publications »"
+  },
+  {
+    "objectID": "index.html#recent-posts-section",
+    "href": "index.html#recent-posts-section",
+    "title": "José Manuel Camacho Sánchez, PhD",
+    "section": "Recent Posts",
+    "text": "Recent Posts\n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items\n\n\nAll posts »"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am José Manuel Camacho Sánchez, PhD, an experimental aerodynamics researcher focused on bluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.\nMy work connects controlled laboratory experiments with applied vehicle performance. I have worked with wind-tunnel testing, particle image velocimetry (PIV), pressure and force measurements, track testing, and the analysis of passive and active flow-control devices."
+  },
+  {
+    "objectID": "about.html#academic-path",
+    "href": "about.html#academic-path",
+    "title": "About",
+    "section": "Academic Path",
+    "text": "Academic Path\n\n\n\n2026-present France\n\n\n\n  \n\n\n  Project with\n  \n\n\n\nPostdoctoral Researcher\n\nENSTA Paris | Experimental aerodynamics.\n\nI am currently a postdoctoral researcher at ENSTA Paris, continuing my work in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\n2021-2026 Jaén, Spain\n\n\n\n\n\nPhD Thesis\n\nUniversidad de Jaén | Experimental aerodynamics of bluff bodies and heavy vehicles.\n\nDoctoral research focused on wake dynamics, wind-tunnel experiments, PIV, track testing, and passive or active drag-reduction strategies. This period also included external collaborations and research stays directly connected to the thesis.\n\n\n\n\n  \n\n\n  \n\n\n\n2023-2026\n\nUniversidad de Granada / IISTA\nExperimental campaigns and research activity at IISTA, associated with Universidad de Granada, linked to wind-tunnel measurements and aerodynamic analysis.\n\n\n\n\n\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n\n\n\n\n\n2019-2021 Jaén, Spain\n\n\n\n\n\nMaster’s Degree\n\nUniversidad de Jaén | Industrial Engineering and applied mechanics.\n\nAdvanced training with increasing focus on experimental methods, fluid mechanics, and aerodynamic problems.\n\n\n\n\n2015-2019 Jaén, Spain\n\n\n\n\n\nBachelor’s Degree\n\nUniversidad de Jaén | Mechanical Engineering.\n\nTechnical foundation in engineering, later developed toward fluid mechanics, experimental methods, and vehicle aerodynamics."
+  },
+  {
+    "objectID": "about.html#research-footprint",
+    "href": "about.html#research-footprint",
+    "title": "About",
+    "section": "Research Footprint",
+    "text": "Research Footprint\n\n\nMy work has developed across a compact but international experimental network, connecting doctoral research in Andalusia with a research stay in the United Kingdom and postdoctoral work at ENSTA Paris.\n\n\n\n3 Countries\n\n\n5 Institutions and campaign sites\n\n\n1 Vehicle-scale on-track campaign\n\n\n\n  \n    −\n    Reset\n    +\n  \n  \n    \n      \n      \n        \n        Jaén, Spain\n      \n      \n        \n        \n          Granada, Spain\n          UGR / IISTA\n        \n      \n      \n        \n        Liverpool, UK\n      \n      \n        \n        ENSTA Paris\n      \n    \n  \n\n\n\n2015-2026\n\nUniversidad de Jaén\nAcademic formation, PhD research, wind-tunnel testing, PIV, aerodynamic analysis, and heavy-vehicle drag-reduction work.\n\n\n\n2023-2026\n\nUniversidad de Granada / IISTA\nExperimental campaigns and research activity at IISTA, associated with Universidad de Granada, connected to doctoral work, wind-tunnel measurements, and aerodynamic analysis.\n\n\n\n2023\n\nUniversity of Liverpool\nResearch stay linked to the PhD, focused on fluid-structure interaction and flexible drag-reduction devices.\n\n\n\n2026-present\n\nENSTA Paris\nPostdoctoral research in experimental aerodynamics, wake dynamics, and flow-control strategies for bluff bodies and transport applications.\n\n\n\n\nMap base: BlankMap-World-Equirectangular.svg, Wikimedia Commons, CC0/public domain. Markers are projected from campus and research-site coordinates."
+  },
+  {
+    "objectID": "about.html#professional-service",
+    "href": "about.html#professional-service",
+    "title": "About",
+    "section": "Professional Service",
+    "text": "Professional Service\n\n\n\n  \n    \n  \n\nCommittee Membership\n\nSAE International\nMember of the Truck and Bus Aerodynamics and Fuel Economy Committee.\n\n\n\n\n  \n    \n  \n\nProfessional Membership\n\nAmerican Physical Society\nMember of the American Physical Society (APS).\n\n\n\nPeer Review\n\nReviewing and technical activities\n\n  Verified activity\n  Public peer-review records are read directly from ORCID.\n\nView ORCID record"
+  },
+  {
+    "objectID": "about.html#training-and-certifications",
+    "href": "about.html#training-and-certifications",
+    "title": "About",
+    "section": "Training and Certifications",
+    "text": "Training and Certifications\n\n\nTraining\n\nTechnical courses\nCourses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here, together with the logo of the issuing institution.\n\n\n\nCertifications\n\nProfessional credentials\nCertifications, licenses, and formal credentials can be listed with issuer, date, institutional logo, and a short note on relevance."
+  },
+  {
+    "objectID": "about.html#awards-and-recognition",
+    "href": "about.html#awards-and-recognition",
+    "title": "About",
+    "section": "Awards and Recognition",
+    "text": "Awards and Recognition\n\n\nAwards\n\nAcademic and research awards\nPrizes, competitive scholarships, thesis awards, best-paper/poster awards, and other recognitions can be listed here.\n\n\n\nRecognition\n\nResearch visibility\nInvited talks, highlighted papers, media mentions, or institutional recognitions can be added as they become relevant."
+  },
+  {
+    "objectID": "about.html#research-profile",
+    "href": "about.html#research-profile",
+    "title": "About",
+    "section": "Research Profile",
+    "text": "Research Profile\nMy research is motivated by a central question: how can the wake of a bluff body be understood, controlled, and translated into practical aerodynamic benefits?\nI am particularly interested in:\n\nwake dynamics and pressure-drag mechanisms;\nself-adaptive and flexible drag-reduction devices;\nactive and passive flow-control strategies;\nwind-tunnel-to-road experimental methodology;\nconnecting PIV, pressure, force, and track-test measurements."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "This page lists selected peer-reviewed publications and research outputs related to bluff-body aerodynamics, flow control, and drag reduction.\nCitation counts are based on Crossref’s public cited-by metadata for the selected journal papers. Retrieved on 21 July 2026; counts may differ from Google Scholar or Scopus."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\n\n2026\n\nSelf-adaptive elastic flaps with bending and torsion for 3D blunt body drag reduction\nJ.M. Camacho-Sánchez, M. Lorite-Díez, Y. Fan, J.I. Jiménez-González, and O. Cadot Journal of Fluids and Structures, 144, 104560.\n\n DOI  View PDF  Publisher  0 Crossref citations \n\n\n\n\n2025\n\nExperimental analysis of the role of base blowing geometry on three-dimensional blunt body wakes\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, and C. Martínez-Bazán Physics of Fluids, 37(8), 085137.\n\n DOI  View PDF  0 Crossref citations \n\n\n\n\n2023\n\nExperimental study on the effect of adaptive flaps on the aerodynamics of an Ahmed body\nJ.M. Camacho-Sánchez, M. Lorite-Díez, J.I. Jiménez-González, O. Cadot, and C. Martínez-Bazán Physical Review Fluids, 8(4), 044605.\n\n DOI  View PDF  9 Crossref citations \n\n\n\n\n2023\n\nDrag reduction on a blunt body by self-adaption of rear flexibly hinged flaps\nC. García-Baena, J.M. Camacho-Sánchez, M. Lorite-Díez, C. Gutiérrez-Montes, and J.I. Jiménez-González Journal of Fluids and Structures, 118, 103854.\n\n DOI  View PDF  Publisher  12 Crossref citations"
+  },
+  {
+    "objectID": "publications.html#outputs",
+    "href": "publications.html#outputs",
+    "title": "Publications",
+    "section": "Patents and Research Outputs",
+    "text": "Patents and Research Outputs\n\n2024\n\nDevice for reducing aerodynamic drag in vehicles\nPatent application WO2024133990A1. Inventors include J.I. Jiménez-González, C. Gutiérrez-Montes, C. García-Baena, J.M. Camacho-Sánchez, C. Martínez-Bazán, and M. Lorite-Díez.\n\n Google Patents\n\n\n\nMore publications, conference contributions, and profile links can be added once the final bibliography and academic identifiers are confirmed."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "This section is for informal but careful writing: comments on scientific papers, short reflections on experimental methods, thoughts about bluff-body and vehicle aerodynamics, and research ideas that are still developing.\n\nWorking categories: paper commentary research notes experimental methods wind-tunnel testing PIV drag reduction bluff-body aerodynamics heavy-vehicle aerodynamics flow control\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nOpening a Research Notes Section\n\n\n\nresearch notes\n\naerodynamics\n\npaper commentary\n\n\n\nA short note on how I plan to use this space for paper commentary, aerodynamics ideas, and thoughts in progress.\n\n\n\n\n\nJul 21, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "For research enquiries, collaborations, or questions about experimental aerodynamics, please use the links below.\n\n   GitHub jmcamachosanchez  \n   LinkedIn José Manuel Camacho Sánchez  \n   ORCID 0000-0002-9453-2045  \n   ResearchGate José Manuel Camacho Sánchez  \n\nInstitutional affiliation, email address, Google Scholar, and other academic profiles can be added here once the final public details are confirmed."
+    "text": "For research enquiries, collaborations, or questions about experimental aerodynamics, please use the links below.\n\n   Universidad de Jaén jmcamach@ujaen.es  \n   ENSTA Paris jose-manuel.camacho@ensta.fr  \n   GitHub jmcamachosanchez  \n   LinkedIn José Manuel Camacho Sánchez  \n   ORCID 0000-0002-9453-2045  \n   ResearchGate José Manuel Camacho Sánchez"
   }
 ]

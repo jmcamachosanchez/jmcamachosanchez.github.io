@@ -1,15 +1,13 @@
 [
   {
-    "listing": "/posts.html",
+    "listing": "/index.html",
     "items": [
-      "/posts/wake-control-test/index.html",
       "/posts/research-notes/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
-      "/posts/wake-control-test/index.html",
       "/posts/research-notes/index.html"
     ]
   }

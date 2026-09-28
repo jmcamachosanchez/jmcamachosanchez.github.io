@@ -3,3 +3,8 @@
 **/*.quarto_ipynb
 
 /.luarc.json
+
+.DS_Store
+__pycache__/
+*.pyc
+/drafts/

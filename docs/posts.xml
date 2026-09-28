@@ -10,71 +10,7 @@
 <atom:link href="https://jmcamachosanchez.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Experimental aerodynamics of bluff bodies and heavy vehicles</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Tue, 21 Jul 2026 11:00:00 GMT</lastBuildDate>
-<item>
-  <title>Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas</title>
-  <dc:creator>José Manuel Camacho Sánchez</dc:creator>
-  <link>https://jmcamachosanchez.github.io/posts/wake-control-test/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This is a test post with placeholder content. It is written only to check the appearance, structure, and reading experience of the posts section.</p>
-</div>
-</div>
-<p>One of the things I find consistently interesting in bluff-body aerodynamics is how deceptively simple drag-reduction ideas can be. A rear flap, a small change in base geometry, a blowing slot, or a cavity may look like a minor modification, but the flow response can involve a full reorganisation of the wake.</p>
-<p>For a square-back body, the rear pressure field is not just a passive consequence of the body shape. It is tied to the separated shear layers, the recirculation region, the balance between symmetric and asymmetric wake states, and the way the near wake communicates with the base pressure distribution.</p>
-<section id="what-i-would-look-for-in-a-paper" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-would-look-for-in-a-paper">What I Would Look For in a Paper</h2>
-<p>If I were reading a paper on this topic, I would probably start with four questions:</p>
-<ul>
-<li>What is the dominant wake mechanism proposed by the authors?</li>
-<li>Does the drag reduction come from base-pressure recovery, wake stabilisation, or a change in separation?</li>
-<li>Are force measurements supported by flow-field or pressure data?</li>
-<li>Would the mechanism remain effective under yaw, ground effect, or more realistic vehicle conditions?</li>
-</ul>
-<p>These questions are useful because drag reduction alone is not enough to understand the physics. Two devices may produce a similar drag change while acting through different mechanisms.</p>
-</section>
-<section id="a-working-thought" class="level2">
-<h2 class="anchored" data-anchor-id="a-working-thought">A Working Thought</h2>
-<p>My instinct is that the most interesting devices are not necessarily those that impose a fixed geometry on the wake, but those that allow some degree of adaptation. In practice, this could mean flexibility, passive reconfiguration, or active control based on the state of the flow.</p>
-<p>That said, adaptation also makes interpretation harder. If a device moves, bends, or changes its effective angle, the aerodynamic response is coupled with structural or control dynamics. This is precisely where careful experiments become valuable: force balance, pressure measurements, PIV, and repeatable operating conditions can help separate cause from coincidence.</p>
-</section>
-<section id="possible-structure-for-future-posts" class="level2">
-<h2 class="anchored" data-anchor-id="possible-structure-for-future-posts">Possible Structure for Future Posts</h2>
-<p>For real paper-commentary posts, this format could work well:</p>
-<ol type="1">
-<li>Short context: why the paper is interesting.</li>
-<li>Main aerodynamic idea.</li>
-<li>What the authors measured or simulated.</li>
-<li>What I found convincing.</li>
-<li>What questions remain open.</li>
-<li>Link to my own work or broader wake-control problems.</li>
-</ol>
-<p>This test post is deliberately simple, but it gives the section enough text to evaluate spacing, headings, lists, links, metadata, and the general rhythm of a longer note.</p>
-
-
-</section>
-
- ]]></description>
-  <category>test post</category>
-  <category>bluff-body aerodynamics</category>
-  <category>drag reduction</category>
-  <category>paper commentary</category>
-  <guid>https://jmcamachosanchez.github.io/posts/wake-control-test/</guid>
-  <pubDate>Tue, 21 Jul 2026 11:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Tue, 21 Jul 2026 10:00:00 GMT</lastBuildDate>
 <item>
   <title>Opening a Research Notes Section</title>
   <dc:creator>José Manuel Camacho Sánchez</dc:creator>

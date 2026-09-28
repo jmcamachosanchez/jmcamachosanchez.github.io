@@ -176,22 +176,22 @@ My work has developed across a compact but international experimental network, c
   <div class="footprint-map-viewport" tabindex="0" aria-label="Zoomable research footprint map showing Spain, the United Kingdom, and France">
     <div class="footprint-map" style="--map-scale: 1; --map-pan-x: 0px; --map-pan-y: 0px;">
       <img src="files/images/maps/world-equirectangular-1280.png" alt="Blank equirectangular world map used as a base for the research footprint">
-      <a class="footprint-marker footprint-marker-uja" style="--x: 48.95%; --y: 29.00%;" href="https://www.ujaen.es/" target="_blank" rel="noopener" aria-label="Jaén, Spain: Universidad de Jaén">
+      <a class="footprint-marker footprint-marker-uja" data-lat="37.788423" data-lon="-3.775140" href="https://www.ujaen.es/" target="_blank" rel="noopener" aria-label="Jaén, Spain: Universidad de Jaén">
         <span class="footprint-dot"></span>
         <span class="footprint-label">Jaén, Spain</span>
       </a>
-      <div class="footprint-marker footprint-marker-granada" style="--x: 49.00%; --y: 29.35%;" aria-label="Granada, Spain: Universidad de Granada and IISTA">
+      <div class="footprint-marker footprint-marker-granada" data-lat="37.160000" data-lon="-3.610000" aria-label="Granada, Spain: Universidad de Granada and IISTA">
         <span class="footprint-dot"></span>
         <span class="footprint-label footprint-label-links">
           <span>Granada, Spain</span>
           <span class="footprint-label-sub"><a href="https://www.ugr.es/" target="_blank" rel="noopener">UGR</a> / <a href="https://iista.es/" target="_blank" rel="noopener">IISTA</a></span>
         </span>
       </div>
-      <a class="footprint-marker footprint-marker-liverpool" style="--x: 49.17%; --y: 20.33%;" href="https://www.liverpool.ac.uk/" target="_blank" rel="noopener" aria-label="Liverpool, United Kingdom: research stay">
+      <a class="footprint-marker footprint-marker-liverpool" data-lat="53.406500" data-lon="-2.966500" href="https://www.liverpool.ac.uk/" target="_blank" rel="noopener" aria-label="Liverpool, United Kingdom: University of Liverpool research stay">
         <span class="footprint-dot"></span>
         <span class="footprint-label">Liverpool, UK</span>
       </a>
-      <a class="footprint-marker footprint-marker-france" style="--x: 50.61%; --y: 22.94%;" href="https://www.ensta.fr/" target="_blank" rel="noopener" aria-label="Paris-Saclay, France: ENSTA Paris postdoctoral research">
+      <a class="footprint-marker footprint-marker-france" data-lat="48.713000" data-lon="2.211000" href="https://www.ensta.fr/" target="_blank" rel="noopener" aria-label="Palaiseau, Paris-Saclay, France: ENSTA Paris postdoctoral research">
         <span class="footprint-dot"></span>
         <span class="footprint-label">ENSTA Paris</span>
       </a>
@@ -234,7 +234,7 @@ Postdoctoral research in experimental aerodynamics, wake dynamics, and flow-cont
 :::
 :::
 
-<p class="footprint-source">Map base: [BlankMap-World-Equirectangular.svg](https://commons.wikimedia.org/wiki/File:BlankMap-World-Equirectangular.svg), Wikimedia Commons, CC0/public domain. Marker positions use approximate city/campus coordinates.</p>
+<p class="footprint-source">Map base: [BlankMap-World-Equirectangular.svg](https://commons.wikimedia.org/wiki/File:BlankMap-World-Equirectangular.svg), Wikimedia Commons, CC0/public domain. Markers are projected from campus and research-site coordinates.</p>
 :::
 
 ```{=html}
@@ -244,7 +244,18 @@ Postdoctoral research in experimental aerodynamics, wake dynamics, and flow-cont
     const viewport = card.querySelector(".footprint-map-viewport");
     const map = card.querySelector(".footprint-map");
     const buttons = card.querySelectorAll("[data-map-zoom]");
+    const markers = card.querySelectorAll(".footprint-marker[data-lat][data-lon]");
     if (!viewport || !map || !buttons.length) return;
+
+    markers.forEach((marker) => {
+      const latitude = Number.parseFloat(marker.dataset.lat);
+      const longitude = Number.parseFloat(marker.dataset.lon);
+      if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) return;
+      const x = ((longitude + 180) / 360) * 100;
+      const y = ((90 - latitude) / 180) * 100;
+      marker.style.setProperty("--x", `${x.toFixed(5)}%`);
+      marker.style.setProperty("--y", `${y.toFixed(5)}%`);
+    });
 
     const state = {
       scale: 1,
@@ -275,6 +286,7 @@ Postdoctoral research in experimental aerodynamics, wake dynamics, and flow-cont
     const applyState = () => {
       clampPan();
       map.style.setProperty("--map-scale", state.scale.toFixed(2));
+      map.style.setProperty("--marker-scale", (1 / state.scale).toFixed(4));
       map.style.setProperty("--map-pan-x", `${state.x.toFixed(0)}px`);
       map.style.setProperty("--map-pan-y", `${state.y.toFixed(0)}px`);
       viewport.dataset.zoomed = state.scale > 1 ? "true" : "false";
@@ -355,23 +367,98 @@ Postdoctoral research in experimental aerodynamics, wake dynamics, and flow-cont
 
 ## Professional Service {#professional-service}
 
-::: {.credential-grid}
-::: {.credential-card}
+::: {.credential-grid .credential-grid-service}
+::: {.credential-card .service-card}
+```{=html}
+<div class="credential-header">
+  <a class="credential-logo" href="https://www.sae.org/" target="_blank" rel="noopener" aria-label="SAE International website">
+    <img src="files/images/logos/sae-international.svg" alt="SAE International logo">
+  </a>
+</div>
+```
+
 <span class="credential-label">Committee Membership</span>
 
-### SAE technical committee
+### SAE International
 
-Membership and technical-service details can be listed here once the exact committee name, role, and dates are confirmed.
+Member of the **Truck and Bus Aerodynamics and Fuel Economy Committee**.
 :::
 
-::: {.credential-card}
-<span class="credential-label">Scientific Service</span>
+::: {.credential-card .service-card}
+```{=html}
+<div class="credential-header">
+  <a class="credential-logo" href="https://www.aps.org/" target="_blank" rel="noopener" aria-label="American Physical Society website">
+    <img src="files/images/logos/aps.svg" alt="American Physical Society logo">
+  </a>
+</div>
+```
+
+<span class="credential-label">Professional Membership</span>
+
+### American Physical Society
+
+Member of the **American Physical Society (APS)**.
+:::
+
+::: {.credential-card .service-card}
+<span class="credential-label">Peer Review</span>
 
 ### Reviewing and technical activities
 
-Peer review, technical committees, workshop organisation, or society memberships can be added here as your professional-service record grows.
+```{=html}
+<div class="peer-review-summary" data-orcid-peer-reviews>
+  <strong data-peer-review-count>Verified activity</strong>
+  <span data-peer-review-detail>Public peer-review records are read directly from ORCID.</span>
+</div>
+<a class="peer-review-source" href="https://orcid.org/0000-0002-9453-2045" target="_blank" rel="noopener">View ORCID record</a>
+```
 :::
 :::
+
+```{=html}
+<script>
+(() => {
+  const endpoint = "https://pub.orcid.org/v3.0/0000-0002-9453-2045/peer-reviews";
+
+  document.querySelectorAll("[data-orcid-peer-reviews]").forEach((summary) => {
+    const countNode = summary.querySelector("[data-peer-review-count]");
+    const detailNode = summary.querySelector("[data-peer-review-detail]");
+    if (!countNode || !detailNode) return;
+
+    fetch(endpoint, { headers: { Accept: "application/json" } })
+      .then((response) => {
+        if (!response.ok) throw new Error("ORCID request failed");
+        return response.json();
+      })
+      .then((record) => {
+        const reviews = (record.group || []).flatMap((group) =>
+          (group["peer-review-group"] || []).flatMap((entry) => entry["peer-review-summary"] || [])
+        );
+
+        if (!reviews.length) {
+          countNode.textContent = "No public reviews yet";
+          detailNode.textContent = "ORCID will update this card when a publisher deposits a public, verified record.";
+          return;
+        }
+
+        const organisations = [...new Set(reviews
+          .map((review) => review["convening-organization"]?.name)
+          .filter(Boolean))];
+        const years = [...new Set(reviews
+          .map((review) => review["completion-date"]?.year?.value)
+          .filter(Boolean))].sort().reverse();
+
+        countNode.textContent = `${reviews.length} verified peer ${reviews.length === 1 ? "review" : "reviews"}`;
+        detailNode.textContent = [organisations.join(", "), years.join(", ")].filter(Boolean).join(" · ");
+      })
+      .catch(() => {
+        countNode.textContent = "Verified activity";
+        detailNode.textContent = "Open the ORCID record to view the latest public peer-review information.";
+      });
+  });
+})();
+</script>
+```
 
 ## Training and Certifications {#training-and-certifications}
 

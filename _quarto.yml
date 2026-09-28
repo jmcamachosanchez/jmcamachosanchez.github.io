@@ -19,6 +19,13 @@ website:
   title: "José Manuel Camacho Sánchez, PhD"
   description: "Experimental aerodynamics of bluff bodies and heavy vehicles"
 
+  announcement:
+    icon: cone-striped
+    dismissable: false
+    content: "**Website under construction.** Some content may contain minor errors or display issues while updates are in progress. These will be corrected progressively."
+    type: warning
+    position: below-navbar
+
   navbar:
     background: light
     left:
@@ -55,6 +62,9 @@ website:
       - text: Contact
         href: contact.qmd
     right:
+      - icon: envelope
+        aria-label: Email
+        href: contact.qmd
       - text: "{{< fa brands orcid >}}"
         href: https://orcid.org/0000-0002-9453-2045
         target: _blank

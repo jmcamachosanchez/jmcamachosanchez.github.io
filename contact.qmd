@@ -8,6 +8,22 @@ For research enquiries, collaborations, or questions about experimental aerodyna
 
 ::: {.profile-grid}
 
+<a class="profile-card" href="mailto:jmcamach@ujaen.es">
+  <span class="profile-icon">{{< fa solid envelope label="Email" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">Universidad de Jaén</span>
+    <span class="profile-detail">jmcamach@ujaen.es</span>
+  </span>
+</a>
+
+<a class="profile-card" href="mailto:jose-manuel.camacho@ensta.fr">
+  <span class="profile-icon">{{< fa solid envelope label="Email" >}}</span>
+  <span class="profile-body">
+    <span class="profile-name">ENSTA Paris</span>
+    <span class="profile-detail">jose-manuel.camacho@ensta.fr</span>
+  </span>
+</a>
+
 <a class="profile-card" href="https://github.com/jmcamachosanchez" target="_blank" rel="noopener">
   <span class="profile-icon">{{< fa brands github label="GitHub" >}}</span>
   <span class="profile-body">
@@ -41,5 +57,3 @@ For research enquiries, collaborations, or questions about experimental aerodyna
 </a>
 
 :::
-
-Institutional affiliation, email address, Google Scholar, and other academic profiles can be added here once the final public details are confirmed.

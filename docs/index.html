@@ -22,7 +22,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
@@ -66,12 +66,12 @@ ul.task-list li input[type="checkbox"] {
     const listingTargetEl = window.document.querySelector('#listing-recent-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
-      return; 
+      return;
     }
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
@@ -125,13 +125,13 @@ window.Quarto = {
 <meta property="og:description" content="Experimental aerodynamics of bluff bodies and heavy vehicles">
 <meta property="og:image" content="https://jmcamachosanchez.github.io/files/images/aerodynamics-hero.png">
 <meta property="og:site_name" content="José Manuel Camacho Sánchez, PhD">
-<meta property="og:image:alt" content="Wind-tunnel-inspired visual of flow around a simplified heavy-vehicle model.">
+<meta property="og:image:alt" content="Heavy-vehicle model and wake visualisation in a wind tunnel.">
 <meta property="og:image:height" content="1086">
 <meta property="og:image:width" content="1448">
 <meta name="twitter:title" content="José Manuel Camacho Sánchez, PhD">
 <meta name="twitter:description" content="Experimental aerodynamics of bluff bodies and heavy vehicles">
 <meta name="twitter:image" content="https://jmcamachosanchez.github.io/files/images/aerodynamics-hero.png">
-<meta name="twitter:image:alt" content="Wind-tunnel-inspired visual of flow around a simplified heavy-vehicle model.">
+<meta name="twitter:image:alt" content="Heavy-vehicle model and wake visualisation in a wind tunnel.">
 <meta name="twitter:image-height" content="1086">
 <meta name="twitter:image-width" content="1448">
 <meta name="twitter:card" content="summary_large_image">
@@ -154,105 +154,113 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link active" href="./index.html" aria-current="page">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
         <li>
     <a class="dropdown-item" href="./about.html">
  <span class="dropdown-text">Bio</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./about.html#academic-path">
  <span class="dropdown-text">Academic Path</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./about.html#research-footprint">
  <span class="dropdown-text">Research Footprint</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./about.html#professional-service">
  <span class="dropdown-text">Professional Service</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./about.html#training-and-certifications">
  <span class="dropdown-text">Training &amp; Certifications</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./about.html#awards-and-recognition">
  <span class="dropdown-text">Awards</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">
         <li>
     <a class="dropdown-item" href="./research.html">
  <span class="dropdown-text">Overview</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./research.html#methods">
  <span class="dropdown-text">Methods</span></a>
-  </li>  
+  </li>
         <li>
     <a class="dropdown-item" href="./research.html#presentations-and-conferences">
  <span class="dropdown-text">Conferences</span></a>
-  </li>  
+  </li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./media.html"> 
+    <a class="nav-link" href="./media.html">
 <span class="menu-text">Media</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="./posts.html">
 <span class="menu-text">Posts</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="./contact.html">
 <span class="menu-text">Contact</span></a>
-  </li>  
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank"> 
+    <a class="nav-link" href="./contact.html"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i>
+<span class="menu-text">Contact</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank">
 <span class="menu-text"><i class="fa-brands fa-orcid" aria-label="orcid"></i></span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank"> 
+    <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank">
 <span class="menu-text"><i class="fa-brands fa-github" aria-label="github"></i></span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank"> 
+    <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank">
 <span class="menu-text"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank"> 
+    <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank">
 <span class="menu-text"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i></span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="af3dcc59733b65bc4dff072e7bb8f47a" class="alert alert-warning hidden"><i class="bi bi-cone-striped quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Website under construction.</strong> Some content may contain minor errors or display issues while updates are in progress. These will be corrected progressively.</p>
+</div></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
@@ -266,24 +274,132 @@ window.Quarto = {
 
 <div class="quarto-title-meta column-page">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
 
 
+<section class="flow-panorama" aria-labelledby="flow-panorama-title">
+  <img class="flow-panorama-image" src="files/images/aerodynamics-hero.png" alt="Heavy-vehicle model and wake visualisation in a wind tunnel.">
+  <canvas class="flow-panorama-canvas" data-flow-panorama="" aria-hidden="true"></canvas>
+  <div class="flow-panorama-copy">
+    <span class="flow-panorama-kicker">Experimental Aerodynamics</span>
+    <h1 id="flow-panorama-title">José Manuel Camacho Sánchez</h1>
+    <p>Bluff-body wakes, heavy vehicles, and flow-control strategies.</p>
+  </div>
+</section>
+
+<script>
+(() => {
+  const canvas = document.querySelector("[data-flow-panorama]");
+  if (!canvas) return;
+
+  const context = canvas.getContext("2d");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let width = 0;
+  let height = 0;
+  let particles = [];
+  let animationFrame = 0;
+  let previousTime = 0;
+
+  const random = (min, max) => min + Math.random() * (max - min);
+
+  const resetParticle = (particle, initial = false) => {
+    particle.x = initial ? random(-0.08, 1.05) : random(-0.12, -0.02);
+    particle.baseY = random(0.2, 0.84);
+    particle.speed = random(0.045, 0.105);
+    particle.phase = random(0, Math.PI * 2);
+    particle.size = random(0.7, 1.75);
+    particle.alpha = random(0.24, 0.72);
+    particle.tint = Math.random() > 0.72;
+  };
+
+  const rebuildParticles = () => {
+    const count = width < 680 ? 42 : 82;
+    particles = Array.from({ length: count }, () => {
+      const particle = {};
+      resetParticle(particle, true);
+      return particle;
+    });
+  };
+
+  const resize = () => {
+    const bounds = canvas.getBoundingClientRect();
+    const ratio = Math.min(window.devicePixelRatio || 1, 2);
+    width = Math.max(1, bounds.width);
+    height = Math.max(1, bounds.height);
+    canvas.width = Math.round(width * ratio);
+    canvas.height = Math.round(height * ratio);
+    context.setTransform(ratio, 0, 0, ratio, 0, 0);
+    rebuildParticles();
+  };
+
+  const draw = (time = 0) => {
+    context.clearRect(0, 0, width, height);
+    const seconds = time / 1000;
+    const delta = previousTime ? Math.min((time - previousTime) / 1000, 0.05) : 0;
+    previousTime = time;
+
+    particles.forEach((particle) => {
+      if (!reduceMotion.matches) particle.x += particle.speed * delta;
+      if (particle.x > 1.08) resetParticle(particle);
+
+      const wakeProgress = Math.max(0, Math.min(1, (particle.x - 0.35) / 0.65));
+      const wakeEnvelope = Math.sin(wakeProgress * Math.PI);
+      const oscillation = Math.sin(seconds * 1.35 + particle.x * 15 + particle.phase);
+      const y = particle.baseY + oscillation * wakeEnvelope * 0.055;
+      const xPixels = particle.x * width;
+      const yPixels = y * height;
+      const trail = (5 + particle.speed * 85) * (0.72 + wakeProgress * 0.55);
+
+      context.beginPath();
+      context.moveTo(xPixels - trail, yPixels);
+      context.lineTo(xPixels, yPixels);
+      context.strokeStyle = particle.tint
+        ? `rgba(91, 199, 211, ${particle.alpha})`
+        : `rgba(245, 249, 250, ${particle.alpha})`;
+      context.lineWidth = particle.size;
+      context.lineCap = "round";
+      context.stroke();
+    });
+
+    if (!reduceMotion.matches && !document.hidden) {
+      animationFrame = window.requestAnimationFrame(draw);
+    }
+  };
+
+  const start = () => {
+    window.cancelAnimationFrame(animationFrame);
+    previousTime = 0;
+    draw();
+    if (!reduceMotion.matches && !document.hidden) {
+      animationFrame = window.requestAnimationFrame(draw);
+    }
+  };
+
+  new ResizeObserver(() => {
+    resize();
+    start();
+  }).observe(canvas);
+
+  reduceMotion.addEventListener("change", start);
+  document.addEventListener("visibilitychange", start);
+})();
+</script>
 <div class="profile-hero">
 <div class="profile-visual">
-<p><img class="profile-image" src="files/images/aerodynamics-hero.png" alt="Wind-tunnel-inspired visual of flow around a simplified heavy-vehicle model."></p>
+<p><img class="profile-image" src="files/images/jose-manuel-camacho-sanchez.jpg" alt="Portrait of José Manuel Camacho Sánchez."></p>
 </div>
 <div class="profile-intro">
 <p><span class="profile-kicker">Experimental Aerodynamics</span></p>
-<section id="josé-manuel-camacho-sánchez-phd" class="level1">
-<h1>José Manuel Camacho Sánchez <span class="degree-badge">PhD</span></h1>
+<h2 class="profile-name-heading anchored">
+José Manuel Camacho Sánchez <span class="degree-badge">PhD</span>
+</h2>
 <p class="profile-subtitle">
 Bluff-body wakes, heavy-vehicle aerodynamics, and drag-reduction strategies.
 </p>
@@ -293,7 +409,6 @@ I am an experimental aerodynamics researcher studying bluff-body wakes and drag-
 <div class="profile-socials">
 <p><a href="https://orcid.org/0000-0002-9453-2045"><i class="fa-brands fa-orcid" aria-label="ORCID"></i> ORCID</a> <a href="https://github.com/jmcamachosanchez"><i class="fa-brands fa-github" aria-label="GitHub"></i> GitHub</a> <a href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/"><i class="fa-brands fa-linkedin" aria-label="LinkedIn"></i> LinkedIn</a> <a href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez"><i class="fa-brands fa-researchgate" aria-label="ResearchGate"></i> ResearchGate</a></p>
 </div>
-</section>
 </div>
 </div>
 <section id="latest-publications" class="level2">
@@ -338,35 +453,7 @@ I am an experimental aerodynamics researcher studying bluff-body wakes and drag-
 <h2 class="anchored" data-anchor-id="recent-posts-section">Recent Posts</h2>
 <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="dGVzdCUyMHBvc3QlMkNibHVmZi1ib2R5JTIwYWVyb2R5bmFtaWNzJTJDZHJhZyUyMHJlZHVjdGlvbiUyQ3BhcGVyJTIwY29tbWVudGFyeQ==" data-listing-date-sort="1784631600000" data-listing-file-modified-sort="1784627218823" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/wake-control-test/index.html" class="no-external">Test Note: Base Pressure, Wakes, and the Temptation of Simple Drag-Reduction Ideas</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVzdCUyMHBvc3Q='); return false;">test post</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ymx1ZmYtYm9keSUyMGFlcm9keW5hbWljcw=='); return false;">bluff-body aerodynamics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZHJhZyUyMHJlZHVjdGlvbg=='); return false;">drag reduction</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGFwZXIlMjBjb21tZW50YXJ5'); return false;">paper commentary</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/wake-control-test/index.html" class="no-external">
-<p>A placeholder post to test the layout for paper commentary and research notes on bluff-body aerodynamics.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/wake-control-test/index.html" class="no-external">
-<div class="listing-date">
-Jul 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cmVzZWFyY2glMjBub3RlcyUyQ2Flcm9keW5hbWljcyUyQ3BhcGVyJTIwY29tbWVudGFyeQ==" data-listing-date-sort="1784628000000" data-listing-file-modified-sort="1784627020298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
+<div class="quarto-post image-right" data-index="0" data-categories="cmVzZWFyY2glMjBub3RlcyUyQ2Flcm9keW5hbWljcyUyQ3BhcGVyJTIwY29tbWVudGFyeQ==" data-listing-date-sort="1784628000000" data-listing-file-modified-sort="1784627020298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="180">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/research-notes/index.html" class="no-external">Opening a Research Notes Section</a>
@@ -415,7 +502,7 @@ Jul 21, 2026
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -435,11 +522,11 @@ Jul 21, 2026
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -521,7 +608,7 @@ Jul 21, 2026
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -596,7 +683,7 @@ Jul 21, 2026
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -624,7 +711,7 @@ Jul 21, 2026
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -648,7 +735,7 @@ Jul 21, 2026
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -688,7 +775,7 @@ Jul 21, 2026
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -815,7 +902,7 @@ Jul 21, 2026
     <div class="nav-footer-left">
 José Manuel Camacho Sánchez, PhD ©
 <script>document.write(new Date().getFullYear())</script>
-</div>   
+</div>
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org">Quarto</a> and hosted with <a href="https://pages.github.com">GitHub Pages</a></p>
 </div>
@@ -825,22 +912,22 @@ José Manuel Camacho Sánchez, PhD ©
     <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank">
 <p>ORCID</p>
 </a>
-  </li>  
+  </li>
     <li class="nav-item">
     <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank">
 <p>GitHub</p>
 </a>
-  </li>  
+  </li>
     <li class="nav-item">
     <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank">
 <p>LinkedIn</p>
 </a>
-  </li>  
+  </li>
     <li class="nav-item">
     <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank">
 <p>ResearchGate</p>
 </a>
-  </li>  
+  </li>
 </ul>
     </div>
   </div>

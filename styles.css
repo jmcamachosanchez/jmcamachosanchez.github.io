@@ -79,6 +79,82 @@ a {
   padding-top: 0;
 }
 
+.flow-panorama {
+  position: relative;
+  width: 100vw;
+  height: clamp(430px, 68vh, 650px);
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+  background: #101c28;
+  isolation: isolate;
+}
+
+.flow-panorama::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: rgba(7, 18, 29, 0.24);
+  pointer-events: none;
+}
+
+.flow-panorama-image,
+.flow-panorama-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.flow-panorama-image {
+  object-fit: cover;
+  object-position: center 58%;
+  filter: saturate(0.82) contrast(1.04) brightness(0.88);
+}
+
+.flow-panorama-canvas {
+  z-index: 2;
+  pointer-events: none;
+}
+
+.flow-panorama-copy {
+  position: absolute;
+  top: clamp(2.5rem, 8vh, 5rem);
+  right: clamp(1.5rem, 7vw, 7rem);
+  z-index: 3;
+  width: min(570px, 46vw);
+  color: #ffffff;
+  text-shadow: 0 2px 18px rgba(5, 12, 20, 0.58);
+}
+
+.flow-panorama-kicker {
+  display: inline-block;
+  border-bottom: 2px solid rgba(98, 206, 215, 0.9);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.flow-panorama h1 {
+  max-width: 12ch;
+  color: #ffffff;
+  font-size: clamp(2.55rem, 5.4vw, 4.9rem);
+  line-height: 0.98;
+  letter-spacing: 0;
+  margin: 0.8rem 0 1rem;
+}
+
+.flow-panorama-copy p {
+  max-width: 34rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1rem, 1.6vw, 1.28rem);
+  line-height: 1.5;
+  margin: 0;
+}
+
 .profile-hero {
   display: grid;
   grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.1fr);
@@ -110,8 +186,9 @@ a {
 .profile-image {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center 38%;
   border-radius: 8px;
   box-shadow: 0 18px 48px rgba(24, 34, 47, 0.18);
 }
@@ -126,7 +203,8 @@ a {
   margin-bottom: 0.65rem;
 }
 
-.profile-intro h1 {
+.profile-intro h1,
+.profile-name-heading {
   font-size: clamp(2.05rem, 3.4vw, 3rem);
   line-height: 1.05;
   letter-spacing: 0;
@@ -1056,11 +1134,12 @@ a {
 }
 
 .footprint-map {
+  --marker-scale: 1;
   position: relative;
   width: 100%;
   height: 100%;
   transform: translate(var(--map-pan-x), var(--map-pan-y)) scale(var(--map-scale));
-  transform-origin: center center;
+  transform-origin: 50% 24%;
   transition: transform 180ms ease;
 }
 
@@ -1082,8 +1161,22 @@ a {
   justify-content: center;
   color: var(--jmcs-navy);
   text-decoration: none;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(var(--marker-scale));
+  transform-origin: center;
   z-index: 1;
+}
+
+.footprint-marker::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  width: 1.25rem;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 1px 2px rgba(24, 34, 47, 0.22);
+  transform-origin: left center;
 }
 
 .footprint-marker:hover,
@@ -1101,6 +1194,7 @@ a {
 
 .footprint-dot {
   position: relative;
+  z-index: 1;
   display: block;
   width: clamp(0.78rem, 1.5vw, 1.08rem);
   height: clamp(0.78rem, 1.5vw, 1.08rem);
@@ -1109,6 +1203,14 @@ a {
   background: var(--jmcs-accent);
   box-shadow: 0 0 0 4px rgba(31, 111, 139, 0.20), 0 8px 18px rgba(24, 34, 47, 0.20);
   transition: transform 160ms ease;
+}
+
+.footprint-dot::before {
+  content: "";
+  position: absolute;
+  inset: 28%;
+  border-radius: inherit;
+  background: #ffffff;
 }
 
 .footprint-dot::after {
@@ -1121,6 +1223,7 @@ a {
 
 .footprint-label {
   position: absolute;
+  z-index: 1;
   min-width: max-content;
   border: 1px solid rgba(255, 255, 255, 0.72);
   border-radius: 999px;
@@ -1162,16 +1265,32 @@ a {
   transform: translate(-100%, 1.05rem);
 }
 
+.footprint-marker-uja::before {
+  transform: rotate(132deg);
+}
+
 .footprint-marker-granada .footprint-label {
   transform: translate(0.85rem, 1.05rem);
+}
+
+.footprint-marker-granada::before {
+  transform: rotate(48deg);
 }
 
 .footprint-marker-liverpool .footprint-label {
   transform: translate(-100%, -1.65rem);
 }
 
+.footprint-marker-liverpool::before {
+  transform: rotate(228deg);
+}
+
 .footprint-marker-france .footprint-label {
   transform: translate(0.85rem, -1.65rem);
+}
+
+.footprint-marker-france::before {
+  transform: rotate(-48deg);
 }
 
 .footprint-list {
@@ -1228,6 +1347,10 @@ a {
   margin: 1.25rem 0 2.25rem;
 }
 
+.credential-grid-service {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .credential-card {
   position: relative;
   border: 1px solid var(--jmcs-line);
@@ -1265,6 +1388,56 @@ a {
   justify-content: flex-end;
   min-height: 2.25rem;
   margin-bottom: 0.7rem;
+}
+
+.service-card .credential-header {
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 3.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.service-card .credential-logo {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  min-height: 0;
+  padding: 0;
+}
+
+.service-card .credential-logo img {
+  max-width: 150px;
+  max-height: 2.9rem;
+}
+
+.peer-review-summary {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.peer-review-summary strong {
+  color: var(--jmcs-navy);
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.peer-review-summary span {
+  color: var(--jmcs-muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.peer-review-source {
+  color: var(--jmcs-accent-dark);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.peer-review-source:hover,
+.peer-review-source:focus {
+  text-decoration: underline;
 }
 
 .credential-logo-placeholder {
@@ -1727,9 +1900,35 @@ a {
     padding: 1.65rem 1rem 1.2rem;
   }
 
+  .flow-panorama {
+    height: clamp(420px, 60vh, 560px);
+  }
+
+  .flow-panorama-image {
+    object-position: 43% 58%;
+  }
+
+  .flow-panorama-copy {
+    top: 1.6rem;
+    right: 1.15rem;
+    left: 1.15rem;
+    width: auto;
+  }
+
+  .flow-panorama h1 {
+    max-width: 10ch;
+    font-size: clamp(2.25rem, 11vw, 3.2rem);
+  }
+
+  .flow-panorama-copy p {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+
   .profile-image {
-    aspect-ratio: 16 / 9;
-    max-height: 190px;
+    aspect-ratio: 1 / 1;
+    max-height: 320px;
+    object-position: center 34%;
   }
 
   .profile-intro h1 {
@@ -1902,8 +2101,13 @@ a {
   }
 
   .footprint-map-toolbar {
-    top: 0.5rem;
+    top: auto;
     right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .footprint-map-viewport {
+    aspect-ratio: 16 / 10;
   }
 
   .footprint-zoom-button {
@@ -1938,11 +2142,11 @@ a {
   }
 
   .footprint-marker-liverpool .footprint-label {
-    transform: translate(-92%, -1.55rem);
+    transform: translate(-92%, -0.25rem);
   }
 
   .footprint-marker-france .footprint-label {
-    transform: translate(0.65rem, -1.55rem);
+    transform: translate(0.65rem, -0.25rem);
   }
 
   .publication-card h3 {

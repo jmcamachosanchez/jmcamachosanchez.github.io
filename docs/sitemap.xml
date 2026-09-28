@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jmcamachosanchez.github.io/posts/wake-control-test/index.html</loc>
-    <lastmod>2026-07-21T09:46:58.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jmcamachosanchez.github.io/posts.html</loc>
-    <lastmod>2026-07-21T10:41:56.832Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jmcamachosanchez.github.io/publications.html</loc>
-    <lastmod>2026-07-22T08:51:32.238Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jmcamachosanchez.github.io/about.html</loc>
-    <lastmod>2026-07-23T09:26:09.739Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jmcamachosanchez.github.io/index.html</loc>
-    <lastmod>2026-07-22T08:47:08.717Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jmcamachosanchez.github.io/research.html</loc>
-    <lastmod>2026-07-22T08:47:08.928Z</lastmod>
+    <loc>https://jmcamachosanchez.github.io/posts/research-notes/index.html</loc>
+    <lastmod>2026-07-21T09:43:40.298Z</lastmod>
   </url>
   <url>
     <loc>https://jmcamachosanchez.github.io/media.html</loc>
     <lastmod>2026-07-23T09:16:11.955Z</lastmod>
   </url>
   <url>
-    <loc>https://jmcamachosanchez.github.io/posts/research-notes/index.html</loc>
-    <lastmod>2026-07-21T09:43:40.298Z</lastmod>
+    <loc>https://jmcamachosanchez.github.io/research.html</loc>
+    <lastmod>2026-07-22T08:47:08.928Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jmcamachosanchez.github.io/index.html</loc>
+    <lastmod>2026-09-23T13:50:06.721Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jmcamachosanchez.github.io/about.html</loc>
+    <lastmod>2026-09-23T13:03:38.818Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jmcamachosanchez.github.io/publications.html</loc>
+    <lastmod>2026-07-22T08:51:32.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jmcamachosanchez.github.io/posts.html</loc>
+    <lastmod>2026-07-21T10:41:56.832Z</lastmod>
   </url>
   <url>
     <loc>https://jmcamachosanchez.github.io/contact.html</loc>
-    <lastmod>2026-07-21T11:10:14.282Z</lastmod>
+    <lastmod>2026-09-23T13:28:27.400Z</lastmod>
   </url>
 </urlset>
