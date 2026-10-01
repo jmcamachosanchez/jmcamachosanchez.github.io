@@ -468,7 +468,7 @@ Member of the **American Physical Society (APS)**.
 
 ### Technical courses
 
-Courses related to experimental methods, vehicle aerodynamics, data analysis, safety, instrumentation, or research software can be grouped here, together with the logo of the issuing institution.
+<p class="completion-status">To be completed</p>
 :::
 
 ::: {.credential-card}
@@ -476,7 +476,7 @@ Courses related to experimental methods, vehicle aerodynamics, data analysis, sa
 
 ### Professional credentials
 
-Certifications, licenses, and formal credentials can be listed with issuer, date, institutional logo, and a short note on relevance.
+<p class="completion-status">To be completed</p>
 :::
 :::
 
@@ -488,7 +488,7 @@ Certifications, licenses, and formal credentials can be listed with issuer, date
 
 ### Academic and research awards
 
-Prizes, competitive scholarships, thesis awards, best-paper/poster awards, and other recognitions can be listed here.
+<p class="completion-status">To be completed</p>
 :::
 
 ::: {.credential-card}
@@ -496,7 +496,7 @@ Prizes, competitive scholarships, thesis awards, best-paper/poster awards, and o
 
 ### Research visibility
 
-Invited talks, highlighted papers, media mentions, or institutional recognitions can be added as they become relevant.
+<p class="completion-status">To be completed</p>
 :::
 :::
 

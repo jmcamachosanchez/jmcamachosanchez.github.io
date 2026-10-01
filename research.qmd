@@ -102,27 +102,307 @@ This study analyses rear flexibly hinged plates as a self-adaptive drag-reductio
 
 <p class="more-link">[Full selected publication list »](publications.qmd)</p>
 
-## Presentations and Conferences {#presentations-and-conferences}
+## Conference Contributions {#presentations-and-conferences}
+
+Accepted conference contributions, including oral presentations, posters, and abstracts. Presenter details are shown when documented.
+
+<div class="conference-filter-panel" aria-label="Filter conference contributions">
+  <label class="conference-filter-field conference-filter-search" for="conference-filter-query">
+    <span>Search</span>
+    <input id="conference-filter-query" type="search" placeholder="Title, author, or conference" autocomplete="off">
+  </label>
+  <label class="conference-filter-field" for="conference-filter-country">
+    <span>Country</span>
+    <select id="conference-filter-country">
+      <option value="">All countries</option>
+      <option value="Austria">Austria</option>
+      <option value="France">France</option>
+      <option value="Greece">Greece</option>
+      <option value="Online conference">Online</option>
+      <option value="Spain">Spain</option>
+      <option value="United Kingdom">United Kingdom</option>
+    </select>
+  </label>
+  <label class="conference-filter-field" for="conference-filter-year">
+    <span>Year</span>
+    <select id="conference-filter-year">
+      <option value="">All years</option>
+      <option value="2026">2026</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+    </select>
+  </label>
+  <label class="conference-filter-field" for="conference-filter-format">
+    <span>Format</span>
+    <select id="conference-filter-format">
+      <option value="">All formats</option>
+      <option value="oral">Oral presentation</option>
+      <option value="poster">Poster</option>
+      <option value="abstract">Abstract</option>
+    </select>
+  </label>
+  <label class="conference-filter-field" for="conference-filter-author">
+    <span>Author</span>
+    <select id="conference-filter-author">
+      <option value="">All authors</option>
+    </select>
+  </label>
+  <button id="conference-filter-reset" class="conference-filter-reset" type="button" aria-label="Reset conference filters" title="Reset filters">{{< fa rotate-left >}}</button>
+  <p id="conference-filter-status" class="conference-filter-status" aria-live="polite">16 contributions</p>
+</div>
 
 ::: {.conference-list}
 
-::: {.conference-card}
-<span class="conference-year">Upcoming</span>
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2026</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
 
-### Conference presentations
+### Drag reduction on 3D bluff bodies using self-adaptive bending-twisting flaps
 
-Selected conference talks, posters, and scientific meetings related to bluff-body aerodynamics, heavy-vehicle experiments, wake control, and drag-reduction devices will be listed here.
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Fan, Y.; Jiménez-González, J.I.; Cadot, O.</p>
+<p class="conference-event"><em>European Drag Reduction and Flow Control Meeting, EDRFCM 2026</em><br><span>Madrid, Spain · 8 to 11 September 2026</span></p>
 :::
 
-::: {.conference-card}
-<span class="conference-year">Archive</span>
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Austria" title="Austria">🇦🇹</div>
+<div class="conference-card-meta"><span class="conference-year">2025</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
 
-### Research dissemination
+### The effect of degree-of-freedom on self-adaptive flaps for 3D blunt-body drag reduction
 
-This section can include oral presentations, poster sessions, invited talks, workshops, doctoral-school contributions, and technical meetings once the final list is confirmed.
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong></p>
+<p class="conference-event"><em>EUROMECH Colloquium 654: Bio-inspired Fluid-Structure Interaction</em><br><span>Vienna, Austria · 2025</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2025</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
+
+### The effect of degree-of-freedom on self-adaptive flaps for 3D blunt-body drag reduction
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong></p>
+<p class="conference-event"><em>III Spanish Fluid Mechanics Conference</em><br><span>Málaga, Spain · 2025</span></p>
+:::
+
+::: {.conference-card .conference-card-poster}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2024</span><span class="conference-format">{{< fa image >}} Poster</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### On the role of base blowing geometry in the wake of a 3D blunt body
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Jiménez-González, J.I.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>Jornada IISTA 2024: Retos y Oportunidades</em><br><span>Córdoba, Spain · 15 November 2024</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="United Kingdom" title="United Kingdom">🇬🇧</div>
+<div class="conference-card-meta"><span class="conference-year">2024</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### Passive self-adaptive flaps for 3D blunt-body drag reduction
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Cadot, O.; Jiménez-González, J.I.</p>
+<p class="conference-event"><em>9th International Colloquium on Bluff Body Aerodynamics and Applications</em><br><span>Birmingham, United Kingdom · 29 July to 2 August 2024</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2024</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### On the role of blowing configuration for efficient drag reduction of a 3D blunt body
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong></p>
+<p class="conference-event"><em>ERCOFTAC Spring Festival and PC Iberia Meeting</em><br><span>Madrid, Spain · 16 to 17 May 2024</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="United Kingdom" title="United Kingdom">🇬🇧</div>
+<div class="conference-card-meta"><span class="conference-year">2024</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### On the role of blowing configuration for efficient drag reduction of a 3D blunt body
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Jiménez-González, J.I.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>1st ERCOFTAC SIG 47 Workshop on 3D Wakes</em><br><span>London, United Kingdom · 10 to 12 April 2024</span></p>
+:::
+
+::: {.conference-card .conference-card-poster}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2023</span><span class="conference-format">{{< fa image >}} Poster</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span><span class="conference-recognition">Special mention</span></div>
+
+### On the role of base blowing geometry in the wake of a 3D blunt body
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Jiménez-González, J.I.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>Jornadas Doctorales 2023 de la Universidad de Jaén</em><br><span>Jaén, Spain · 30 November to 1 December 2023</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2023</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by Manuel Lorite-Díez</span></div>
+
+### Drag reduction in simplified geometries of blunt vehicles by means of different base-blowing strategies
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; García-Baena, C.; Lorite-Díez, M.; Gutiérrez-Montes, C.; Jiménez-González, J.I.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>II Spanish Fluid Mechanics Conference</em><br><span>Barcelona, Spain · 2 to 5 July 2023</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="France" title="France">🇫🇷</div>
+<div class="conference-card-meta"><span class="conference-year">2023</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
+
+### Ahmed-body drag reduction by means of different base-blowing symmetric configurations
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; García-Baena, C.; Lorite-Díez, M.; Gutiérrez-Montes, C.; Jiménez-González, J.I.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>5th International Conference in Numerical and Experimental Aerodynamics of Road Vehicles and Trains</em><br><span>Poitiers, France · 12 to 14 June 2023</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="France" title="France">🇫🇷</div>
+<div class="conference-card-meta"><span class="conference-year">2023</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
+
+### Experimental study on the use of rear deformable devices to reduce drag of a square-back Ahmed body
+
+<p class="conference-authors">Muñoz-Hervás, J.C.; <strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Jiménez-González, J.I.; Cadot, O.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>IUTAM/ERCOFTAC Symposium on Multiphysics Critical Flow Dynamics Involving Moving or Deformable Structures with Design Applications</em><br><span>Toulouse, France · 7 to 9 June 2023</span></p>
+:::
+
+::: {.conference-card .conference-card-poster}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2022</span><span class="conference-format">{{< fa image >}} Poster</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### Drag reduction of three-dimensional blunt bodies through reconfiguration of rear hinged plates
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Lorite-Díez, M.; Jiménez-González, J.I.; Cadot, O.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>Reunión Anual del IISTA 2022: Explorando sinergias en el IISTA</em><br><span>Jaén, Spain · 11 November 2022</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Greece" title="Greece">🇬🇷</div>
+<div class="conference-card-meta"><span class="conference-year">2022</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by José Ignacio Jiménez-González</span></div>
+
+### Drag reduction of three-dimensional blunt based bodies through reconfiguration of rear flexible plates
+
+<p class="conference-authors">Jiménez-González, J.I.; <strong>Camacho-Sánchez, J.M.</strong>; García-Baena, C.; Lorite-Díez, M.; Gutiérrez-Montes, C.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>14th European Fluid Mechanics Conference</em><br><span>Athens, Greece · 13 to 16 September 2022</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2022</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter conference-presenter-self">{{< fa user >}} Presented by José Manuel</span></div>
+
+### Drag reduction of an Ahmed body through reconfiguration of rear flexibly-hinged plates
+
+<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong>; Narváez, J.M.; García-Baena, C.; Jiménez-González, J.I.; Gutiérrez-Montes, C.; Lorite-Díez, M.; Martínez-Bazán, C.</p>
+<p class="conference-event"><em>1st Spanish Fluid Mechanics Conference</em><br><span>Cádiz, Spain · 19 to 22 June 2022</span></p>
+:::
+
+::: {.conference-card .conference-card-oral}
+<div class="conference-country conference-country-online" role="img" aria-label="Online conference" title="Online conference">🌐</div>
+<div class="conference-card-meta"><span class="conference-year">2021</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by Manuel Jesús Hermoso Orzáez</span></div>
+
+### Implementation of the BIM Manager figure with CYPE's tool BIM Server Center in the design, modeling, direction and project management, Universidad de Jaén
+
+<p class="conference-authors">Hermoso-Orzáez, M.J.; <strong>Camacho-Sánchez, J.M.</strong>; Estepa-Cantero, C.; Terrados-Cepeda, J.</p>
+<p class="conference-event"><em>EDULEARN21, 13th International Conference on Education and New Learning Technologies</em><br><span>Online · 5 to 6 July 2021</span></p>
+:::
+
+::: {.conference-card .conference-card-abstract}
+<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
+<div class="conference-card-meta"><span class="conference-year">2021</span><span class="conference-format">{{< fa file-lines >}} Abstract</span></div>
+
+### Mejora aerodinámica de cuerpos de base roma mediante cavidades flexibles
+
+<p class="conference-authors">García-Baena, C.; Cazalla Delgado, F.J.; <strong>Camacho-Sánchez, J.M.</strong>; Jiménez González, J.I.</p>
+<p class="conference-event"><em>XXII Congreso Nacional de Ingeniería Mecánica</em><br><span>Jaén, Spain · 2021</span></p>
 :::
 
 :::
+
+<div id="conference-filter-empty" class="conference-filter-empty" hidden>No contributions match the selected filters.</div>
+
+<script>
+(() => {
+  const section = document.getElementById("presentations-and-conferences");
+  if (!section) return;
+
+  const cards = [...section.querySelectorAll(".conference-card")];
+  const query = section.querySelector("#conference-filter-query");
+  const country = section.querySelector("#conference-filter-country");
+  const year = section.querySelector("#conference-filter-year");
+  const format = section.querySelector("#conference-filter-format");
+  const author = section.querySelector("#conference-filter-author");
+  const reset = section.querySelector("#conference-filter-reset");
+  const status = section.querySelector("#conference-filter-status");
+  const empty = section.querySelector("#conference-filter-empty");
+
+  const normalise = (value) => value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+
+  const cardData = cards.map((card) => {
+    const authors = [...card.querySelectorAll(".conference-authors")]
+      .flatMap((element) => element.textContent.split(";"))
+      .map((name) => name.trim())
+      .filter(Boolean);
+
+    return {
+      card,
+      country: card.querySelector(".conference-country")?.getAttribute("aria-label") || "",
+      year: card.querySelector(".conference-year")?.textContent.trim() || "",
+      format: card.classList.contains("conference-card-oral")
+        ? "oral"
+        : card.classList.contains("conference-card-poster")
+          ? "poster"
+          : "abstract",
+      authors,
+      text: normalise(card.textContent),
+    };
+  });
+
+  const authorNames = [...new Set(cardData.flatMap((item) => item.authors))]
+    .sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+
+  authorNames.forEach((name) => {
+    const option = document.createElement("option");
+    option.value = name;
+    option.textContent = name;
+    author.append(option);
+  });
+
+  const applyFilters = () => {
+    const searchTerm = normalise(query.value);
+    let visible = 0;
+
+    cardData.forEach((item) => {
+      const matches = (!searchTerm || item.text.includes(searchTerm))
+        && (!country.value || item.country === country.value)
+        && (!year.value || item.year === year.value)
+        && (!format.value || item.format === format.value)
+        && (!author.value || item.authors.includes(author.value));
+
+      item.card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+
+    status.textContent = `${visible} ${visible === 1 ? "contribution" : "contributions"}`;
+    empty.hidden = visible !== 0;
+  };
+
+  query.addEventListener("input", applyFilters);
+  [country, year, format, author].forEach((control) => control.addEventListener("change", applyFilters));
+  reset.addEventListener("click", () => {
+    query.value = "";
+    country.value = "";
+    year.value = "";
+    format.value = "";
+    author.value = "";
+    applyFilters();
+    query.focus();
+  });
+})();
+</script>
 
 ## Technology Transfer {#technology-transfer}
 

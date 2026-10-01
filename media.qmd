@@ -182,6 +182,8 @@ Controlled tests on simplified heavy-vehicle and bluff-body geometries, focused 
 ### Particle image velocimetry
 
 Flow-field measurements designed to connect wake organisation with drag, pressure recovery, and unsteady aerodynamic loading.
+
+<p class="completion-status">To be completed</p>
 :::
 :::
 
@@ -196,6 +198,8 @@ Flow-field measurements designed to connect wake organisation with drag, pressur
 ### Passive and active drag-reduction devices
 
 Visual documentation of adaptive flaps, base-flow control concepts, and experimental configurations used to reduce pressure drag.
+
+<p class="completion-status">To be completed</p>
 :::
 :::
 
@@ -209,7 +213,7 @@ Visual documentation of adaptive flaps, base-flow control concepts, and experime
 
 ### Additional on-track material
 
-Further images can be added as the experimental archive grows.
+<p class="completion-status">To be completed</p>
 :::
 :::
 
@@ -230,6 +234,8 @@ Further images can be added as the experimental archive grows.
 ### Research talks
 
 Presentations of experimental results on bluff-body wakes, flow-control strategies, and heavy-vehicle aerodynamic performance.
+
+<p class="completion-status">To be completed</p>
 :::
 :::
 
@@ -244,6 +250,8 @@ Presentations of experimental results on bluff-body wakes, flow-control strategi
 ### Posters and discussions
 
 Visual material from conferences, workshops, and research visits where experimental methods and results are discussed with the community.
+
+<p class="completion-status">To be completed</p>
 :::
 :::
 
