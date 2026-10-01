@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Methods</span></a>
   </li>
         <li>
-    <a class="dropdown-item" href="./research.html#presentations-and-conferences">
+    <a class="dropdown-item" href="./research.html?conferences=all#presentations-and-conferences">
  <span class="dropdown-text">Conferences</span></a>
   </li>
     </ul>
@@ -291,10 +291,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="presentations-and-conferences">Conference Contributions</h2>
 <p>Accepted conference contributions, including oral presentations, posters, and abstracts. Presenter details are shown when documented.</p>
 <div class="conference-filter-panel" aria-label="Filter conference contributions">
-<label class="conference-filter-field conference-filter-search" for="conference-filter-query"> <span>Search</span> <input id="conference-filter-query" type="search" placeholder="Title, author, or conference" autocomplete="off"> </label> <label class="conference-filter-field" for="conference-filter-country"> <span>Country</span> <select id="conference-filter-country"> <option value="">All countries</option> <option value="Austria">Austria</option> <option value="France">France</option> <option value="Greece">Greece</option> <option value="Online conference">Online</option> <option value="Spain">Spain</option> <option value="United Kingdom">United Kingdom</option> </select> </label> <label class="conference-filter-field" for="conference-filter-year"> <span>Year</span> <select id="conference-filter-year"> <option value="">All years</option> <option value="2026">2026</option> <option value="2025">2025</option> <option value="2024">2024</option> <option value="2023">2023</option> <option value="2022">2022</option> <option value="2021">2021</option> </select> </label> <label class="conference-filter-field" for="conference-filter-format"> <span>Format</span> <select id="conference-filter-format"> <option value="">All formats</option> <option value="oral">Oral presentation</option> <option value="poster">Poster</option> <option value="abstract">Abstract</option> </select> </label> <label class="conference-filter-field" for="conference-filter-author"> <span>Author</span> <select id="conference-filter-author"> <option value="">All authors</option> </select> </label> <button id="conference-filter-reset" class="conference-filter-reset" type="button" aria-label="Reset conference filters" title="Reset filters"><i class="fa-solid fa-rotate-left" aria-label="rotate-left"></i></button>
+<label class="conference-filter-field conference-filter-search" for="conference-filter-query"> <span>Search</span> <input id="conference-filter-query" type="search" placeholder="Title, author, or conference" autocomplete="off"> </label> <label class="conference-filter-field" for="conference-filter-country"> <span>Country</span> <select id="conference-filter-country"> <option value="">All countries</option> <option value="Austria">Austria</option> <option value="France">France</option> <option value="Greece">Greece</option> <option value="Online conference">Online</option> <option value="Spain">Spain</option> <option value="United Kingdom">United Kingdom</option> </select> </label> <label class="conference-filter-field" for="conference-filter-year"> <span>Year</span> <select id="conference-filter-year"> <option value="">All years</option> <option value="2026">2026</option> <option value="2025">2025</option> <option value="2024">2024</option> <option value="2023">2023</option> <option value="2022">2022</option> <option value="2021">2021</option> </select> </label> <label class="conference-filter-field" for="conference-filter-format"> <span>Format</span> <select id="conference-filter-format"> <option value="">All formats</option> <option value="oral">Oral presentation</option> <option value="poster">Poster</option> <option value="abstract">Abstract</option> </select> </label> <label class="conference-filter-field" for="conference-filter-author"> <span>Author</span> <select id="conference-filter-author"> <option value="">All authors</option> </select> </label>
+<div class="conference-filter-actions">
 <p id="conference-filter-status" class="conference-filter-status" aria-live="polite">
 16 contributions
 </p>
+<button id="conference-filter-reset" class="conference-filter-reset" type="button" aria-label="Reset conference filters" title="Reset filters">
+<i class="fa-solid fa-rotate-left" aria-hidden="true"></i>
+</button>
+</div>
 </div>
 <div class="conference-list">
 <div class="conference-card conference-card-oral">
@@ -421,7 +426,7 @@ ul.task-list li input[type="checkbox"] {
 🇪🇸
 </div>
 <div class="conference-card-meta">
-<span class="conference-year">2023</span><span class="conference-format"><i class="fa-solid fa-image" aria-label="image"></i> Poster</span><span class="conference-presenter conference-presenter-self"><i class="fa-solid fa-user" aria-label="user"></i> Presented by José Manuel</span><span class="conference-recognition">Special mention</span>
+<span class="conference-year">2023</span><span class="conference-format"><i class="fa-solid fa-image" aria-label="image"></i> Poster</span><span class="conference-presenter conference-presenter-self"><i class="fa-solid fa-user" aria-label="user"></i> Presented by José Manuel</span><span class="conference-recognition-wrap"><button class="conference-recognition conference-recognition-toggle" type="button" aria-expanded="false" aria-controls="special-mention-detail" aria-describedby="special-mention-detail">Special mention <span aria-hidden="true">ⓘ</span></button><span id="special-mention-detail" class="conference-recognition-detail" role="tooltip">Special mention awarded to this poster by the Doctoral School of the University of Jaén during Jornadas Doctorales 2023.</span></span>
 </div>
 <section id="on-the-role-of-base-blowing-geometry-in-the-wake-of-a-3d-blunt-body-1" class="level3">
 <h3 class="anchored" data-anchor-id="on-the-role-of-base-blowing-geometry-in-the-wake-of-a-3d-blunt-body-1">On the role of base blowing geometry in the wake of a 3D blunt body</h3>
@@ -570,6 +575,9 @@ García-Baena, C.; Cazalla Delgado, F.J.; <strong>Camacho-Sánchez, J.M.</strong
 </section>
 </div>
 </div>
+<p class="more-link conference-more-link">
+<a href="research.html?conferences=all#presentations-and-conferences">Full conference contribution list »</a>
+</p>
 <div id="conference-filter-empty" class="conference-filter-empty" hidden="">
 No contributions match the selected filters.
 </div>
@@ -577,6 +585,9 @@ No contributions match the selected filters.
 (() => {
   const section = document.getElementById("presentations-and-conferences");
   if (!section) return;
+
+  const expanded = new URLSearchParams(window.location.search).get("conferences") === "all";
+  section.classList.toggle("conference-list-expanded", expanded);
 
   const cards = [...section.querySelectorAll(".conference-card")];
   const query = section.querySelector("#conference-filter-query");
@@ -587,6 +598,31 @@ No contributions match the selected filters.
   const reset = section.querySelector("#conference-filter-reset");
   const status = section.querySelector("#conference-filter-status");
   const empty = section.querySelector("#conference-filter-empty");
+  const recognitionToggles = [...section.querySelectorAll(".conference-recognition-toggle")];
+
+  const closeRecognitionDetails = (except = null) => {
+    recognitionToggles.forEach((toggle) => {
+      if (toggle === except) return;
+      toggle.closest(".conference-recognition-wrap")?.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    });
+  };
+
+  recognitionToggles.forEach((toggle) => {
+    toggle.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const wrapper = toggle.closest(".conference-recognition-wrap");
+      const willOpen = !wrapper.classList.contains("is-open");
+      closeRecognitionDetails(toggle);
+      wrapper.classList.toggle("is-open", willOpen);
+      toggle.setAttribute("aria-expanded", String(willOpen));
+    });
+  });
+
+  document.addEventListener("click", () => closeRecognitionDetails());
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeRecognitionDetails();
+  });
 
   const normalise = (value) => value
     .normalize("NFD")

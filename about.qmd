@@ -482,21 +482,47 @@ Member of the **American Physical Society (APS)**.
 
 ## Awards and Recognition {#awards-and-recognition}
 
-::: {.credential-grid}
-::: {.credential-card}
-<span class="credential-label">Awards</span>
+::: {.credential-grid .credential-grid-awards}
+::: {.credential-card .award-card}
+<div class="award-card-top"><span class="credential-label">Academic recognition</span><span class="award-year">2021</span></div>
 
-### Academic and research awards
+### SEDEA Academic Excellence Recognition
 
-<p class="completion-status">To be completed</p>
+<p class="award-issuer">Spanish Society of Academic Excellence</p>
+
+Selected among the leading graduates in Mechanical Engineering in Spain, ranked **29th nationally**, and admitted as a full member of SEDEA after assessment of academic record and curricular merits.
+
+::: {.award-actions}
+[{{< fa newspaper >}} UJA news](https://diariodigital.ujaen.es/institucional/la-sociedad-espanola-de-excelencia-academica-selecciona-15-estudiantes-de-la){.award-action target="_blank" rel="noopener"}
+:::
 :::
 
-::: {.credential-card}
-<span class="credential-label">Recognition</span>
+::: {.credential-card .award-card}
+<div class="award-card-top"><span class="credential-label">Academic award</span><span class="award-year">2023</span></div>
 
-### Research visibility
+### First Prize, Best Master's Thesis at the University of Jaén
 
-<p class="completion-status">To be completed</p>
+<p class="award-issuer">University of Jaén</p>
+
+First prize among the best Master's Theses defended across the University of Jaén in 2022, for *Design and analysis of full scale prototypes of passive aerodynamic improvement systems for trucks*.
+
+::: {.award-actions}
+[{{< fa newspaper >}} UJA news](https://diariodigital.ujaen.es/institucional/el-rector-nicolas-ruiz-clausura-el-curso-de-postgrado-de-la-universidad-de-jaen){.award-action target="_blank" rel="noopener"}
+:::
+:::
+
+::: {.credential-card .award-card}
+<div class="award-card-top"><span class="credential-label">Entrepreneurship award</span><span class="award-year">2023</span></div>
+
+### Best Master's Thesis in Entrepreneurship, Engineering Area
+
+<p class="award-issuer">University of Jaén</p>
+
+Awarded for the 2022/2023 academic year for *Design and analysis of full scale prototypes of passive aerodynamic improvement systems for trucks*.
+
+::: {.award-actions}
+[{{< fa newspaper >}} UJA news](https://diariodigital.ujaen.es/en/node/70740){.award-action target="_blank" rel="noopener"}
+:::
 :::
 :::
 

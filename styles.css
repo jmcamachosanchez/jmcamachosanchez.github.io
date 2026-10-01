@@ -552,7 +552,7 @@ a {
   border-radius: 8px;
   display: grid;
   gap: 0.65rem;
-  grid-template-columns: minmax(12rem, 1.7fr) repeat(4, minmax(7.5rem, 1fr)) 2.4rem;
+  grid-template-columns: minmax(12rem, 1.7fr) repeat(4, minmax(7.5rem, 1fr));
   margin-top: 1.15rem;
   padding: 0.8rem;
 }
@@ -607,6 +607,14 @@ a {
   width: 2.4rem;
 }
 
+.conference-filter-actions {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+  grid-column: 1 / -1;
+  justify-content: space-between;
+}
+
 .conference-filter-reset:hover,
 .conference-filter-reset:focus-visible {
   background: #dceaf1;
@@ -616,9 +624,21 @@ a {
 .conference-filter-status {
   color: var(--jmcs-muted);
   font-size: 0.72rem;
-  grid-column: 1 / -1;
   margin: 0;
-  text-align: right;
+  text-align: left;
+}
+
+#presentations-and-conferences:not(.conference-list-expanded) .conference-filter-panel,
+#presentations-and-conferences:not(.conference-list-expanded) .conference-filter-empty {
+  display: none;
+}
+
+#presentations-and-conferences:not(.conference-list-expanded) .conference-card:nth-child(n + 6) {
+  display: none;
+}
+
+#presentations-and-conferences.conference-list-expanded .conference-more-link {
+  display: none;
 }
 
 .conference-filter-empty {
@@ -775,15 +795,76 @@ a {
   font-weight: 700;
 }
 
+.conference-recognition-wrap {
+  display: inline-flex;
+  position: relative;
+}
+
 .conference-recognition {
+  align-items: center;
   background: rgba(255, 246, 207, 0.92);
   border: 1px solid rgba(213, 177, 54, 0.55);
   border-radius: 999px;
   color: #735b00;
+  cursor: help;
+  display: inline-flex;
+  font-family: inherit;
   font-size: 0.66rem;
   font-weight: 700;
+  gap: 0.22rem;
   line-height: 1;
   padding: 0.3rem 0.5rem;
+}
+
+.conference-recognition:hover,
+.conference-recognition:focus-visible,
+.conference-recognition[aria-expanded="true"] {
+  background: #fff0ad;
+  border-color: #c29b19;
+  outline: none;
+}
+
+.conference-recognition:focus-visible {
+  box-shadow: 0 0 0 3px rgba(213, 177, 54, 0.25);
+}
+
+.conference-recognition-detail {
+  background: #17283a;
+  border-radius: 6px;
+  bottom: calc(100% + 0.55rem);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.45;
+  max-width: min(19rem, calc(100vw - 2rem));
+  opacity: 0;
+  padding: 0.65rem 0.75rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  transform: translateY(0.2rem);
+  transition: opacity 140ms ease, transform 140ms ease;
+  visibility: hidden;
+  width: max-content;
+  z-index: 20;
+}
+
+.conference-recognition-detail::after {
+  border-left: 0.35rem solid transparent;
+  border-right: 0.35rem solid transparent;
+  border-top: 0.4rem solid #17283a;
+  content: "";
+  position: absolute;
+  right: 1rem;
+  top: 100%;
+}
+
+.conference-recognition-wrap:hover .conference-recognition-detail,
+.conference-recognition-wrap:focus-within .conference-recognition-detail,
+.conference-recognition-wrap.is-open .conference-recognition-detail {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .quarto-listing-default .listing-default,
@@ -1564,6 +1645,10 @@ a {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.credential-grid-awards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .credential-card {
   position: relative;
   border: 1px solid var(--jmcs-line);
@@ -1594,6 +1679,75 @@ a {
   font-weight: 700;
   line-height: 1;
   padding: 0.35rem 0.55rem;
+}
+
+.award-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.award-card > section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.award-card-top {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+  justify-content: space-between;
+}
+
+.award-year {
+  color: var(--jmcs-navy);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.award-card .award-issuer {
+  color: var(--jmcs-accent-dark);
+  font-size: 0.78rem;
+  font-weight: 700;
+  margin: -0.15rem 0 0.7rem;
+}
+
+.award-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.award-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.award-action {
+  align-items: center;
+  border: 1px solid #cbd8e2;
+  border-radius: 999px;
+  color: var(--jmcs-accent-dark);
+  display: inline-flex;
+  font-size: 0.72rem;
+  font-weight: 700;
+  gap: 0.3rem;
+  line-height: 1;
+  padding: 0.45rem 0.65rem;
+  text-decoration: none;
+}
+
+.award-action:hover,
+.award-action:focus-visible {
+  background: var(--jmcs-navy-soft);
+  border-color: var(--jmcs-accent);
+  text-decoration: none;
 }
 
 .credential-header {
@@ -2327,15 +2481,8 @@ a {
     grid-column: 1 / -1;
   }
 
-  .conference-filter-reset {
-    justify-self: end;
-  }
-
-  .conference-filter-status {
-    align-self: center;
-    grid-column: 1;
-    grid-row: 4;
-    text-align: left;
+  .conference-filter-actions {
+    grid-column: 1 / -1;
   }
 
   .conference-card {

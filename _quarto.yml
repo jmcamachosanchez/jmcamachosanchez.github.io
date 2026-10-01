@@ -54,7 +54,7 @@ website:
           - text: Methods
             href: research.qmd#methods
           - text: Conferences
-            href: research.qmd#presentations-and-conferences
+            href: research.html?conferences=all#presentations-and-conferences
       - text: Media
         href: media.qmd
       - text: Posts
