@@ -462,23 +462,77 @@ Member of the **American Physical Society (APS)**.
 
 ## Training and Certifications {#training-and-certifications}
 
-::: {.credential-grid}
-::: {.credential-card}
-<span class="credential-label">Training</span>
+Focused training in experimental diagnostics, scientific computing, and research practice.
 
 ### Technical courses
 
-<p class="completion-status">To be completed</p>
-:::
+```{=html}
+<div class="training-list">
+  <article class="training-entry">
+    <a class="training-brand training-brand-image" href="https://www.ujaen.es/" target="_blank" rel="noopener" aria-label="University of Jaén website">
+      <img src="files/images/logos/uja.png" alt="University of Jaén logo">
+    </a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2024</span><span>37.5 hours</span></div>
+      <h4>Quick Start to Python for Research, 4th edition</h4>
+      <p>Postgraduate course organised by the Doctoral School of the University of Jaén.</p>
+    </div>
+  </article>
 
-::: {.credential-card}
-<span class="credential-label">Certifications</span>
+  <article class="training-entry">
+    <a class="training-brand training-brand-image training-brand-mathworks" href="https://www.mathworks.com/" target="_blank" rel="noopener" aria-label="MathWorks website">
+      <img src="files/images/logos/mathworks.png" alt="MathWorks logo">
+    </a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2023</span></div>
+      <h4>Machine Learning with MATLAB</h4>
+      <p>Course completion certificate issued by MathWorks Training Services.</p>
+    </div>
+  </article>
 
-### Professional credentials
+  <article class="training-entry">
+    <a class="training-brand training-brand-image" href="https://www.ujaen.es/" target="_blank" rel="noopener" aria-label="University of Jaén website">
+      <img src="files/images/logos/uja.png" alt="University of Jaén logo">
+    </a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2023</span><span>20 hours</span></div>
+      <h4>Introduction to the LabVIEW Programming Environment</h4>
+      <p>Training activity organised by the Interuniversity Doctoral Programme in Fluid Mechanics and the Doctoral School of the University of Jaén.</p>
+    </div>
+  </article>
 
-<p class="completion-status">To be completed</p>
-:::
-:::
+  <article class="training-entry">
+    <a class="training-brand training-brand-image training-brand-lavision" href="https://www.lavision.de/" target="_blank" rel="noopener" aria-label="LaVision website">
+      <img src="files/images/logos/lavision.png" alt="LaVision GmbH logo">
+    </a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2021</span></div>
+      <h4>2D and Stereo Particle Image Velocimetry and Shake the Box</h4>
+      <p>Specialist training in PIV and STB measurement techniques delivered by LaVision GmbH.</p>
+    </div>
+  </article>
+
+  <article class="training-entry">
+    <a class="training-brand training-brand-image" href="https://www.ujaen.es/" target="_blank" rel="noopener" aria-label="University of Jaén website">
+      <img src="files/images/logos/uja.png" alt="University of Jaén logo">
+    </a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2021</span><span>10 hours</span></div>
+      <h4>Laser Particle Image Analysis for Three Dimensional Experimental Flow Characterisation</h4>
+      <p>Advanced experimental methods course organised by the Interuniversity Doctoral Programme in Fluid Mechanics and the Doctoral School of the University of Jaén.</p>
+    </div>
+  </article>
+
+  <article class="training-entry">
+    <a class="training-brand training-brand-wordmark training-brand-mitx" href="https://mitxonline.mit.edu/" target="_blank" rel="noopener" aria-label="MITx Online website">MITx</a>
+    <div class="training-entry-body">
+      <div class="training-meta"><span>2021</span><span>Verified certificate</span></div>
+      <h4>Physics of COVID 19 Transmission</h4>
+      <p>Online course offered by MITx, an online learning initiative of the Massachusetts Institute of Technology.</p>
+    </div>
+  </article>
+</div>
+```
 
 ## Awards and Recognition {#awards-and-recognition}
 

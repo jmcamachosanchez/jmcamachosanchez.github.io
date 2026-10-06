@@ -15,19 +15,19 @@ The central objective is to connect the underlying flow physics of three-dimensi
 ::: {.expertise-grid}
 
 ::: {.expertise-card}
-### Bluff-Body Wakes
+### ![](files/images/research-topics/bluff-body-wakes.svg){.expertise-card-icon alt=""} Bluff-Body Wakes {.expertise-card-heading}
 
 Near-wake topology, recirculation regions, pressure recovery, wake asymmetry, and reflectional-symmetry-breaking dynamics.
 :::
 
 ::: {.expertise-card}
-### Heavy-Vehicle Aerodynamics
+### ![](files/images/research-topics/heavy-vehicle-aerodynamics.svg){.expertise-card-icon alt=""} Heavy-Vehicle Aerodynamics {.expertise-card-heading}
 
 Flow mechanisms relevant to square-back and heavy-vehicle geometries, including crosswind effects and practical drag-reduction constraints.
 :::
 
 ::: {.expertise-card}
-### Flow Control
+### ![](files/images/research-topics/flow-control.svg){.expertise-card-icon alt=""} Flow Control {.expertise-card-heading}
 
 Passive and active control strategies, including adaptive flaps, base blowing, rear cavities, and self-adaptive devices.
 :::

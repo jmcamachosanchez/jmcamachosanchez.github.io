@@ -110,6 +110,7 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    include-after-body: includes/cloudflare-analytics.html
     toc: true
     footnotes-hover: true
     code-copy: true

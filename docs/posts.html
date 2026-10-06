@@ -22,7 +22,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -66,12 +66,12 @@ ul.task-list li input[type="checkbox"] {
     const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
-      return;
+      return; 
     }
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-
+      
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -146,98 +146,98 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
-  </li>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
     <a class="dropdown-item" href="./about.html">
  <span class="dropdown-text">Bio</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./about.html#academic-path">
  <span class="dropdown-text">Academic Path</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./about.html#research-footprint">
  <span class="dropdown-text">Research Footprint</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./about.html#professional-service">
  <span class="dropdown-text">Professional Service</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./about.html#training-and-certifications">
  <span class="dropdown-text">Training &amp; Certifications</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./about.html#awards-and-recognition">
  <span class="dropdown-text">Awards</span></a>
-  </li>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
     <a class="dropdown-item" href="./research.html">
  <span class="dropdown-text">Overview</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./publications.html">
  <span class="dropdown-text">Publications</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./research.html#methods">
  <span class="dropdown-text">Methods</span></a>
-  </li>
+  </li>  
         <li>
     <a class="dropdown-item" href="./research.html?conferences=all#presentations-and-conferences">
  <span class="dropdown-text">Conferences</span></a>
-  </li>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./media.html">
+    <a class="nav-link" href="./media.html"> 
 <span class="menu-text">Media</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page">
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Posts</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="./contact.html"> 
 <span class="menu-text">Contact</span></a>
-  </li>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./contact.html"> <i class="bi bi-envelope" role="img" aria-label="Email">
-</i>
+</i> 
 <span class="menu-text">Contact</span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank">
+    <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-orcid" aria-label="orcid"></i></span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank">
+    <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-github" aria-label="github"></i></span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank">
+    <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></span></a>
-  </li>
+  </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank">
+    <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank"> 
 <span class="menu-text"><i class="fa-brands fa-researchgate" aria-label="researchgate"></i></span></a>
-  </li>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -253,7 +253,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-
+        
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YWVyb2R5bmFtaWNz">aerodynamics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXIlMjBjb21tZW50YXJ5">paper commentary <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVzZWFyY2glMjBub3Rlcw==">research notes <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -268,11 +268,11 @@ window.Quarto = {
 
 <div class="quarto-title-meta">
 
-
-
-
+    
+  
+    
   </div>
-
+  
 
 
 </header>
@@ -326,6 +326,9 @@ Jul 21, 2026
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
+<!-- Cloudflare Web Analytics -->
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;:&quot;9857cea0b7aa4ab4a9849f6e1a02986c&quot;}"></script>
+<!-- End Cloudflare Web Analytics -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -337,7 +340,7 @@ Jul 21, 2026
     anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {
+        if (clz.startsWith('code-annotation-')) {                     
           return true;
         }
       }
@@ -357,11 +360,11 @@ Jul 21, 2026
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button,
-          { trigger: "manual",
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();
+        tooltip.show();    
       }
       setTimeout(function() {
         if (tooltip) {
@@ -443,7 +446,7 @@ Jul 21, 2026
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config);
+      window.tippy(el, config); 
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -518,7 +521,7 @@ Jul 21, 2026
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined;
+        let hash = undefined; 
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -546,7 +549,7 @@ Jul 21, 2026
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              }
+              } 
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -570,7 +573,7 @@ Jul 21, 2026
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            }
+            } 
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -610,7 +613,7 @@ Jul 21, 2026
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it
+              // cook up a div (if necessary) and position it 
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -737,7 +740,7 @@ Jul 21, 2026
     <div class="nav-footer-left">
 José Manuel Camacho Sánchez, PhD ©
 <script>document.write(new Date().getFullYear())</script>
-</div>
+</div>   
     <div class="nav-footer-center">
 <p>Built with <a href="https://quarto.org">Quarto</a> and hosted with <a href="https://pages.github.com">GitHub Pages</a></p>
 </div>
@@ -747,22 +750,22 @@ José Manuel Camacho Sánchez, PhD ©
     <a class="nav-link" href="https://orcid.org/0000-0002-9453-2045" target="_blank">
 <p>ORCID</p>
 </a>
-  </li>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://github.com/jmcamachosanchez" target="_blank">
 <p>GitHub</p>
 </a>
-  </li>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.linkedin.com/in/jos%C3%A9-manuel-camacho-s%C3%A1nchez-711715196/" target="_blank">
 <p>LinkedIn</p>
 </a>
-  </li>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.researchgate.net/profile/Jose-Camacho-Sanchez" target="_blank">
 <p>ResearchGate</p>
 </a>
-  </li>
+  </li>  
 </ul>
     </div>
   </div>
