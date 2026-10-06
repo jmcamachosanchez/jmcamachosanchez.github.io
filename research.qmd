@@ -151,7 +151,7 @@ Accepted conference contributions, including oral presentations, posters, and ab
     </select>
   </label>
   <div class="conference-filter-actions">
-<p id="conference-filter-status" class="conference-filter-status" aria-live="polite">16 contributions</p>
+<p id="conference-filter-status" class="conference-filter-status" aria-live="polite">15 contributions</p>
 <button id="conference-filter-reset" class="conference-filter-reset" type="button" aria-label="Reset conference filters" title="Reset filters"><i class="fa-solid fa-rotate-left" aria-hidden="true"></i></button>
   </div>
 </div>
@@ -176,16 +176,6 @@ Accepted conference contributions, including oral presentations, posters, and ab
 
 <p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong></p>
 <p class="conference-event"><em>EUROMECH Colloquium 654: Bio-inspired Fluid-Structure Interaction</em><br><span>Vienna, Austria · 2025</span></p>
-:::
-
-::: {.conference-card .conference-card-oral}
-<div class="conference-country" role="img" aria-label="Spain" title="Spain">🇪🇸</div>
-<div class="conference-card-meta"><span class="conference-year">2025</span><span class="conference-format">{{< fa person-chalkboard >}} Oral presentation</span><span class="conference-presenter">{{< fa user-group >}} Presented by a colleague</span></div>
-
-### The effect of degree-of-freedom on self-adaptive flaps for 3D blunt-body drag reduction
-
-<p class="conference-authors"><strong>Camacho-Sánchez, J.M.</strong></p>
-<p class="conference-event"><em>III Spanish Fluid Mechanics Conference</em><br><span>Málaga, Spain · 2025</span></p>
 :::
 
 ::: {.conference-card .conference-card-poster}
